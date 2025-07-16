@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 
 // Route modules
 import tournamentRoutes from "./routes/tournaments";
+import teamsRouters from "./routes/teams";
 import { errorHandler } from "./middlewares/errorHandler";
 
 // Load environment variables form .env
@@ -16,6 +17,7 @@ app.use(express.json());
 
 // Register all routes
 app.use("/tournaments", tournamentRoutes);
+app.use("/teams", teamsRouters);
 
 // Health check
 app.get("/health", (_req, res) => {
@@ -28,5 +30,3 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on http://localhost:${PORT}`);
 });
-
-
