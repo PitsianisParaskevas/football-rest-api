@@ -1,0 +1,86 @@
+Here’s a high-level walkthrough of what your runResultsFetch function is doing:
+
+Extract Match ID
+It pulls the numeric matchId out of the Sofascore URL (the id:<number> suffix). If it can’t find one, it bails early.
+
+Fetch All Raw Data in Parallel
+It fires off five HTTP requests to the Sofascore API to grab:
+
+Match statistics (/statistics)
+
+Lineups (/lineups)
+
+Incidents (e.g. goals, cards) (/incidents)
+
+Shot maps (/shotmap)
+
+Average player positions (/average-positions)
+
+Transform Raw Payloads into Typed Structures
+For each of those five endpoints it runs a small “transform” function that:
+
+Normalizes the nested JSON
+
+Pulls out only the fields you care about
+
+Builds up convenient metadata maps and arrays
+
+Fetch Heatmaps for Every Player
+From the transformed lineups it extracts the minimal { id, name, slug } for every player on both teams, then:
+
+Hits the /player/<id>/heatmap endpoint for each one
+
+Silently skips any 404s
+
+Returns an array of { id, name, slug, heatmap }
+
+Merge Enrichment Data Back into Your Lineup Stats
+You then call mergePlayerData(…), which walks through each team’s statisticsPlayer list and attaches:
+
+Their array of shots from the shotmap
+
+Their average-position record (x/y and points count)
+
+Their raw heatmap payload
+
+Assemble a Fully-Typed MatchResult Object
+You build up the final return value, wiring together:
+
+Global metadata (keys, labels, etc.)
+
+The period-scores (HT/FT) and home/away incident summaries
+
+Each team’s stats, formation, incident summary, players, enriched player-stats array
+
+A placeholder scenario: [] on both home/away
+
+Evaluate Your “Scenarios” Scripts
+You call evaluateScenarios(finalObject), which:
+
+Extracts context (first goal time, halftime scores, total goals, etc.)
+
+Loops over your scenario definitions (each one a little JS expression)
+
+Executes them via new Function(...)
+
+Collects the IDs of any scenarios that matched, and assigns them into
+finalObject.home.scenario and finalObject.away.scenario
+
+Return the Completed MatchResult
+Finally you log and return the fully enriched, typed object.
+
+So, in a nutshell, runResultsFetch:
+
+Parses the URL to find the match ID
+
+Loads all relevant raw endpoints at once
+
+Normalizes and types each bit of data
+
+Enriches every player with shots, positions, heatmaps
+
+Builds a single MatchResult DTO with metadata, home/away teams, and raw payload
+
+Synthesizes “match scenarios” (like “first goal in 1st half”) and tacks those onto each side
+
+Let me know if you’d like to drill into any specific piece in more detail!

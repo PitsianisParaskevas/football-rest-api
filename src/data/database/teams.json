@@ -1,0 +1,182 @@
+[
+  {
+    "cust_id": 44,
+    "name": "Liverpool",
+    "slug": "liverpool",
+    "shortName": "Liverpool",
+    "nameCode": "LIV",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 42,
+    "name": "Arsenal",
+    "slug": "arsenal",
+    "shortName": "Arsenal",
+    "nameCode": "ARS",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 17,
+    "name": "Manchester City",
+    "slug": "manchester-city",
+    "shortName": "Man City",
+    "nameCode": "MCI",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 38,
+    "name": "Chelsea",
+    "slug": "chelsea",
+    "shortName": "Chelsea",
+    "nameCode": "CHE",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 39,
+    "name": "Newcastle United",
+    "slug": "newcastle-united",
+    "shortName": "Newcastle",
+    "nameCode": "NEW",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 40,
+    "name": "Aston Villa",
+    "slug": "aston-villa",
+    "shortName": "Aston Villa",
+    "nameCode": "AVL",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 14,
+    "name": "Nottingham Forest",
+    "slug": "nottingham-forest",
+    "shortName": "Forest",
+    "nameCode": "NFO",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 30,
+    "name": "Brighton & Hove Albion",
+    "slug": "brighton-and-hove-albion",
+    "shortName": "Brighton",
+    "nameCode": "BHA",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 60,
+    "name": "Bournemouth",
+    "slug": "bournemouth",
+    "shortName": "Bournemouth",
+    "nameCode": "BOU",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 50,
+    "name": "Brentford",
+    "slug": "brentford",
+    "shortName": "Brentford",
+    "nameCode": "BRE",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 43,
+    "name": "Fulham",
+    "slug": "fulham",
+    "shortName": "Fulham",
+    "nameCode": "FUL",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 7,
+    "name": "Crystal Palace",
+    "slug": "crystal-palace",
+    "shortName": "Crystal Palace",
+    "nameCode": "CRY",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 48,
+    "name": "Everton",
+    "slug": "everton",
+    "shortName": "Everton",
+    "nameCode": "EVE",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 37,
+    "name": "West Ham United",
+    "slug": "west-ham-united",
+    "shortName": "West Ham",
+    "nameCode": "WHU",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 35,
+    "name": "Manchester United",
+    "slug": "manchester-united",
+    "shortName": "Man Utd",
+    "nameCode": "MUN",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 3,
+    "name": "Wolverhampton",
+    "slug": "wolverhampton",
+    "shortName": "Wolves",
+    "nameCode": "WOL",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 33,
+    "name": "Tottenham Hotspur",
+    "slug": "tottenham-hotspur",
+    "shortName": "Tottenham ",
+    "nameCode": "THO",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 31,
+    "name": "Leicester City",
+    "slug": "leicester-city",
+    "shortName": "Leicester",
+    "nameCode": "LEI",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 32,
+    "name": "Ipswich Town",
+    "slug": "ipswich-town",
+    "shortName": "Ipswich",
+    "nameCode": "IPS",
+    "countryName": "England",
+    "countrySlug": "england"
+  },
+  {
+    "cust_id": 45,
+    "name": "Southampton",
+    "slug": "southampton",
+    "shortName": "Southampton",
+    "nameCode": "SOU",
+    "countryName": "England",
+    "countrySlug": "england"
+  }
+]

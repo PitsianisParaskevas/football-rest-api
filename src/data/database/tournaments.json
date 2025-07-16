@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "cust_id": 17,
+  "name": "Premier League",
+  "slug": "premier-league",
+  "countryName": "England",
+  "countrySlug": "england",
+  "rountds": 38,
+  "total_teams": 20
+}

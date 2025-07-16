@@ -1,0 +1,2700 @@
+{
+    "matches": [
+        {
+            "tournament_id": 35,
+            "cust_id": 12499375,
+            "round": 1,
+            "date": "2024-08-23T18:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499452,
+            "round": 1,
+            "date": "2024-08-24T13:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499430,
+            "round": 1,
+            "date": "2024-08-24T13:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499386,
+            "round": 1,
+            "date": "2024-08-24T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499418,
+            "round": 1,
+            "date": "2024-08-24T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499406,
+            "round": 1,
+            "date": "2024-08-24T13:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499391,
+            "round": 1,
+            "date": "2024-08-24T16:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12583571,
+            "round": 1,
+            "date": "2024-08-25T13:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499462,
+            "round": 1,
+            "date": "2024-08-25T15:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499524,
+            "round": 2,
+            "date": "2024-08-30T18:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499498,
+            "round": 2,
+            "date": "2024-08-31T13:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499540,
+            "round": 2,
+            "date": "2024-08-31T13:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499514,
+            "round": 2,
+            "date": "2024-08-31T13:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499480,
+            "round": 2,
+            "date": "2024-08-31T13:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499533,
+            "round": 2,
+            "date": "2024-08-31T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499471,
+            "round": 2,
+            "date": "2024-08-31T16:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499507,
+            "round": 2,
+            "date": "2024-09-01T13:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499488,
+            "round": 2,
+            "date": "2024-09-01T15:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499549,
+            "round": 3,
+            "date": "2024-09-13T18:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499585,
+            "round": 3,
+            "date": "2024-09-14T13:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499546,
+            "round": 3,
+            "date": "2024-09-14T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499571,
+            "round": 3,
+            "date": "2024-09-14T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499552,
+            "round": 3,
+            "date": "2024-09-14T13:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499577,
+            "round": 3,
+            "date": "2024-09-14T13:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499588,
+            "round": 3,
+            "date": "2024-09-14T16:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499575,
+            "round": 3,
+            "date": "2024-09-15T13:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499581,
+            "round": 3,
+            "date": "2024-09-15T15:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499607,
+            "round": 4,
+            "date": "2024-09-20T18:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499600,
+            "round": 4,
+            "date": "2024-09-21T13:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499610,
+            "round": 4,
+            "date": "2024-09-21T13:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499604,
+            "round": 4,
+            "date": "2024-09-21T13:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499614,
+            "round": 4,
+            "date": "2024-09-21T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499598,
+            "round": 4,
+            "date": "2024-09-21T16:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499591,
+            "round": 4,
+            "date": "2024-09-22T13:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499595,
+            "round": 4,
+            "date": "2024-09-22T15:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499617,
+            "round": 4,
+            "date": "2024-09-22T17:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499627,
+            "round": 5,
+            "date": "2024-09-27T18:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499642,
+            "round": 5,
+            "date": "2024-09-28T13:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499644,
+            "round": 5,
+            "date": "2024-09-28T13:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499624,
+            "round": 5,
+            "date": "2024-09-28T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499633,
+            "round": 5,
+            "date": "2024-09-28T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499638,
+            "round": 5,
+            "date": "2024-09-28T13:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499620,
+            "round": 5,
+            "date": "2024-09-28T16:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499648,
+            "round": 5,
+            "date": "2024-09-29T13:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499631,
+            "round": 5,
+            "date": "2024-09-29T15:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499666,
+            "round": 6,
+            "date": "2024-10-04T18:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499671,
+            "round": 6,
+            "date": "2024-10-05T13:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499652,
+            "round": 6,
+            "date": "2024-10-05T13:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499664,
+            "round": 6,
+            "date": "2024-10-05T13:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499674,
+            "round": 6,
+            "date": "2024-10-05T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499677,
+            "round": 6,
+            "date": "2024-10-05T16:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499660,
+            "round": 6,
+            "date": "2024-10-06T13:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499656,
+            "round": 6,
+            "date": "2024-10-06T15:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499654,
+            "round": 6,
+            "date": "2024-10-06T17:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499687,
+            "round": 7,
+            "date": "2024-10-18T18:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499703,
+            "round": 7,
+            "date": "2024-10-19T13:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499681,
+            "round": 7,
+            "date": "2024-10-19T13:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499707,
+            "round": 7,
+            "date": "2024-10-19T13:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499694,
+            "round": 7,
+            "date": "2024-10-19T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499690,
+            "round": 7,
+            "date": "2024-10-19T13:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499684,
+            "round": 7,
+            "date": "2024-10-19T16:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499710,
+            "round": 7,
+            "date": "2024-10-20T13:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499700,
+            "round": 7,
+            "date": "2024-10-20T15:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499730,
+            "round": 8,
+            "date": "2024-10-25T18:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499727,
+            "round": 8,
+            "date": "2024-10-26T13:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499740,
+            "round": 8,
+            "date": "2024-10-26T13:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499717,
+            "round": 8,
+            "date": "2024-10-26T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499713,
+            "round": 8,
+            "date": "2024-10-26T13:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499723,
+            "round": 8,
+            "date": "2024-10-26T16:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499737,
+            "round": 8,
+            "date": "2024-10-27T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499734,
+            "round": 8,
+            "date": "2024-10-27T16:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499720,
+            "round": 8,
+            "date": "2024-10-27T18:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499743,
+            "round": 9,
+            "date": "2024-11-01T19:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499753,
+            "round": 9,
+            "date": "2024-11-02T14:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499746,
+            "round": 9,
+            "date": "2024-11-02T14:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499771,
+            "round": 9,
+            "date": "2024-11-02T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499757,
+            "round": 9,
+            "date": "2024-11-02T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499763,
+            "round": 9,
+            "date": "2024-11-02T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499750,
+            "round": 9,
+            "date": "2024-11-02T17:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499760,
+            "round": 9,
+            "date": "2024-11-03T14:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499767,
+            "round": 9,
+            "date": "2024-11-03T16:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499794,
+            "round": 10,
+            "date": "2024-11-08T19:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499791,
+            "round": 10,
+            "date": "2024-11-09T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499802,
+            "round": 10,
+            "date": "2024-11-09T14:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499783,
+            "round": 10,
+            "date": "2024-11-09T14:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499797,
+            "round": 10,
+            "date": "2024-11-09T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499777,
+            "round": 10,
+            "date": "2024-11-09T17:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499788,
+            "round": 10,
+            "date": "2024-11-10T14:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499773,
+            "round": 10,
+            "date": "2024-11-10T16:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499781,
+            "round": 10,
+            "date": "2024-11-10T18:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499812,
+            "round": 11,
+            "date": "2024-11-22T19:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499806,
+            "round": 11,
+            "date": "2024-11-23T14:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499816,
+            "round": 11,
+            "date": "2024-11-23T14:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499822,
+            "round": 11,
+            "date": "2024-11-23T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499808,
+            "round": 11,
+            "date": "2024-11-23T14:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499826,
+            "round": 11,
+            "date": "2024-11-23T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499819,
+            "round": 11,
+            "date": "2024-11-23T17:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499833,
+            "round": 11,
+            "date": "2024-11-24T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499829,
+            "round": 11,
+            "date": "2024-11-24T16:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499468,
+            "round": 12,
+            "date": "2024-11-29T19:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499457,
+            "round": 12,
+            "date": "2024-11-30T14:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499436,
+            "round": 12,
+            "date": "2024-11-30T14:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499836,
+            "round": 12,
+            "date": "2024-11-30T14:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499424,
+            "round": 12,
+            "date": "2024-11-30T14:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499411,
+            "round": 12,
+            "date": "2024-11-30T14:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499387,
+            "round": 12,
+            "date": "2024-11-30T17:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499448,
+            "round": 12,
+            "date": "2024-12-01T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499399,
+            "round": 12,
+            "date": "2024-12-01T16:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499484,
+            "round": 13,
+            "date": "2024-12-06T19:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499477,
+            "round": 13,
+            "date": "2024-12-07T14:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499502,
+            "round": 13,
+            "date": "2024-12-07T14:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499495,
+            "round": 13,
+            "date": "2024-12-07T14:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499545,
+            "round": 13,
+            "date": "2024-12-07T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499537,
+            "round": 13,
+            "date": "2024-12-07T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499529,
+            "round": 13,
+            "date": "2024-12-07T17:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499521,
+            "round": 13,
+            "date": "2024-12-08T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499511,
+            "round": 13,
+            "date": "2024-12-08T16:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499573,
+            "round": 14,
+            "date": "2024-12-13T19:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499586,
+            "round": 14,
+            "date": "2024-12-14T14:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499580,
+            "round": 14,
+            "date": "2024-12-14T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499583,
+            "round": 14,
+            "date": "2024-12-14T14:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499576,
+            "round": 14,
+            "date": "2024-12-14T14:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499590,
+            "round": 14,
+            "date": "2024-12-14T17:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499570,
+            "round": 14,
+            "date": "2024-12-15T14:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499551,
+            "round": 14,
+            "date": "2024-12-15T16:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499548,
+            "round": 14,
+            "date": "2024-12-15T18:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499599,
+            "round": 15,
+            "date": "2024-12-20T19:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499603,
+            "round": 15,
+            "date": "2024-12-21T14:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499619,
+            "round": 15,
+            "date": "2024-12-21T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499609,
+            "round": 15,
+            "date": "2024-12-21T14:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499606,
+            "round": 15,
+            "date": "2024-12-21T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499596,
+            "round": 15,
+            "date": "2024-12-21T14:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499593,
+            "round": 15,
+            "date": "2024-12-21T17:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499616,
+            "round": 15,
+            "date": "2024-12-22T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499613,
+            "round": 15,
+            "date": "2024-12-22T16:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499626,
+            "round": 16,
+            "date": "2025-01-10T19:45:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499632,
+            "round": 16,
+            "date": "2025-01-11T14:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499643,
+            "round": 16,
+            "date": "2025-01-11T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499650,
+            "round": 16,
+            "date": "2025-01-11T14:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499637,
+            "round": 16,
+            "date": "2025-01-11T14:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499629,
+            "round": 16,
+            "date": "2025-01-11T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499647,
+            "round": 16,
+            "date": "2025-01-11T17:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499622,
+            "round": 16,
+            "date": "2025-01-12T14:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499640,
+            "round": 16,
+            "date": "2025-01-12T16:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499682,
+            "round": 17,
+            "date": "2025-01-14T17:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499653,
+            "round": 17,
+            "date": "2025-01-14T19:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499665,
+            "round": 17,
+            "date": "2025-01-14T19:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499672,
+            "round": 17,
+            "date": "2025-01-14T19:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499678,
+            "round": 17,
+            "date": "2025-01-15T17:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499675,
+            "round": 17,
+            "date": "2025-01-15T19:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499661,
+            "round": 17,
+            "date": "2025-01-15T19:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499667,
+            "round": 17,
+            "date": "2025-01-15T19:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499657,
+            "round": 17,
+            "date": "2025-01-15T19:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499695,
+            "round": 18,
+            "date": "2025-01-17T19:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499702,
+            "round": 18,
+            "date": "2025-01-18T14:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499691,
+            "round": 18,
+            "date": "2025-01-18T14:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499715,
+            "round": 18,
+            "date": "2025-01-18T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499689,
+            "round": 18,
+            "date": "2025-01-18T14:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499712,
+            "round": 18,
+            "date": "2025-01-18T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499685,
+            "round": 18,
+            "date": "2025-01-18T17:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499708,
+            "round": 18,
+            "date": "2025-01-19T14:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499704,
+            "round": 18,
+            "date": "2025-01-19T16:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499735,
+            "round": 19,
+            "date": "2025-01-24T19:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499739,
+            "round": 19,
+            "date": "2025-01-25T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499722,
+            "round": 19,
+            "date": "2025-01-25T14:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499732,
+            "round": 19,
+            "date": "2025-01-25T14:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499718,
+            "round": 19,
+            "date": "2025-01-25T14:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499729,
+            "round": 19,
+            "date": "2025-01-25T14:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499741,
+            "round": 19,
+            "date": "2025-01-25T17:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499725,
+            "round": 19,
+            "date": "2025-01-26T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499745,
+            "round": 19,
+            "date": "2025-01-26T16:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499766,
+            "round": 20,
+            "date": "2025-01-31T19:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499762,
+            "round": 20,
+            "date": "2025-02-01T14:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499755,
+            "round": 20,
+            "date": "2025-02-01T14:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499776,
+            "round": 20,
+            "date": "2025-02-01T14:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499752,
+            "round": 20,
+            "date": "2025-02-01T14:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499772,
+            "round": 20,
+            "date": "2025-02-01T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499769,
+            "round": 20,
+            "date": "2025-02-01T17:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499759,
+            "round": 20,
+            "date": "2025-02-02T14:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499749,
+            "round": 20,
+            "date": "2025-02-02T16:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499779,
+            "round": 21,
+            "date": "2025-02-07T19:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499801,
+            "round": 21,
+            "date": "2025-02-08T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499786,
+            "round": 21,
+            "date": "2025-02-08T14:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499793,
+            "round": 21,
+            "date": "2025-02-08T14:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499790,
+            "round": 21,
+            "date": "2025-02-08T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499796,
+            "round": 21,
+            "date": "2025-02-08T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499805,
+            "round": 21,
+            "date": "2025-02-08T17:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499807,
+            "round": 21,
+            "date": "2025-02-09T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499782,
+            "round": 21,
+            "date": "2025-02-09T16:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499828,
+            "round": 22,
+            "date": "2025-02-14T19:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499832,
+            "round": 22,
+            "date": "2025-02-15T14:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499838,
+            "round": 22,
+            "date": "2025-02-15T14:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499815,
+            "round": 22,
+            "date": "2025-02-15T14:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499835,
+            "round": 22,
+            "date": "2025-02-15T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499811,
+            "round": 22,
+            "date": "2025-02-15T17:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499825,
+            "round": 22,
+            "date": "2025-02-16T14:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499818,
+            "round": 22,
+            "date": "2025-02-16T16:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499821,
+            "round": 22,
+            "date": "2025-02-16T18:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499392,
+            "round": 23,
+            "date": "2025-02-21T19:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499395,
+            "round": 23,
+            "date": "2025-02-22T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499396,
+            "round": 23,
+            "date": "2025-02-22T14:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499398,
+            "round": 23,
+            "date": "2025-02-22T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499394,
+            "round": 23,
+            "date": "2025-02-22T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499389,
+            "round": 23,
+            "date": "2025-02-22T17:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499845,
+            "round": 23,
+            "date": "2025-02-23T14:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499842,
+            "round": 23,
+            "date": "2025-02-23T16:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499390,
+            "round": 23,
+            "date": "2025-02-23T18:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499400,
+            "round": 24,
+            "date": "2025-02-28T19:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499404,
+            "round": 24,
+            "date": "2025-03-01T14:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499410,
+            "round": 24,
+            "date": "2025-03-01T14:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499401,
+            "round": 24,
+            "date": "2025-03-01T14:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499405,
+            "round": 24,
+            "date": "2025-03-01T14:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499409,
+            "round": 24,
+            "date": "2025-03-01T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499402,
+            "round": 24,
+            "date": "2025-03-01T17:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499408,
+            "round": 24,
+            "date": "2025-03-02T14:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499407,
+            "round": 24,
+            "date": "2025-03-02T16:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499423,
+            "round": 25,
+            "date": "2025-03-07T19:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499413,
+            "round": 25,
+            "date": "2025-03-08T14:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499416,
+            "round": 25,
+            "date": "2025-03-08T14:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499414,
+            "round": 25,
+            "date": "2025-03-08T14:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499426,
+            "round": 25,
+            "date": "2025-03-08T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499421,
+            "round": 25,
+            "date": "2025-03-08T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499420,
+            "round": 25,
+            "date": "2025-03-08T17:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499417,
+            "round": 25,
+            "date": "2025-03-09T14:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499419,
+            "round": 25,
+            "date": "2025-03-09T16:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499439,
+            "round": 26,
+            "date": "2025-03-14T19:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499434,
+            "round": 26,
+            "date": "2025-03-15T14:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499433,
+            "round": 26,
+            "date": "2025-03-15T14:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499432,
+            "round": 26,
+            "date": "2025-03-15T14:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499431,
+            "round": 26,
+            "date": "2025-03-15T14:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499428,
+            "round": 26,
+            "date": "2025-03-15T17:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499437,
+            "round": 26,
+            "date": "2025-03-16T14:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499429,
+            "round": 26,
+            "date": "2025-03-16T16:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499427,
+            "round": 26,
+            "date": "2025-03-16T18:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499441,
+            "round": 27,
+            "date": "2025-03-28T19:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499451,
+            "round": 27,
+            "date": "2025-03-29T14:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499443,
+            "round": 27,
+            "date": "2025-03-29T14:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499453,
+            "round": 27,
+            "date": "2025-03-29T14:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499446,
+            "round": 27,
+            "date": "2025-03-29T14:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499450,
+            "round": 27,
+            "date": "2025-03-29T14:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499445,
+            "round": 27,
+            "date": "2025-03-29T17:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499449,
+            "round": 27,
+            "date": "2025-03-30T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499444,
+            "round": 27,
+            "date": "2025-03-30T15:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499461,
+            "round": 28,
+            "date": "2025-04-04T18:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499455,
+            "round": 28,
+            "date": "2025-04-05T13:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499463,
+            "round": 28,
+            "date": "2025-04-05T13:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499454,
+            "round": 28,
+            "date": "2025-04-05T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499460,
+            "round": 28,
+            "date": "2025-04-05T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499466,
+            "round": 28,
+            "date": "2025-04-05T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499458,
+            "round": 28,
+            "date": "2025-04-05T16:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499467,
+            "round": 28,
+            "date": "2025-04-06T13:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499464,
+            "round": 28,
+            "date": "2025-04-06T15:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499476,
+            "round": 29,
+            "date": "2025-04-11T18:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499469,
+            "round": 29,
+            "date": "2025-04-12T13:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499478,
+            "round": 29,
+            "date": "2025-04-12T13:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499481,
+            "round": 29,
+            "date": "2025-04-12T13:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499474,
+            "round": 29,
+            "date": "2025-04-12T13:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499479,
+            "round": 29,
+            "date": "2025-04-12T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499472,
+            "round": 29,
+            "date": "2025-04-12T16:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499470,
+            "round": 29,
+            "date": "2025-04-13T13:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499473,
+            "round": 29,
+            "date": "2025-04-13T15:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499485,
+            "round": 30,
+            "date": "2025-04-19T13:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499492,
+            "round": 30,
+            "date": "2025-04-19T13:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499482,
+            "round": 30,
+            "date": "2025-04-19T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499487,
+            "round": 30,
+            "date": "2025-04-19T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499486,
+            "round": 30,
+            "date": "2025-04-19T13:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499493,
+            "round": 30,
+            "date": "2025-04-19T16:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499490,
+            "round": 30,
+            "date": "2025-04-20T13:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499483,
+            "round": 30,
+            "date": "2025-04-20T15:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499494,
+            "round": 30,
+            "date": "2025-04-20T17:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499497,
+            "round": 31,
+            "date": "2025-04-25T18:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499496,
+            "round": 31,
+            "date": "2025-04-26T13:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499499,
+            "round": 31,
+            "date": "2025-04-26T13:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499509,
+            "round": 31,
+            "date": "2025-04-26T13:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499501,
+            "round": 31,
+            "date": "2025-04-26T13:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499506,
+            "round": 31,
+            "date": "2025-04-26T13:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499500,
+            "round": 31,
+            "date": "2025-04-26T16:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499508,
+            "round": 31,
+            "date": "2025-04-27T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499503,
+            "round": 31,
+            "date": "2025-04-27T15:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499513,
+            "round": 32,
+            "date": "2025-05-02T18:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499522,
+            "round": 32,
+            "date": "2025-05-03T13:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499520,
+            "round": 32,
+            "date": "2025-05-03T13:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499523,
+            "round": 32,
+            "date": "2025-05-03T13:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499510,
+            "round": 32,
+            "date": "2025-05-03T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2672
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499512,
+            "round": 32,
+            "date": "2025-05-03T16:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499517,
+            "round": 32,
+            "date": "2025-05-04T13:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499515,
+            "round": 32,
+            "date": "2025-05-04T15:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499519,
+            "round": 32,
+            "date": "2025-05-04T17:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499534,
+            "round": 33,
+            "date": "2025-05-09T18:30:00.000Z",
+            "homeTeamID": 2524,
+            "awayTeamID": 2569
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499535,
+            "round": 33,
+            "date": "2025-05-10T13:30:00.000Z",
+            "homeTeamID": 2547,
+            "awayTeamID": 5885
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499538,
+            "round": 33,
+            "date": "2025-05-10T13:30:00.000Z",
+            "homeTeamID": 2573,
+            "awayTeamID": 2538
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499532,
+            "round": 33,
+            "date": "2025-05-10T13:30:00.000Z",
+            "homeTeamID": 2534,
+            "awayTeamID": 36360
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499536,
+            "round": 33,
+            "date": "2025-05-10T13:30:00.000Z",
+            "homeTeamID": 2542,
+            "awayTeamID": 2556
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499528,
+            "round": 33,
+            "date": "2025-05-10T16:30:00.000Z",
+            "homeTeamID": 2672,
+            "awayTeamID": 2527
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499525,
+            "round": 33,
+            "date": "2025-05-11T13:30:00.000Z",
+            "homeTeamID": 2681,
+            "awayTeamID": 2673
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499530,
+            "round": 33,
+            "date": "2025-05-11T15:30:00.000Z",
+            "homeTeamID": 2674,
+            "awayTeamID": 2526
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499526,
+            "round": 33,
+            "date": "2025-05-11T17:30:00.000Z",
+            "homeTeamID": 2677,
+            "awayTeamID": 2600
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499397,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 5885,
+            "awayTeamID": 2534
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499435,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2556,
+            "awayTeamID": 2681
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499542,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2673,
+            "awayTeamID": 2573
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499447,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2527,
+            "awayTeamID": 2524
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499425,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2600,
+            "awayTeamID": 2547
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499456,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2526,
+            "awayTeamID": 2542
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499539,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 36360,
+            "awayTeamID": 2677
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499412,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2538,
+            "awayTeamID": 2674
+        },
+        {
+            "tournament_id": 35,
+            "cust_id": 12499543,
+            "round": 34,
+            "date": "2025-05-17T13:30:00.000Z",
+            "homeTeamID": 2569,
+            "awayTeamID": 2672
+        }
+    ],
+    "leagueData": {
+        "tournament": {
+            "cust_id": 35,
+            "name": "Bundesliga",
+            "slug": "bundesliga",
+            "countryName": "Germany",
+            "countrySlug": "germany"
+        },
+        "teams": [
+            {
+                "cust_id": 2672,
+                "name": "FC Bayern München",
+                "slug": "fc-bayern-munchen",
+                "shortName": "Bayern",
+                "nameCode": "FBM",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2681,
+                "name": "Bayer 04 Leverkusen",
+                "slug": "bayer-04-leverkusen",
+                "shortName": "Leverkusen",
+                "nameCode": "B0L",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2674,
+                "name": "Eintracht Frankfurt",
+                "slug": "eintracht-frankfurt",
+                "shortName": "Frankfurt",
+                "nameCode": "SGE",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2673,
+                "name": "Borussia Dortmund",
+                "slug": "borussia-dortmund",
+                "shortName": "Dortmund",
+                "nameCode": "BVB",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2538,
+                "name": "SC Freiburg",
+                "slug": "sc-freiburg",
+                "shortName": "Freiburg",
+                "nameCode": "SCF",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2556,
+                "name": "1. FSV Mainz 05",
+                "slug": "1-fsv-mainz-05",
+                "shortName": "Mainz 05",
+                "nameCode": "M05",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 36360,
+                "name": "RB Leipzig",
+                "slug": "rb-leipzig",
+                "shortName": "Leipzig",
+                "nameCode": "RBL",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2534,
+                "name": "SV Werder Bremen",
+                "slug": "sv-werder-bremen",
+                "shortName": "Bremen",
+                "nameCode": "SWB",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2677,
+                "name": "VfB Stuttgart",
+                "slug": "vfb-stuttgart",
+                "shortName": "Stuttgart",
+                "nameCode": "VST",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2527,
+                "name": "Borussia M'gladbach",
+                "slug": "borussia-mgladbach",
+                "shortName": "M'gladbach",
+                "nameCode": "BMG",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2524,
+                "name": "VfL Wolfsburg",
+                "slug": "vfl-wolfsburg",
+                "shortName": "Wolfsburg",
+                "nameCode": "VWO",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2600,
+                "name": "FC Augsburg",
+                "slug": "fc-augsburg",
+                "shortName": "Augsburg",
+                "nameCode": "FAU",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2547,
+                "name": "1. FC Union Berlin",
+                "slug": "1-fc-union-berlin",
+                "shortName": "Union Berlin",
+                "nameCode": "FCU",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2526,
+                "name": "FC St. Pauli",
+                "slug": "fc-st-pauli",
+                "shortName": "St. Pauli",
+                "nameCode": "STP",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2569,
+                "name": "TSG Hoffenheim",
+                "slug": "tsg-hoffenheim",
+                "shortName": "Hoffenheim",
+                "nameCode": "TSG",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 5885,
+                "name": "1. FC Heidenheim",
+                "slug": "1-fc-heidenheim",
+                "shortName": "Heidenheim",
+                "nameCode": "1FH",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2573,
+                "name": "Holstein Kiel",
+                "slug": "holstein-kiel",
+                "shortName": "Kiel",
+                "nameCode": "HOK",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            },
+            {
+                "cust_id": 2542,
+                "name": "VfL Bochum 1848",
+                "slug": "vfl-bochum-1848",
+                "shortName": "Bochum",
+                "nameCode": "BOC",
+                "countryName": "Germany",
+                "countrySlug": "germany"
+            }
+        ],
+        "rounds": 36,
+        "tournament_team": [
+            {
+                "tournament_id": 35,
+                "team_id": 2672
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2681
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2674
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2673
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2538
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2556
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 36360
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2534
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2677
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2527
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2524
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2600
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2547
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2526
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2569
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 5885
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2573
+            },
+            {
+                "tournament_id": 35,
+                "team_id": 2542
+            }
+        ]
+    }
+}
