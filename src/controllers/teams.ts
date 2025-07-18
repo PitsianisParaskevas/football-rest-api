@@ -85,17 +85,26 @@ export const updateTeam = async (
   res: Response
 ): Promise<void> => {
   const { id } = req.params;
-  const { cust_id, name, slug, shortName, nameCode, countryName, countrySlug } =
-    req.body;
+  const {
+    cust_id,
+    name,
+    slug,
+    short_name,
+    name_code,
+    country_name,
+    country_slug,
+  } = req.body;
+
+  const parsedCustId = Number(cust_id);
 
   const isValid =
-    typeof cust_id === "number" &&
+    !isNaN(parsedCustId) &&
     typeof name === "string" &&
     typeof slug === "string" &&
-    typeof shortName === "string" &&
-    typeof nameCode === "string" &&
-    typeof countryName === "string" &&
-    typeof countrySlug === "string";
+    typeof short_name === "string" &&
+    typeof name_code === "string" &&
+    typeof country_name === "string" &&
+    typeof country_slug === "string";
 
   if (!isValid) {
     res.status(400).json({ message: "Invalid team fields" });
@@ -115,7 +124,16 @@ export const updateTeam = async (
     WHERE id = $8
     RETURNING *
   `,
-    [cust_id, name, slug, shortName, nameCode, countryName, countrySlug, id]
+    [
+      parsedCustId,
+      name,
+      slug,
+      short_name,
+      name_code,
+      country_name,
+      country_slug,
+      id,
+    ]
   );
 
   if (rows.length === 0) {
