@@ -1,7 +1,6 @@
 [
   {
-    "id": "1",
-    "cust_id": "17",
+    "cust_id": 17,
     "name": "Premier League",
     "slug": "premier-league",
     "country_name": "England",
@@ -10,8 +9,7 @@
     "total_teams": 20
   },
   {
-    "id": "2",
-    "cust_id": "35",
+    "cust_id": 35,
     "name": "Bundesliga",
     "slug": "bundesliga",
     "country_name": "Germany",
