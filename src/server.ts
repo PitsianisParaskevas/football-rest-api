@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 // Route modules
 import tournamentRoutes from "./routes/tournaments";
 import teamsRouters from "./routes/teams";
+import tournamentTeamRoutes from "./routes/tournamentTeam";
 import { errorHandler } from "./middlewares/errorHandler";
 
 // Load environment variables form .env
@@ -18,6 +19,7 @@ app.use(express.json());
 // Register all routes
 app.use("/tournaments", tournamentRoutes);
 app.use("/teams", teamsRouters);
+app.use("/tournament-teams", tournamentTeamRoutes);
 
 // Health check
 app.get("/health", (_req, res) => {
