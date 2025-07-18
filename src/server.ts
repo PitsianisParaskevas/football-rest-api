@@ -3,12 +3,12 @@ import dotenv from "dotenv";
 
 // Route modules
 import tournamentRoutes from "./routes/tournaments";
-import teamsRouters from "./routes/teams";
+import teamRouters from "./routes/teams";
 import tournamentTeamRoutes from "./routes/tournamentTeam";
-import matchRouters from "./routes/matches";
+import matchRoutes from "./routes/matches";
 import { errorHandler } from "./middlewares/errorHandler";
 
-// Load environment variables form .env
+// Load environment variables from .env
 dotenv.config();
 
 const app = express();
@@ -19,9 +19,9 @@ app.use(express.json());
 
 // Register all routes
 app.use("/tournaments", tournamentRoutes);
-app.use("/teams", teamsRouters);
+app.use("/teams", teamRouters);
 app.use("/tournament-teams", tournamentTeamRoutes);
-app.use("/matches", matchRouters);
+app.use("/matches", matchRoutes);
 
 // Health check
 app.get("/health", (_req, res) => {
