@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "tsx src/server.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "clear-db": "tsx src/scripts/clearDatabase.ts",
+    "clear-table": "tsx src/scripts/clearTable.ts",
+    "seed-db": "tsx src/scripts/seedDatabase.ts",
+    "seed-table": "tsx src/scripts/seedTable.ts"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.6",

@@ -42,3 +42,19 @@ sofascore-rest-api/
 
 // if you want to run the fetch from sofa logic
 "dev": "vite", // npm run start
+
+# Clear database
+
+npm run clear-db -- your_database_name
+
+# Clear table
+
+npm run clear-table -- your_database_name your_table
+
+# Seeder database
+
+npm run seed-db -- your_database_name
+
+# Seeder table
+
+npm run seed-table -- your_database_name your_table
