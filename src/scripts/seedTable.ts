@@ -40,7 +40,7 @@ const seedTable = async () => {
         console.warn(`⚠️ Unknown table: '${targetTable}'`);
     }
 
-    console.log("✅ Seeding for '${targetTable}' complete.");
+    console.log(`✅ Seeding for '${targetTable}' complete.`);
   } catch (err) {
     console.error("❌ Seeding failed:", err);
   } finally {

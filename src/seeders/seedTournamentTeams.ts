@@ -12,7 +12,7 @@ export const seedTournamentTeams = async () => {
         await pool.query(
             `
       INSERT INTO tournament_team (
-        tournament_id, team_id
+        tournament_cust_id, team_cust_id
       ) VALUES ($1, $2)
       `,
             [tournament_id, team_id]
