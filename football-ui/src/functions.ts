@@ -42,6 +42,20 @@ export function transformStandingsData(standingsArray: any[]) {
     team_cust_id: row.team.id,
   }));
 
+  const teams = standings.rows
+    .map((row: any) => ({
+      cust_id: row.team.id,
+      name: row.team.name,
+      slug: row.team.slug,
+      shortName: row.team.shortName,
+      nameCode: row.team.nameCode,
+      countryName: row.team.country.name,
+      countrySlug: row.team.country.slug,
+    }))
+    .sort((a: { name: string }, b: { name: string }) =>
+      a.name.localeCompare(b.name)
+    );
+
   return {
     tournament: {
       cust_id: tournamentId,
@@ -52,15 +66,7 @@ export function transformStandingsData(standingsArray: any[]) {
       rounds: tournament_team.length * 2 - 2,
       total_teams: tournament_team.length,
     },
-    teams: standings.rows.map((row: any) => ({
-      cust_id: row.team.id,
-      name: row.team.name,
-      slug: row.team.slug,
-      shortName: row.team.shortName,
-      nameCode: row.team.nameCode,
-      countryName: row.team.country.name,
-      countrySlug: row.team.country.slug,
-    })),
+    teams,
     rounds: tournament_team.length * 2 - 2,
     tournament_team,
   };
