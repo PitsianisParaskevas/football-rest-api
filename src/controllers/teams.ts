@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { pool } from "../db/clinet";
+import { pool } from "../db/client.ts";
 
 export const getAllTeams = async (
   _req: Request,

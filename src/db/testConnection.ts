@@ -1,5 +1,5 @@
 // src/db/testConnection.ts
-import { pool } from "./clinet";
+import { pool } from "./client";
 
 async function testConnection() {
   try {

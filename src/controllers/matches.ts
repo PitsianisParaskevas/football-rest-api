@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { pool } from "../db/clinet";
+import { pool } from "../db/client";
 import { BadRequestError } from "@/errors/BadRequestError";
 import { NotFoundError } from "@/errors/NotFoundError";
 

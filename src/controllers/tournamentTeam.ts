@@ -1,6 +1,6 @@
 // src/controllers/tournamentTeam.ts
 import type { Request, Response } from "express";
-import { pool } from "../db/clinet";
+import { pool } from "../db/client";
 
 import { NotFoundError } from "../errors/NotFoundError";
 import { BadRequestError } from "../errors/BadRequestError";

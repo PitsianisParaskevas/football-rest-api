@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { pool } from "../db/client"; // ✅ fix 'clinet' typo
+import { pool } from "../db/client";
 
 export const getAllTournaments = async (
   _req: Request,
