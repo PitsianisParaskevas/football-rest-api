@@ -1,0 +1,23 @@
+[
+  {
+    "cust_id": 158263,
+    "name": "Emiliano Martínez",
+    "slug": "emiliano-martinez",
+    "shortName": "E. Martínez",
+    "position": "G",    
+    "height": 195,
+    "country": {
+      "alpha2": "AR",
+      "alpha3": "ARG",
+      "name": "Argentina",
+      "slug": "argentina"
+    },
+    "dateOfBirthTimestamp": 715392000,
+    "proposedMarketValueRaw": {
+      "value": 19200000,
+      "currency": "EUR"
+    },
+    "team_cust_id": 40,
+    "shirtNumber": 23
+  }
+]
