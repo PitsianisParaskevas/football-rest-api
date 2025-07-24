@@ -1,12 +1,12 @@
 [
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "period",
+    "incident_type": "period",
     "time": 90
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "substitution",
+    "incident_type": "substitution",
     "incident_class": "injury",
     "team_side": "away",
     "time": 89,
@@ -15,7 +15,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "substitution",
+    "incident_type": "substitution",
     "incident_class": "regular",
     "team_side": "home",
     "time": 86,
@@ -24,7 +24,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "substitution",
+    "incident_type": "substitution",
     "incident_class": "regular",
     "team_side": "home",
     "time": 86,
@@ -33,7 +33,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "substitution",
+    "incident_type": "substitution",
     "incident_class": "regular",
     "team_side": "away",
     "time": 80,
@@ -42,7 +42,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "substitution",
+    "incident_type": "substitution",
     "incident_class": "regular",
     "team_side": "home",
     "time": 78,
@@ -51,7 +51,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "substitution",
+    "incident_type": "substitution",
     "incident_class": "regular",
     "team_side": "home",
     "time": 67,
@@ -60,7 +60,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "goal",
+    "incident_type": "goal",
     "incident_class": "regular",
     "home_score": 2,
     "away_score": 2,
@@ -169,7 +169,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "period",
+    "incident_type": "period",
     "text": "HT",
     "homeScore": 2,
     "awayScore": 1,
@@ -177,7 +177,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "goal",
+    "incident_type": "goal",
     "incident_class": "regular",
     "home_score": 2,
     "away_score": 1,
@@ -286,7 +286,7 @@
   },
   {
     "match_cust_id": 12436870,
-    "incidetn_type": "card",
+    "incident_type": "card",
     "incident_class": "yellow",
     "team_side": "home",
     "time": 23,

@@ -1,0 +1,86 @@
+[
+  {
+    "match_cust_id": 12436870,
+    "player_cust_id": 158263,
+    "shots": [
+          {           
+            "shotType": "miss",
+            "situation": "regular",
+            "bodyPart": "right-foot",
+            "xg": 0.040193412452936,
+            "xgot": 0,
+            "time": 90,
+            "coordinates": {
+              "player": {
+                "x": 15.1,
+                "y": 67.3,
+                "z": 0
+              },
+              "goalMouth": {
+                "x": 0,
+                "y": 58.2,
+                "z": 6.9
+              },
+              "block": null
+            },
+            "draw": {
+              "start": {
+                "x": 67.3,
+                "y": 15.1
+              },
+              "end": {
+                "x": 41.8,
+                "y": 0
+              },
+              "goal": {
+                "x": 41.8,
+                "y": 93.1
+              }
+            }
+          },
+          {            
+            "shotType": "block",
+            "situation": "regular",
+            "bodyPart": "right-foot",
+            "xg": 0.035177044570446,
+            "xgot": 0,
+            "time": 79,
+            "coordinates": {
+              "player": {
+                "x": 20.9,
+                "y": 69.5,
+                "z": 0
+              },
+              "goalMouth": {
+                "x": 0,
+                "y": 49.7,
+                "z": 19
+              },
+              "block": {
+                "x": 12.4,
+                "y": 62.3,
+                "z": 0
+              }
+            },
+            "draw": {
+              "start": {
+                "x": 69.5,
+                "y": 20.9
+              },
+              "block": {
+                "x": 62.3,
+                "y": 12.4
+              },
+              "end": {
+                "x": 50.3,
+                "y": 0
+              },
+              "goal": {
+                "x": 50.3,
+                "y": 81
+              }
+            }
+          }
+        ]
+  }
+]

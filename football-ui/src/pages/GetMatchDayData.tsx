@@ -8,12 +8,12 @@ const GetMatchDayData = () => {
   return (
     <div>
       <h2>📅 Get Match Day Data</h2>
-      <LabeledInput
+      {/* <LabeledInput
         title="Select Match Date"
         type="date"
         value={date}
         onChange={setDate}
-      />
+      /> */}
     </div>
   );
 };
