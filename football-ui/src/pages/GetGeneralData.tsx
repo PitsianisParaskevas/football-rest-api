@@ -50,6 +50,18 @@ const GetGeneralData = () => {
         buttonText={loading ? "Loading..." : "Fetch Data"}
       />
 
+      {result && (
+        <button
+          onClick={() => {
+            setResult(null);
+            setUrl("");
+          }}
+          style={{ marginTop: "1rem", marginBottom: "1rem" }}
+        >
+          🔄 Clear Results
+        </button>
+      )}
+
       {error && <p style={{ color: "red", marginTop: "1rem" }}>{error}</p>}
 
       {result && (

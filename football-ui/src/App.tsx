@@ -5,7 +5,7 @@ import GetMatchDayData from "./pages/GetMatchDayData";
 import "./App.css";
 
 function App() {
-  const [activeSection, setActiveSection] = useState("general");
+  const [activeSection, setActiveSection] = useState("matchday");
 
   const renderSection = () => {
     switch (activeSection) {

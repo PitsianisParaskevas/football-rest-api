@@ -1,0 +1,28 @@
+[
+  {
+    "id": 103335,
+    "name": "Bernd Leno",
+    "firstName": "",
+    "lastName": "",
+    "slug": "bernd-leno",
+    "shortName": "B. Leno",
+    "position": "G",
+    "jerseyNumber": "1",
+    "height": 190,
+    "userCount": 2798,
+    "country": {
+      "alpha2": "DE",
+      "alpha3": "DEU",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "marketValueCurrency": "EUR",
+    "dateOfBirthTimestamp": 699667200,
+    "proposedMarketValueRaw": {
+      "value": 9200000,
+      "currency": "EUR"
+    },
+    "teamId": 43,
+    "shirtNumber": 1
+  }
+]

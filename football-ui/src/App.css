@@ -67,7 +67,7 @@ button:hover {
   }
 }
 
-.result-row {
+/* .result-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -80,4 +80,11 @@ button:hover {
 .result-row .section {
   min-width: 300px;
   flex-shrink: 0;
+} */
+
+.result-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 1.5rem; 
+  padding: 1rem;
 }
