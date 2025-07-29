@@ -6,10 +6,9 @@ import "../App.css";
 
 const sections = [
   { key: "players", title: "👤 Players" },
-  { key: "player_team_history", title: "🔁 Player-Team History" },
+  { key: "match_result", title: "📄 Match Result" },
   { key: "metadata_statistics", title: "🧩 Metadata Statistic" },
   { key: "match_stats", title: "📊 Match Stats" },
-  { key: "match_result", title: "📄 Match Result" },
   { key: "match_result_scenarios", title: "🧠 Result Scenarios" },
   { key: "match_player_info", title: "📋 Match Player Info" },
   { key: "match_player_stats", title: "📈 Player Stats" },

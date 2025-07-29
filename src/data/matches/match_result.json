@@ -21,6 +21,31 @@
         "points": 1,
         "result": "draw",
         "goalFor": 2,
+        "goalAgainst": 2
+      }
+    }
+  },
+
+  {
+    "match_cust_id": 12436870,
+    "home": {
+      "halfTimeScore": 2,
+      "formation": "4-2-3-1",
+      "incident": {
+        "points": 1,
+        "result": "draw",
+        "goalFor": 2,
+        "goalAgainst": 2
+      }
+    },
+    "away": {
+      "fullTimeScore": 2,
+      "halfTimeScore": 1,
+      "formation": "4-2-3-1",
+      "incident": {
+        "points": 1,
+        "result": "draw",
+        "goalFor": 2,
         "goalAgainst": 2,
         "scenario": [2, 4, 5, 14, 16, 17, 20, 22, 30]
       }

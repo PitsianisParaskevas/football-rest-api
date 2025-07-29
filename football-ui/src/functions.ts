@@ -739,31 +739,49 @@ export function evaluateScenarios(data: any) {
 // // // // //
 
 export function transformMatchResult(
-  eventData: any,
-  lineupsData: any,
-  incidentsData: any
+  matchId: number,
+  incidetns: any,
+  lineups: any
 ): MatchResultRow {
-  const matchId = eventData.id;
-
-  const homeScoreFT = eventData.homeScore?.current ?? 0;
-  const awayScoreFT = eventData.awayScore?.current ?? 0;
-  const homeScoreHT = eventData.homeScore?.period1 ?? null;
-  const awayScoreHT = eventData.awayScore?.period1 ?? null;
-
-  const homeFormation = lineupsData?.home?.formation ?? null;
-  const awayFormation = lineupsData?.away?.formation ?? null;
-
   return {
     match_cust_id: matchId,
-    home_score_ft: homeScoreFT,
-    home_score_ht: homeScoreHT ?? undefined,
-    home_formation: homeFormation ?? undefined,
-    home_result: homeResult,
-    away_score_ft: awayScoreFT,
-    away_score_ht: awayScoreHT ?? undefined,
-    away_formation: awayFormation ?? undefined,
-    away_result: awayResult,
+    home_score_ft: incidetns.fullTimeScore?.homeScore,
+    home_score_ht: incidetns.halfTimeScore?.homeScore,
+    home_formation: lineups.home?.formation,
+    home_result: incidetns.home?.result,
+    away_score_ft: incidetns.fullTimeScore?.awayScore,
+    away_score_ht: incidetns.halfTimeScore?.awayScore,
+    away_formation: lineups.away?.formation,
+    away_result: incidetns.away?.result,
   };
+}
+
+export function transformMatchScenarios(
+  matchId: number,
+  homeTeamId: number,
+  awayTeamId: number,
+  evaluation: ReturnType<typeof evaluateScenarios>
+): {
+  match_cust_id: number;
+  team_cust_id: number;
+  team_side: "home" | "away";
+  scenario_id: number;
+}[] {
+  const home = evaluation.home.matchScenario.map((scenario_id) => ({
+    match_cust_id: matchId,
+    team_cust_id: homeTeamId,
+    team_side: "home" as const,
+    scenario_id,
+  }));
+
+  const away = evaluation.away.matchScenario.map((scenario_id) => ({
+    match_cust_id: matchId,
+    team_cust_id: awayTeamId,
+    team_side: "away" as const,
+    scenario_id,
+  }));
+
+  return [...home, ...away];
 }
 
 export interface MatchDayData {
@@ -790,11 +808,12 @@ export async function getMatchDayData(
     console.error("❌ Invalid URL – missing matchday");
     return null;
   }
-
+  // https://www.sofascore.com/football/match/bournemouth-leicester-city/Gskb#id:12436536
   const apiUrl = `https://www.sofascore.com/api/v1/event/${matchId}`;
   console.log("apiURL", apiUrl);
 
   /*--- fetch the data ---*/
+  const responseGeneral = await axios.get(`${apiUrl}`);
   const responseStatistics = await axios.get(`${apiUrl}/statistics`);
   const responseLineups = await axios.get(`${apiUrl}/lineups`);
   const responseIncidents = await axios.get(`${apiUrl}/incidents`);
@@ -802,6 +821,7 @@ export async function getMatchDayData(
   const responseAvgPosition = await axios.get(`${apiUrl}/average-positions`);
 
   /*--- transform the data ---*/
+  const general = responseGeneral.data.event;
   const statistic = transformStatistics(responseStatistics.data.statistics);
   const lineups = transformLineups(responseLineups.data);
   const incidetns = transformIncident(responseIncidents.data);
@@ -813,13 +833,30 @@ export async function getMatchDayData(
 
   mergePlayerData(lineups, shotmap, avgPosition, heatmap);
 
-  // const match_result = transformMatchResult(
-  //   responseEvent.data,
-  //   responseLineups.data,
-  //   responseIncidents.data
-  // );
+  console.log("general", general.homeTeam?.id);
+  console.log("statistic", statistic);
+  console.log("lineups", lineups);
+  console.log("incidetns", incidetns);
+  // console.log("shotmap", shotmap);
+  // console.log("avgPosition", avgPosition);
+  // console.log("players", players);
+  // console.log("heatmap", heatmap);
 
-  console.log("transformLineups", lineups);
+  const evaluation = evaluateScenarios({
+    metadata: {
+      statistics: statistic.metadata,
+      lineups: lineups.metadata,
+      incident: incidetns.metadata,
+      shotmap: shotmap.metaData,
+    },
+    incidentsPeriod: {
+      fullTimeScore: incidetns.fullTimeScore,
+      halfTimeScore: incidetns.halfTimeScore,
+    },
+    home: { incident: incidetns.home },
+    away: { incident: incidetns.away },
+    incident: { incidents: responseIncidents.data.incidents },
+  });
 
   // const obj = {
   //   metadata_statistics: statistic.metadata,
@@ -863,12 +900,20 @@ export async function getMatchDayData(
 
   // console.log("obj", obj);
 
+  const match_result: any = transformMatchResult(matchId, incidetns, lineups);
+  const match_result_scenarios = transformMatchScenarios(
+    matchId,
+    general.homeTeam?.id,
+    general.awayTeam?.id,
+    evaluation
+  );
+
   return {
     players: lineups.players,
     player_team_history: [1],
     metadata_statistics: statistic.metadata,
-    match_result: [1],
-    match_result_scenarios: [1],
+    match_result: match_result,
+    match_result_scenarios: match_result_scenarios,
     match_stats: [1],
     match_incident: [1],
     match_player_info: [1],

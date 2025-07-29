@@ -1,11 +1,11 @@
 [
-    {
-         "match_cust_id": 12436870,
-  "team_cust_id": 35,
-  "team_side": "home",
-  "stat_key": "expectedGoals",
-  "value": 52,
-  "display": "52%",
-  "period": "first-half"  
-    }
+  {
+    "match_cust_id": 12436870,
+    "team_cust_id": 35,
+    "team_side": "home",
+    "stat_key": "expectedGoals",
+    "value": 52,
+    "display": "52%",
+    "period": "first-half"
+  }
 ]
