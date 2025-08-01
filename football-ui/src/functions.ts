@@ -380,6 +380,7 @@ export function transformIncident(data: any): TransformedIncidents {
         assist: [],
         injury: [],
         penalty: [],
+        substitutions: [],
       },
     },
     away: {
@@ -393,6 +394,7 @@ export function transformIncident(data: any): TransformedIncidents {
         assist: [],
         injury: [],
         penalty: [],
+        substitutions: [],
       },
     },
   };
@@ -471,11 +473,11 @@ export function transformIncident(data: any): TransformedIncidents {
       incident.playerOut
     ) {
       const side = incident.isHome ? "home" : "away";
-      output[side].incidents.injury.push({
-        id: incident.playerOut.id,
-        name: incident.playerOut.name,
+      output[side].incidents.substitutions.push({
+        playerInId: incident.playerIn?.id ?? null,
+        playerOutId: incident.playerOut?.id ?? null,
+        incidentClass: incident.incidentClass ?? "regular",
         time: incident.time,
-        incidentClass: incident.incidentClass,
       });
     }
 
@@ -502,6 +504,18 @@ export function transformIncident(data: any): TransformedIncidents {
         description: incident.description ?? "",
         reason: incident.reason ?? "",
         GK: true,
+      });
+    }
+
+    // Substitutions
+    if (incident.incidentType === "substitution") {
+      const side = incident.isHome ? "home" : "away";
+
+      output[side].incidents.substitutions.push({
+        playerInId: incident.playerIn?.id ?? null,
+        playerOutId: incident.playerOut?.id ?? null,
+        incidentClass: incident.incidentClass ?? "regular",
+        time: incident.time,
       });
     }
 
@@ -784,6 +798,161 @@ export function transformMatchScenarios(
   return [...home, ...away];
 }
 
+export function transformMatchStats(
+  matchId: number,
+  homeTeamId: number,
+  awayTeamId: number,
+  stats: TransformedStatistics
+): {
+  match_cust_id: number;
+  team_cust_id: number;
+  team_side: "home" | "away";
+  stat_key: string;
+  phase: string;
+  value: number | null;
+  display: string | null;
+  total: number | null;
+}[] {
+  const rows: any[] = [];
+
+  for (const phase of Object.keys(stats.home)) {
+    const homeStats = stats.home[phase];
+    const awayStats = stats.away[phase];
+
+    for (const key of Object.keys(homeStats)) {
+      const h = homeStats[key];
+      rows.push({
+        match_cust_id: matchId,
+        team_cust_id: homeTeamId,
+        team_side: "home",
+        stat_key: key,
+        phase,
+        value: h.value ?? null,
+        display: h.display ?? null,
+        total: h.total ?? null,
+      });
+    }
+
+    for (const key of Object.keys(awayStats)) {
+      const a = awayStats[key];
+      rows.push({
+        match_cust_id: matchId,
+        team_cust_id: awayTeamId,
+        team_side: "away",
+        stat_key: key,
+        phase,
+        value: a.value ?? null,
+        display: a.display ?? null,
+        total: a.total ?? null,
+      });
+    }
+  }
+
+  return rows;
+}
+
+export function transformMatchPlayerInfo(
+  matchId: number,
+  lineups: TransformedLineups,
+  incidents: TransformedIncidents
+) {
+  const rows: {
+    match_cust_id: number;
+    player_cust_id: number;
+    minutes_played: number | null;
+    starter: boolean;
+    substitute: boolean;
+    substitute_class: string | null;
+    rating: number | null;
+  }[] = [];
+
+  const processTeam = (team: typeof lineups.home, side: "home" | "away") => {
+    const substitutions = incidents[side].incidents.substitutions;
+
+    const subInMap = new Map(
+      substitutions
+        .filter((s) => s.playerInId !== null)
+        .map((s) => [s.playerInId!, s])
+    );
+
+    const subOutMap = new Map(
+      substitutions
+        .filter((s) => s.playerOutId !== null)
+        .map((s) => [s.playerOutId!, s])
+    );
+
+    for (const player of team.statisticsPlayer) {
+      // if (player.id === 830659) console.log("player", player);
+
+      const playerId = player.id;
+
+      const rating = player.statistics.rating
+        ? Number(player.statistics.rating)
+        : null;
+
+      const subIn = subInMap.get(playerId) ?? null;
+      const subOut = subOutMap.get(playerId) ?? null;
+
+      const subClass: string | null =
+        subIn?.incidentClass ?? subOut?.incidentClass ?? null;
+
+      const calculateMinutesPlayed = (): number | null => {
+        if (subIn && subOut) {
+          console.log("player came in and was subbed out again", player);
+          return subOut.time - subIn.time;
+        } else if (subOut) {
+          console.log("starter who was subbed off", player);
+          return subOut.time;
+        } else if (subIn) {
+          console.log("sub who came in and played to end", player);
+          return 90 - subIn.time;
+        } else if (rating !== null) {
+          console.log("full 90-minute player", player);
+          return 90;
+        } else {
+          console.log("bench player who didn't play", player);
+          return 0;
+        }
+      };
+
+      const minutesPlayed = calculateMinutesPlayed();
+      // Determine role based on presence in substitution data
+      const starter = subOut !== null || (!subIn && rating !== null);
+      const substitute = subIn !== null || subOut !== null;
+
+      // if (playerId === 796986) console.log("player", player);
+      if (playerId === 830659) {
+        console.log("PLAYER 830659:", {
+          subIn,
+          subOut,
+          starter,
+          substitute,
+          minutesPlayed,
+          rating,
+          subClass,
+        });
+      }
+
+      rows.push({
+        match_cust_id: matchId,
+        player_cust_id: playerId,
+        minutes_played: minutesPlayed,
+        starter,
+        substitute,
+        substitute_class: subClass,
+        rating,
+      });
+    }
+  };
+
+  processTeam(lineups.home, "home");
+  processTeam(lineups.away, "away");
+
+  return rows;
+}
+
+// // // // //
+
 export interface MatchDayData {
   players: any[];
   player_team_history: any[];
@@ -834,7 +1003,7 @@ export async function getMatchDayData(
   mergePlayerData(lineups, shotmap, avgPosition, heatmap);
 
   console.log("general", general.homeTeam?.id);
-  console.log("statistic", statistic);
+  // console.log("statistic", statistic);
   console.log("lineups", lineups);
   console.log("incidetns", incidetns);
   // console.log("shotmap", shotmap);
@@ -908,15 +1077,28 @@ export async function getMatchDayData(
     evaluation
   );
 
+  const match_stats = transformMatchStats(
+    matchId,
+    general.homeTeam?.id,
+    general.awayTeam?.id,
+    statistic
+  );
+
+  const match_player_info = transformMatchPlayerInfo(
+    matchId,
+    lineups,
+    incidetns
+  );
+
   return {
     players: lineups.players,
     player_team_history: [1],
     metadata_statistics: statistic.metadata,
     match_result: match_result,
     match_result_scenarios: match_result_scenarios,
-    match_stats: [1],
+    match_stats: match_stats,
     match_incident: [1],
-    match_player_info: [1],
+    match_player_info: match_player_info,
     match_player_stats: [1],
     match_player_shot: [1],
     match_player_heatmap: heatmap,

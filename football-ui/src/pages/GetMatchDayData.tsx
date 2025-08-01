@@ -5,16 +5,16 @@ import { getMatchDayData, type MatchDayData } from "../functions";
 import "../App.css";
 
 const sections = [
-  { key: "players", title: "👤 Players" },
-  { key: "match_result", title: "📄 Match Result" },
+  { key: "players", title: "👤 Players" },  
   { key: "metadata_statistics", title: "🧩 Metadata Statistic" },
+  { key: "match_result", title: "📄 Match Result" },
   { key: "match_stats", title: "📊 Match Stats" },
-  { key: "match_result_scenarios", title: "🧠 Result Scenarios" },
   { key: "match_player_info", title: "📋 Match Player Info" },
   { key: "match_player_stats", title: "📈 Player Stats" },
   { key: "match_player_shot", title: "🎯 Player Shot Map" },
   { key: "match_player_heatmap", title: "🔥 Player Heatmap" },
-  { key: "match_incident", title: "⚠️ Match Incidents" },
+  { key: "match_incident", title: "⚠️ Match Incidents" }, 
+  { key: "match_result_scenarios", title: "🧠 Result Scenarios" },
 ];
 
 const GetMatchDayData = () => {
