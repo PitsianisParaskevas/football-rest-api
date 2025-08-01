@@ -985,6 +985,195 @@ export function transformMatchPlayerStats(
   return rows;
 }
 
+export interface MatchPlayerShotRow {
+  shot_id: number;
+  match_cust_id: number;
+  player_cust_id: number;
+  time: number | null;
+  shot_type: string | null;
+  situation: string | null;
+  body_part: string | null;
+  xg: number | null;
+  xgot: number | null;
+  details_json: any;
+}
+
+export function transformMatchPlayerShots(
+  matchId: number,
+  shotmap: { home: any[]; away: any[] }
+): MatchPlayerShotRow[] {
+  const processSide = (shots: any[]): MatchPlayerShotRow[] =>
+    shots.map((shot) => ({
+      shot_id: shot.id,
+      match_cust_id: matchId,
+      player_cust_id: shot.id, // Replace with actual player ID if available (e.g., shot.playerId)
+      time: shot.time ?? null,
+      shot_type: shot.shotType ?? null,
+      situation: shot.situation ?? null,
+      body_part: shot.bodyPart ?? null,
+      xg: shot.xg ?? null,
+      xgot: shot.xgot ?? null,
+      details_json: shot, // Keep entire shot for flexibility
+    }));
+
+  return [...processSide(shotmap.home), ...processSide(shotmap.away)];
+}
+
+export function transformMatchPlayerHeatmap(
+  matchId: number,
+  heatmapData: { id: number; heatmap: { x: number; y: number }[] }[]
+) {
+  return heatmapData.map((player) => ({
+    match_cust_id: matchId,
+    player_cust_id: player.id,
+    heatmap: player.heatmap, // already an array of { x, y }
+  }));
+}
+
+let globalIncidentId = 1;
+
+export function transformMatchIncidents(
+  matchId: number,
+  incidents: TransformedIncidents
+) {
+  const rows: {
+    id: number;
+    incident_cust_id: number | null;
+    match_cust_id: number;
+    incident_type: string;
+    incident_class: string | null;
+    team_side: "home" | "away";
+    time: number | null;
+    period: number | null;
+    player_id: number | null;
+    assist_id: number | null;
+    player_in_id: number | null;
+    player_out_id: number | null;
+    home_score: number | null;
+    away_score: number | null;
+    goal_type: string | null;
+    body_part: string | null;
+    goalkeeper_id: number | null;
+    details_json: any | null;
+  }[] = [];
+
+  const handleSide = (side: "home" | "away") => {
+    const data = incidents[side].incidents;
+
+    // GOALS
+    for (const goal of data.goal) {
+      const fpn = (goal.footballPassingNetworkAction as any[])?.[0];
+
+      rows.push({
+        id: globalIncidentId++,
+        incident_cust_id: goal.id ?? null,
+        match_cust_id: matchId,
+        incident_type: "goal",
+        incident_class: goal.incidentClass ?? null,
+        team_side: side,
+        time: goal.time != null ? Number(goal.time) : null,
+        period: null,
+        player_id: goal.id ?? null,
+        assist_id: null,
+        player_in_id: null,
+        player_out_id: null,
+        home_score: null,
+        away_score: null,
+        goal_type: fpn?.goalType ?? null,
+        body_part: fpn?.bodyPart ?? null,
+        goalkeeper_id: fpn?.goalkeeper?.id ?? null,
+        details_json: goal.footballPassingNetworkAction ?? null,
+      });
+    }
+
+    // CARDS
+    for (const card of data.card) {
+      rows.push({
+        id: globalIncidentId++,
+        incident_cust_id: card.id ?? null,
+        match_cust_id: matchId,
+        incident_type: "card",
+        incident_class: card.incidentClass ?? null,
+        team_side: side,
+        time: card.time != null ? Number(card.time) : null,
+        period: null,
+        player_id: card.id ?? null,
+        assist_id: null,
+        player_in_id: null,
+        player_out_id: null,
+        home_score: null,
+        away_score: null,
+        goal_type: null,
+        body_part: null,
+        goalkeeper_id: null,
+        details_json: card.reason ? { reason: card.reason } : null,
+      });
+    }
+
+    // SUBSTITUTIONS (with deduplication)
+    const seenSubs = new Set<string>();
+    for (const sub of data.substitutions) {
+      const key = `${sub.playerInId}-${sub.playerOutId}-${sub.time}`;
+      if (seenSubs.has(key)) continue;
+      seenSubs.add(key);
+
+      rows.push({
+        id: globalIncidentId++,
+        incident_cust_id: null,
+        match_cust_id: matchId,
+        incident_type: "substitution",
+        incident_class: sub.incidentClass ?? null,
+        team_side: side,
+        time: sub.time != null ? Number(sub.time) : null,
+        period: null,
+        player_id: null,
+        assist_id: null,
+        player_in_id: sub.playerInId ?? null,
+        player_out_id: sub.playerOutId ?? null,
+        home_score: null,
+        away_score: null,
+        goal_type: null,
+        body_part: null,
+        goalkeeper_id: null,
+        details_json: null,
+      });
+    }
+
+    // PENALTIES
+    for (const pen of data.penalty) {
+      rows.push({
+        id: globalIncidentId++,
+        incident_cust_id: pen.id ?? null,
+        match_cust_id: matchId,
+        incident_type: "penalty",
+        incident_class: pen.incidentClass ?? null,
+        team_side: side,
+        time: pen.time != null ? Number(pen.time) : null,
+        period: null,
+        player_id: pen.id ?? null,
+        assist_id: null,
+        player_in_id: null,
+        player_out_id: null,
+        home_score: null,
+        away_score: null,
+        goal_type: null,
+        body_part: null,
+        goalkeeper_id: pen.GK ? -1 : null,
+        details_json: {
+          description: pen.description ?? null,
+          reason: pen.reason ?? null,
+          GK: pen.GK ?? false,
+        },
+      });
+    }
+  };
+
+  handleSide("home");
+  handleSide("away");
+
+  return rows;
+}
+
 // // // // //
 
 export interface MatchDayData {
@@ -1036,13 +1225,7 @@ export async function getMatchDayData(
   mergePlayerData(lineups, shotmap, avgPosition, heatmap);
 
   console.log("general", general.homeTeam?.id);
-  // console.log("statistic", statistic);
-  console.log("lineups", lineups);
   console.log("incidetns", incidetns);
-  console.log("shotmap", shotmap);
-  // console.log("avgPosition", avgPosition);
-  // console.log("players", players);
-  // console.log("heatmap", heatmap);
 
   const evaluation = evaluateScenarios({
     metadata: {
@@ -1124,16 +1307,30 @@ export async function getMatchDayData(
   );
   const match_player_stats = transformMatchPlayerStats(matchId, lineups);
 
+  const match_player_shot = transformMatchPlayerShots(matchId, shotmap);
+
+  const match_player_heatmap = transformMatchPlayerHeatmap(
+    matchId,
+    heatmap.map((p) => ({
+      id: p.id,
+      heatmap: p.heatmap.heatmap, // unwrapped
+    }))
+  );
+
+  const match_incidents = transformMatchIncidents(matchId, incidetns);
+
+  console.log("match_incidents", match_incidents);
+
   return {
     players: lineups.players,
     metadata_statistics: statistic.metadata,
     match_result: match_result,
     match_result_scenarios: match_result_scenarios,
     match_stats: match_stats,
-    match_incident: [1],
+    match_incident: match_incidents,
     match_player_info: match_player_info,
     match_player_stats: match_player_stats,
-    match_player_shot: [1],
-    match_player_heatmap: heatmap,
+    match_player_shot: match_player_shot,
+    match_player_heatmap: match_player_heatmap,
   };
 }
