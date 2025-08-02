@@ -1,0 +1,626 @@
+[
+  {
+    "id": 1,
+    "incident_cust_id": 934354,
+    "match_cust_id": 12436536,
+    "incident_type": "goal",
+    "incident_class": "regular",
+    "team_side": "home",
+    "time": 88,
+    "period": null,
+    "player_id": 934354,
+    "assist_id": null,
+    "player_in_id": null,
+    "player_out_id": null,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": "regular",
+    "body_part": "right-foot",
+    "goalkeeper_id": 997830,
+    "details_json": [
+      {
+        "player": {
+          "name": "Antoine Semenyo",
+          "firstName": "",
+          "lastName": "",
+          "slug": "antoine-semenyo",
+          "shortName": "A. Semenyo",
+          "position": "M",
+          "jerseyNumber": "24",
+          "height": 185,
+          "userCount": 8126,
+          "sofascoreId": "antoinesemenyo42",
+          "id": 934354,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 947203200,
+          "proposedMarketValueRaw": {
+            "value": 42000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أنطوان سيمينيو",
+              "hi": "एंटोनी सेमेन्यो",
+              "bn": "অ্যান্টোইন সেমেনিও"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. سيمينيو",
+              "hi": "ए. सेमेन्यो",
+              "bn": "এ. সেমেনিও"
+            }
+          }
+        },
+        "eventType": "goal",
+        "bodyPart": "right-foot",
+        "time": 88,
+        "playerCoordinates": {
+          "x": 78.1,
+          "y": 52.6
+        },
+        "gkCoordinates": {
+          "x": 99,
+          "y": 50.2
+        },
+        "goalShotCoordinates": {
+          "x": 100,
+          "y": 52.9
+        },
+        "goalMouthCoordinates": {
+          "x": 34.41,
+          "y": 93.67
+        },
+        "goalkeeper": {
+          "name": "Jakub Stolarczyk",
+          "firstName": "",
+          "lastName": "",
+          "slug": "jakub-stolarczyk",
+          "shortName": "J. Stolarczyk",
+          "position": "G",
+          "jerseyNumber": "41",
+          "height": 194,
+          "userCount": 1046,
+          "id": 997830,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 977184000,
+          "proposedMarketValueRaw": {
+            "value": 970000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ياكوب ستولارتشيك",
+              "hi": "जकूब स्टोलार्स्की",
+              "bn": "জ্যাকুব স্টোলারকজিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ستولارتشيك",
+              "hi": "जे. स्टोलार्स्की",
+              "bn": "জে. স্টোলারজিক"
+            }
+          }
+        },
+        "isHome": true,
+        "goalType": "regular"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "incident_cust_id": 934354,
+    "match_cust_id": 12436536,
+    "incident_type": "goal",
+    "incident_class": "regular",
+    "team_side": "home",
+    "time": 74,
+    "period": null,
+    "player_id": 934354,
+    "assist_id": null,
+    "player_in_id": null,
+    "player_out_id": null,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": [
+      {
+        "player": {
+          "name": "Justin Kluivert",
+          "slug": "justin-kluivert",
+          "shortName": "J. Kluivert",
+          "position": "M",
+          "jerseyNumber": "19",
+          "height": 171,
+          "userCount": 6757,
+          "sofascoreId": "justinkluivert",
+          "id": 851596,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 925862400,
+          "proposedMarketValueRaw": {
+            "value": 34000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاستن كلويفرت",
+              "hi": "जस्टिन क्लुइवर्ट",
+              "bn": "জাস্টিন ক্লুইভার্ট"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كلويفرت",
+              "hi": "जे. क्लुइवर्ट",
+              "bn": "জে. ক্লুইভার্ট"
+            }
+          }
+        },
+        "eventType": "corner",
+        "time": 74,
+        "playerCoordinates": {
+          "x": 99.5,
+          "y": 99.5
+        },
+        "passEndCoordinates": {
+          "x": 81.8,
+          "y": 75.6
+        },
+        "isHome": true
+      },
+      {
+        "player": {
+          "name": "Marcus Tavernier",
+          "slug": "marcus-tavernier",
+          "shortName": "M. Tavernier",
+          "position": "M",
+          "jerseyNumber": "16",
+          "height": 178,
+          "userCount": 1348,
+          "id": 895576,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 922060800,
+          "proposedMarketValueRaw": {
+            "value": 16399999,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماركوس تافيرنييه",
+              "hi": "मार्कस टैवर्नियर",
+              "bn": "মার্কাস ট্যাভার্নিয়ার"
+            },
+            "shortNameTranslation": {
+              "ar": "م. تافيرنييه",
+              "hi": "एम. टैवर्नियर",
+              "bn": "এম. ট্যাভার্নিয়ার"
+            }
+          }
+        },
+        "eventType": "pass",
+        "time": 74,
+        "playerCoordinates": {
+          "x": 81.8,
+          "y": 75.6
+        },
+        "passEndCoordinates": {
+          "x": 88,
+          "y": 77.8
+        },
+        "isHome": true
+      },
+      {
+        "player": {
+          "name": "Justin Kluivert",
+          "slug": "justin-kluivert",
+          "shortName": "J. Kluivert",
+          "position": "M",
+          "jerseyNumber": "19",
+          "height": 171,
+          "userCount": 6757,
+          "sofascoreId": "justinkluivert",
+          "id": 851596,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 925862400,
+          "proposedMarketValueRaw": {
+            "value": 34000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاستن كلويفرت",
+              "hi": "जस्टिन क्लुइवर्ट",
+              "bn": "জাস্টিন ক্লুইভার্ট"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كلويفرت",
+              "hi": "जे. क्लुइवर्ट",
+              "bn": "জে. ক্লুইভার্ট"
+            }
+          }
+        },
+        "eventType": "pass",
+        "time": 74,
+        "playerCoordinates": {
+          "x": 88.9,
+          "y": 77.8
+        },
+        "passEndCoordinates": {
+          "x": 92,
+          "y": 47.5
+        },
+        "isHome": true
+      },
+      {
+        "player": {
+          "name": "Illia Zabarnyi",
+          "firstName": "",
+          "lastName": "",
+          "slug": "illia-zabarnyi",
+          "shortName": "I. Zabarnyi",
+          "position": "D",
+          "jerseyNumber": "27",
+          "height": 189,
+          "userCount": 4448,
+          "sofascoreId": "IlliaZabarnyi",
+          "id": 1023567,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1030838400,
+          "proposedMarketValueRaw": {
+            "value": 39000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيليا زابارني",
+              "hi": "इलिया ज़बरनयी",
+              "bn": "ইলিয়া জাবারনি"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. زابارني",
+              "hi": "आई. ज़बरनयी",
+              "bn": "আই. জাবারনি"
+            }
+          }
+        },
+        "eventType": "pass",
+        "isAssist": true,
+        "time": 74,
+        "playerCoordinates": {
+          "x": 92.4,
+          "y": 47.2
+        },
+        "passEndCoordinates": {
+          "x": 92.9,
+          "y": 52.4
+        },
+        "isHome": true
+      },
+      {
+        "player": {
+          "name": "Antoine Semenyo",
+          "firstName": "",
+          "lastName": "",
+          "slug": "antoine-semenyo",
+          "shortName": "A. Semenyo",
+          "position": "M",
+          "jerseyNumber": "24",
+          "height": 185,
+          "userCount": 8126,
+          "sofascoreId": "antoinesemenyo42",
+          "id": 934354,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 947203200,
+          "proposedMarketValueRaw": {
+            "value": 42000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أنطوان سيمينيو",
+              "hi": "एंटोनी सेमेन्यो",
+              "bn": "অ্যান্টোইন সেমেনিও"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. سيمينيو",
+              "hi": "ए. सेमेन्यो",
+              "bn": "এ. সেমেনিও"
+            }
+          }
+        },
+        "eventType": "goal",
+        "bodyPart": "right-foot",
+        "time": 74,
+        "playerCoordinates": {
+          "x": 91.8,
+          "y": 50.3
+        },
+        "gkCoordinates": {
+          "x": 99,
+          "y": 50.4
+        },
+        "goalShotCoordinates": {
+          "x": 100,
+          "y": 53
+        },
+        "goalMouthCoordinates": {
+          "x": 33.87,
+          "y": 96.83
+        },
+        "goalkeeper": {
+          "name": "Jakub Stolarczyk",
+          "firstName": "",
+          "lastName": "",
+          "slug": "jakub-stolarczyk",
+          "shortName": "J. Stolarczyk",
+          "position": "G",
+          "jerseyNumber": "41",
+          "height": 194,
+          "userCount": 1046,
+          "id": 997830,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 977184000,
+          "proposedMarketValueRaw": {
+            "value": 970000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ياكوب ستولارتشيك",
+              "hi": "जकूब स्टोलार्स्की",
+              "bn": "জ্যাকুব স্টোলারকজিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ستولارتشيك",
+              "hi": "जे. स्टोलार्स्की",
+              "bn": "জে. স্টোলারজিক"
+            }
+          }
+        },
+        "isHome": true,
+        "goalType": "regular"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "home",
+    "time": 90,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 2007889,
+    "player_out_id": 851596,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 4,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "home",
+    "time": 90,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1201520,
+    "player_out_id": 895576,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 5,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "home",
+    "time": 90,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1104986,
+    "player_out_id": 998490,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 6,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "home",
+    "time": 78,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1176744,
+    "player_out_id": 830659,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 7,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "injury",
+    "team_side": "home",
+    "time": 63,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1096136,
+    "player_out_id": 855731,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 8,
+    "incident_cust_id": 98449,
+    "match_cust_id": 12436536,
+    "incident_type": "card",
+    "incident_class": "yellow",
+    "team_side": "away",
+    "time": 38,
+    "period": null,
+    "player_id": 98449,
+    "assist_id": null,
+    "player_in_id": null,
+    "player_out_id": null,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": {
+      "reason": "Foul"
+    }
+  },
+  {
+    "id": 9,
+    "incident_cust_id": 991584,
+    "match_cust_id": 12436536,
+    "incident_type": "card",
+    "incident_class": "yellow",
+    "team_side": "away",
+    "time": 16,
+    "period": null,
+    "player_id": 991584,
+    "assist_id": null,
+    "player_in_id": null,
+    "player_out_id": null,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": {
+      "reason": "Time wasting"
+    }
+  },
+  {
+    "id": 10,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "away",
+    "time": 89,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1543805,
+    "player_out_id": 1092409,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 11,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "injury",
+    "team_side": "away",
+    "time": 86,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1899501,
+    "player_out_id": 1065134,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 12,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "away",
+    "time": 72,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1861707,
+    "player_out_id": 991584,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 13,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "away",
+    "time": 72,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 221200,
+    "player_out_id": 859901,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  },
+  {
+    "id": 14,
+    "incident_cust_id": null,
+    "match_cust_id": 12436536,
+    "incident_type": "substitution",
+    "incident_class": "regular",
+    "team_side": "away",
+    "time": 71,
+    "period": null,
+    "player_id": null,
+    "assist_id": null,
+    "player_in_id": 1117025,
+    "player_out_id": 865057,
+    "home_score": null,
+    "away_score": null,
+    "goal_type": null,
+    "body_part": null,
+    "goalkeeper_id": null,
+    "details_json": null
+  }
+]
