@@ -1,9 +1,10 @@
 // src/pages/GetGeneralData.tsx
 import { useState } from "react";
 import LabeledInput from "../components/LabeledInput";
-import { getGeneralData, type GeneralData } from "../functions";
+import { getGeneralData } from "../functions";
 import ResultCodeSection from "../components/ResultCodeSection";
 import "../App.css";
+import type { GeneralData } from "../types/GeneralData";
 
 const GetGeneralData = () => {
   const [url, setUrl] = useState("");
