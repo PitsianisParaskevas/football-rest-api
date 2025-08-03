@@ -1,5 +1,4 @@
 import axios from "axios";
-import { getScenarioList } from "./utils/scenario.utils";
 
 import type { MatchResultRow } from "./types/MatchResultRow";
 
@@ -1325,7 +1324,6 @@ export async function getGeneralData(url: string): Promise<GeneralData | null> {
 //     match_player_heatmap: match_player_heatmap,
 //   };
 // }
-
 
 // https://www.sofascore.com/football/match/bournemouth-leicester-city/Gskb#id:12436536
 export async function getMatchDayData(

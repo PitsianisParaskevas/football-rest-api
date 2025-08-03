@@ -34,3 +34,14 @@ export function isFlattenableObject(
       Object.keys(value).every((k) => allowedKeys.includes(k)))
   );
 }
+
+export function calculatePeriod(
+  time: number | null | undefined
+): string | undefined {
+  if (time == null) return undefined;
+  if (time <= 45) return "1st";
+  if (time <= 90) return "2nd";
+  if (time <= 105) return "Extra time 1st half";
+  if (time <= 120) return "Extra time 2nd half";
+  return "Penalties or undefined extended time";
+}

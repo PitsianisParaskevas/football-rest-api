@@ -10,6 +10,8 @@ import { transformPlayers } from "../functions/transformPlayers";
 import { transformMatchPlayerStats } from "../functions/transformMatchPlayerStats";
 import { transformMatchStats } from "../functions/transformMatchStats";
 import { transformMatchIncidents } from "../functions/transformMatchIncidents";
+import { transformMatchPlayerInfo } from "../functions/transformMatchPlayerInfo";
+import { transformMatchResultScenarios } from "../functions/transformMatchResultScenarios";
 
 export class MatchDayService {
   private inputUrl: string;
@@ -121,19 +123,42 @@ export class MatchDayService {
       awayTeamId,
       statistics.statistics
     );
-    const match_incident = transformMatchIncidents(this.matchId, rawIncidents);
-
+    const match_incident = transformMatchIncidents(
+      this.matchId,
+      homeTeamId,
+      awayTeamId,
+      rawIncidents
+    );
     const match_result = this.buildMatchResult(
       this.matchId,
       lineups,
       rawIncidents
     );
 
-    console.log("match_result", match_result);
+    const lineupPlayers = [
+      ...(lineups?.home?.players ?? []),
+      ...(lineups?.away?.players ?? []),
+    ];
+
+    const match_player_info = transformMatchPlayerInfo(
+      this.matchId,
+      rawIncidents,
+      lineupPlayers
+    );
+
+    const match_result_scenarios = transformMatchResultScenarios({
+      match_id: this.matchId,
+      home_team_id: homeTeamId,
+      away_team_id: awayTeamId,
+      incidents: match_incident?.match_incident ?? [], // fallback to empty array
+    });
+
+    console.log("match_result_scenarios", match_result_scenarios);
 
     const metadata = [
       ...matchPalyerStats.metadata_statistics,
       ...metadata_statistics,
+      ...match_incident.metadata_statistics,
     ];
 
     // Return empty data for now — replace this later with real fetch/transform logic
@@ -143,8 +168,8 @@ export class MatchDayService {
       match_result,
       match_result_scenarios: [],
       match_stats: match_statistics,
-      match_incident,
-      match_player_info: [],
+      match_incident: match_incident.match_incident,
+      match_player_info,
       match_player_stats: matchPalyerStats.player_stats,
       match_player_shot: [],
       match_player_heatmap: [],
