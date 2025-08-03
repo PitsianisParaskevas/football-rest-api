@@ -1,7 +1,7 @@
 // https://www.sofascore.com/football/match/bournemouth-leicester-city/Gskb#id:12436536
 
 import type { MatchDayData } from "../types/MatchDayData";
-import type { MatchIncidentRow, MatchResultRow } from "../types/MatchTables";
+import type { MatchResultRow } from "../types/MatchTables";
 
 import { fetchJson } from "../utils/fetchJson";
 import { extractSofaIdsMatchDay } from "../utils/helpers";
@@ -12,6 +12,8 @@ import { transformMatchStats } from "../functions/transformMatchStats";
 import { transformMatchIncidents } from "../functions/transformMatchIncidents";
 import { transformMatchPlayerInfo } from "../functions/transformMatchPlayerInfo";
 import { transformMatchResultScenarios } from "../functions/transformMatchResultScenarios";
+import { transformShotMap } from "../functions/transformShotMap";
+import { transformHeatMap } from "../functions/transformHeatMap";
 
 export class MatchDayService {
   private inputUrl: string;
@@ -105,11 +107,17 @@ export class MatchDayService {
     ];
   }
 
+  private async fetchPlayerHeatmap(playerId: number): Promise<any> {
+    const url = `${this.baseUrl}/player/${playerId}/heatmap`;
+    return await fetchJson(url);
+  }
+
   async getMatchDayData(): Promise<MatchDayData> {
     const general = await this.fetchGeneral();
     const lineups = await fetchJson(`${this.baseUrl}/lineups`);
     const statistics = await fetchJson(`${this.baseUrl}/statistics`);
     const incidents = await fetchJson(`${this.baseUrl}/incidents`);
+    const shotmap = await fetchJson(`${this.baseUrl}/shotmap`);
 
     const homeTeamId = general.homeTeam?.id;
     const awayTeamId = general.awayTeam?.id;
@@ -153,7 +161,22 @@ export class MatchDayService {
       incidents: match_incident?.match_incident ?? [], // fallback to empty array
     });
 
-    console.log("match_result_scenarios", match_result_scenarios);
+    // console.log("match_result_scenarios", match_result_scenarios);
+
+    const match_player_shot = transformShotMap({
+      match_cust_id: this.matchId,
+      shots: shotmap?.shotmap ?? [], // if the API response looks like { shotmap: [...] }
+    });
+
+    const playerList = lineupPlayers.filter((p) => p?.id || p?.player?.id);
+
+    const match_player_heatmap = await transformHeatMap({
+      match_cust_id: this.matchId,
+      player_list: playerList.map((p) => ({
+        id: p.id ?? p.player?.id,
+      })),
+      fetchPlayerHeatmap: this.fetchPlayerHeatmap.bind(this),
+    });
 
     const metadata = [
       ...matchPalyerStats.metadata_statistics,
@@ -166,13 +189,13 @@ export class MatchDayService {
       players,
       metadata_statistics: metadata,
       match_result,
-      match_result_scenarios: [],
+      match_result_scenarios,
       match_stats: match_statistics,
       match_incident: match_incident.match_incident,
       match_player_info,
       match_player_stats: matchPalyerStats.player_stats,
-      match_player_shot: [],
-      match_player_heatmap: [],
+      match_player_shot,
+      match_player_heatmap,
     };
   }
 }

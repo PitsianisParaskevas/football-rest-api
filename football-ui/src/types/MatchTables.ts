@@ -95,18 +95,20 @@ export interface MatchPlayerStatsRow {
 }
 
 export interface MatchPlayerShotRow {
+  shot_id: number;
   match_cust_id: number;
   player_cust_id: number;
-  x: number;
-  y: number;
-  result: string;
-  xg: number;
+  time: number | null;
+  shot_type: string | null;
+  situation: string | null;
+  body_part: string | null;
+  xg: number | null;
+  xgot: number | null;
+  details_json: any[]; // from your DB schema
 }
 
 export interface MatchPlayerHeatmapRow {
   match_cust_id: number;
   player_cust_id: number;
-  x: number;
-  y: number;
-  value: number;
+  details_json: any;
 }
