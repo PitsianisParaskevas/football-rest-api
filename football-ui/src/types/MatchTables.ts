@@ -36,10 +36,14 @@ export interface MatchStatisticsRow {
 
 export interface MatchResultRow {
   match_cust_id: number;
-  team_cust_id: number;
-  score: number;
-  halftime_score?: number;
-  is_winner: boolean;
+  home_score_ft: number;
+  home_score_ht: number | null;
+  home_formation: string | null;
+  home_result: "win" | "loss" | "draw";
+  away_score_ft: number;
+  away_score_ht: number | null;
+  away_formation: string | null;
+  away_result: "win" | "loss" | "draw";
 }
 
 export interface MatchResultScenarioRow {
@@ -50,13 +54,29 @@ export interface MatchResultScenarioRow {
 }
 
 export interface MatchIncidentRow {
+  id: number; // primary key
+  incident_cust_id: number | null;
   match_cust_id: number;
-  team_cust_id: number;
-  player_cust_id?: number;
-  minute: number;
-  type: string;
-  description: string;
-  timestamp: string;
+  team_cust_id: number | null;
+  incident_type: string;
+  type: string | null;
+  incident_class: string | null;
+  team_side: string | null;
+  time: number | null;
+  minute: number | null;
+  period: number | null;
+  player_id: number | null;
+  assist_id: number | null;
+  player_in_id: number | null;
+  player_out_id: number | null;
+  home_score: number | null;
+  away_score: number | null;
+  goal_type: string | null;
+  body_part: string | null;
+  goalkeeper_id: number | null;
+  description: string | null;
+  timestampts: string | null; // likely typo, suggest renaming to 'timestamp'
+  details_json: any;
 }
 
 export interface MatchPlayerInfoRow {
