@@ -1,11 +1,12 @@
 import { useState } from "react";
 import LabeledInput from "../components/LabeledInput";
 import ResultCodeSection from "../components/ResultCodeSection";
-import { getMatchDayData, type MatchDayData } from "../functions";
+import { getMatchDayData } from "../functions";
 import "../App.css";
+import type { MatchDayData } from "../types/MatchDayData";
 
 const sections = [
-  { key: "players", title: "👤 Players" },  
+  { key: "players", title: "👤 Players" },
   { key: "metadata_statistics", title: "🧩 Metadata Statistic" },
   { key: "match_result", title: "📄 Match Result" },
   { key: "match_stats", title: "📊 Match Stats" },
@@ -13,7 +14,7 @@ const sections = [
   { key: "match_player_stats", title: "📈 Player Stats" },
   { key: "match_player_shot", title: "🎯 Player Shot Map" },
   { key: "match_player_heatmap", title: "🔥 Player Heatmap" },
-  { key: "match_incident", title: "⚠️ Match Incidents" }, 
+  { key: "match_incident", title: "⚠️ Match Incidents" },
   { key: "match_result_scenarios", title: "🧠 Result Scenarios" },
 ];
 
@@ -33,7 +34,7 @@ const GetMatchDayData = () => {
       if (!data) {
         setError("❌ Could not fetch data. Make sure the URL is correct.");
       } else {
-        console.log("data", data);
+        // console.log("data", data);
         setResult(data);
       }
     } catch (err) {
