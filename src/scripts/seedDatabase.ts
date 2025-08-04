@@ -13,6 +13,7 @@ import { seedTournaments } from "../seeders/seedTournaments.js";
 import { seedTeams } from "../seeders/seedTeams.js";
 import { seedTournamentTeams } from "../seeders/seedTournamentTeams.js";
 import { seedMatches } from "../seeders/seedMatches.js";
+import { seedScenarios } from "@/seeders/seedScenarios.js";
 
 const seedAll = async () => {
   try {
@@ -21,6 +22,7 @@ const seedAll = async () => {
     await seedTeams();
     await seedTournamentTeams();
     await seedMatches();
+    await seedScenarios();
     console.log("✅ All seeding complete.");
   } catch (err) {
     console.error("❌ Seeding failed:", err);

@@ -13,7 +13,13 @@ process.env.OVERRIDE_DATABASE = dbName;
 import { pool } from "../db/client.js";
 
 const clearAllTables = async () => {
-  const tables = ["matches", "tournament_team", "teams", "tournaments"]; // your actual tables, in correct FK order
+  const tables = [
+    "matches",
+    "tournament_team",
+    "teams",
+    "tournaments",
+    "scenarios",
+  ]; // your actual tables, in correct FK order
 
   console.log(`🧹 Starting to clear tables in database: ${dbName}`);
 

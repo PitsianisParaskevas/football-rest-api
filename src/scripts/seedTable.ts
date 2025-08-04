@@ -16,6 +16,7 @@ import { seedTournaments } from "../seeders/seedTournaments.js";
 import { seedTeams } from "../seeders/seedTeams.js";
 import { seedTournamentTeams } from "../seeders/seedTournamentTeams.js";
 import { seedMatches } from "../seeders/seedMatches.js";
+import { seedScenarios } from "@/seeders/seedScenarios.js";
 
 const seedTable = async () => {
   try {
@@ -35,6 +36,8 @@ const seedTable = async () => {
         break;
       case "matches":
         await seedMatches();
+      case "scenarios":
+        await seedScenarios();
         break;
       default:
         console.warn(`⚠️ Unknown table: '${targetTable}'`);

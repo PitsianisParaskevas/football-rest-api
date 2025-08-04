@@ -6,6 +6,7 @@ import tournamentRoutes from "./routes/tournaments";
 import teamRouters from "./routes/teams";
 import tournamentTeamRoutes from "./routes/tournamentTeam";
 import matchRoutes from "./routes/matches";
+import scenarioRoutes from "./routes/scenarios";
 import { errorHandler } from "./middlewares/errorHandler";
 
 // Load environment variables from .env
@@ -22,6 +23,7 @@ app.use("/tournaments", tournamentRoutes);
 app.use("/teams", teamRouters);
 app.use("/tournament-teams", tournamentTeamRoutes);
 app.use("/matches", matchRoutes);
+app.use("/scenarios", scenarioRoutes);
 
 // Health check
 app.get("/health", (_req, res) => {
