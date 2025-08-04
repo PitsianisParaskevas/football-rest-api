@@ -1,0 +1,554 @@
+[
+  {
+    "key": "totalPass",
+    "name": "player_stat_totalPass",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "accuratePass",
+    "name": "player_stat_accuratePass",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalLongBalls",
+    "name": "player_stat_totalLongBalls",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "accurateLongBalls",
+    "name": "player_stat_accurateLongBalls",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "goalAssist",
+    "name": "player_stat_goalAssist",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "goodHighClaim",
+    "name": "player_stat_goodHighClaim",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "savedShotsFromInsideTheBox",
+    "name": "player_stat_savedShotsFromInsideTheBox",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "saves",
+    "name": "player_stat_saves",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "minutesPlayed",
+    "name": "player_stat_minutesPlayed",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "touches",
+    "name": "player_stat_touches",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "rating",
+    "name": "player_stat_rating",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "possessionLostCtrl",
+    "name": "player_stat_possessionLostCtrl",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "ratingVersions.original",
+    "name": "original",
+    "group": "ratingVersions",
+    "description": null
+  },
+  {
+    "key": "ratingVersions.alternative",
+    "name": "alternative",
+    "group": "ratingVersions",
+    "description": null
+  },
+  {
+    "key": "goalsPrevented",
+    "name": "player_stat_goalsPrevented",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "aerialLost",
+    "name": "player_stat_aerialLost",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "aerialWon",
+    "name": "player_stat_aerialWon",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "duelLost",
+    "name": "player_stat_duelLost",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "duelWon",
+    "name": "player_stat_duelWon",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "challengeLost",
+    "name": "player_stat_challengeLost",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "dispossessed",
+    "name": "player_stat_dispossessed",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "onTargetScoringAttempt",
+    "name": "player_stat_onTargetScoringAttempt",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "goals",
+    "name": "player_stat_goals",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalClearance",
+    "name": "player_stat_totalClearance",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "outfielderBlock",
+    "name": "player_stat_outfielderBlock",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "interceptionWon",
+    "name": "player_stat_interceptionWon",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalTackle",
+    "name": "player_stat_totalTackle",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "penaltyConceded",
+    "name": "player_stat_penaltyConceded",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "fouls",
+    "name": "player_stat_fouls",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "expectedGoals",
+    "name": "player_stat_expectedGoals",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "expectedAssists",
+    "name": "player_stat_expectedAssists",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "bigChanceCreated",
+    "name": "player_stat_bigChanceCreated",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "shotOffTarget",
+    "name": "player_stat_shotOffTarget",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "keyPass",
+    "name": "player_stat_keyPass",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalCross",
+    "name": "player_stat_totalCross",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "accurateCross",
+    "name": "player_stat_accurateCross",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "wasFouled",
+    "name": "player_stat_wasFouled",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalContest",
+    "name": "player_stat_totalContest",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "blockedScoringAttempt",
+    "name": "player_stat_blockedScoringAttempt",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "wonContest",
+    "name": "player_stat_wonContest",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "bigChanceMissed",
+    "name": "player_stat_bigChanceMissed",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalOffside",
+    "name": "player_stat_totalOffside",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "punches",
+    "name": "player_stat_punches",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "ballPossession",
+    "name": "Ball possession",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "expectedGoals",
+    "name": "Expected goals",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "bigChanceCreated",
+    "name": "Big chances",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "totalShotsOnGoal",
+    "name": "Total shots",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "goalkeeperSaves",
+    "name": "Goalkeeper saves",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "cornerKicks",
+    "name": "Corner kicks",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "fouls",
+    "name": "Fouls",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "passes",
+    "name": "Passes",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "totalTackle",
+    "name": "Tackles",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "freeKicks",
+    "name": "Free kicks",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "yellowCards",
+    "name": "Yellow cards",
+    "group": "Match overview",
+    "description": null
+  },
+  {
+    "key": "shotsOnGoal",
+    "name": "Shots on target",
+    "group": "Shots",
+    "description": null
+  },
+  {
+    "key": "hitWoodwork",
+    "name": "Hit woodwork",
+    "group": "Shots",
+    "description": null
+  },
+  {
+    "key": "shotsOffGoal",
+    "name": "Shots off target",
+    "group": "Shots",
+    "description": null
+  },
+  {
+    "key": "blockedScoringAttempt",
+    "name": "Blocked shots",
+    "group": "Shots",
+    "description": null
+  },
+  {
+    "key": "totalShotsInsideBox",
+    "name": "Shots inside box",
+    "group": "Shots",
+    "description": null
+  },
+  {
+    "key": "totalShotsOutsideBox",
+    "name": "Shots outside box",
+    "group": "Shots",
+    "description": null
+  },
+  {
+    "key": "bigChanceScored",
+    "name": "Big chances scored",
+    "group": "Attack",
+    "description": null
+  },
+  {
+    "key": "bigChanceMissed",
+    "name": "Big chances missed",
+    "group": "Attack",
+    "description": null
+  },
+  {
+    "key": "accurateThroughBall",
+    "name": "Through balls",
+    "group": "Attack",
+    "description": null
+  },
+  {
+    "key": "touchesInOppBox",
+    "name": "Touches in penalty area",
+    "group": "Attack",
+    "description": null
+  },
+  {
+    "key": "fouledFinalThird",
+    "name": "Fouled in final third",
+    "group": "Attack",
+    "description": null
+  },
+  {
+    "key": "offsides",
+    "name": "Offsides",
+    "group": "Attack",
+    "description": null
+  },
+  {
+    "key": "accuratePasses",
+    "name": "Accurate passes",
+    "group": "Passes",
+    "description": null
+  },
+  {
+    "key": "throwIns",
+    "name": "Throw-ins",
+    "group": "Passes",
+    "description": null
+  },
+  {
+    "key": "finalThirdEntries",
+    "name": "Final third entries",
+    "group": "Passes",
+    "description": null
+  },
+  {
+    "key": "finalThirdPhaseStatistic",
+    "name": "Final third phase",
+    "group": "Passes",
+    "description": null
+  },
+  {
+    "key": "accurateLongBalls",
+    "name": "Long balls",
+    "group": "Passes",
+    "description": null
+  },
+  {
+    "key": "accurateCross",
+    "name": "Crosses",
+    "group": "Passes",
+    "description": null
+  },
+  {
+    "key": "duelWonPercent",
+    "name": "Duels",
+    "group": "Duels",
+    "description": null
+  },
+  {
+    "key": "dispossessed",
+    "name": "Dispossessed",
+    "group": "Duels",
+    "description": null
+  },
+  {
+    "key": "groundDuelsPercentage",
+    "name": "Ground duels",
+    "group": "Duels",
+    "description": null
+  },
+  {
+    "key": "aerialDuelsPercentage",
+    "name": "Aerial duels",
+    "group": "Duels",
+    "description": null
+  },
+  {
+    "key": "dribblesPercentage",
+    "name": "Dribbles",
+    "group": "Duels",
+    "description": null
+  },
+  {
+    "key": "wonTacklePercent",
+    "name": "Tackles won",
+    "group": "Defending",
+    "description": null
+  },
+  {
+    "key": "interceptionWon",
+    "name": "Interceptions",
+    "group": "Defending",
+    "description": null
+  },
+  {
+    "key": "ballRecovery",
+    "name": "Recoveries",
+    "group": "Defending",
+    "description": null
+  },
+  {
+    "key": "totalClearance",
+    "name": "Clearances",
+    "group": "Defending",
+    "description": null
+  },
+  {
+    "key": "goalsPrevented",
+    "name": "Goals prevented",
+    "group": "Goalkeeping",
+    "description": null
+  },
+  {
+    "key": "diveSaves",
+    "name": "Big saves",
+    "group": "Goalkeeping",
+    "description": null
+  },
+  {
+    "key": "highClaims",
+    "name": "High claims",
+    "group": "Goalkeeping",
+    "description": null
+  },
+  {
+    "key": "punches",
+    "name": "Punches",
+    "group": "Goalkeeping",
+    "description": null
+  },
+  {
+    "key": "goalKicks",
+    "name": "Goal kicks",
+    "group": "Goalkeeping",
+    "description": null
+  },
+  {
+    "key": "period",
+    "name": "Period",
+    "group": "incident",
+    "description": null
+  },
+  {
+    "key": "substitution",
+    "name": "Substitution",
+    "group": "incident",
+    "description": null
+  },
+  {
+    "key": "goal",
+    "name": "Goal",
+    "group": "incident",
+    "description": null
+  },
+  {
+    "key": "injuryTime",
+    "name": "InjuryTime",
+    "group": "incident",
+    "description": null
+  },
+  {
+    "key": "varDecision",
+    "name": "VarDecision",
+    "group": "incident",
+    "description": null
+  },
+  {
+    "key": "card",
+    "name": "Card",
+    "group": "incident",
+    "description": null
+  }
+]

@@ -1,0 +1,3584 @@
+[
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "totalPass",
+    "stat_value": 33
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "accuratePass",
+    "stat_value": 29
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "totalLongBalls",
+    "stat_value": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "goodHighClaim",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "savedShotsFromInsideTheBox",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "saves",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "touches",
+    "stat_value": 41
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "rating",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 16206,
+    "stat_key": "goalsPrevented",
+    "stat_value": 0.0344
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "totalPass",
+    "stat_value": 72
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "accuratePass",
+    "stat_value": 69
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "totalLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "aerialWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "duelLost",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "duelWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "challengeLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "dispossessed",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "onTargetScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "goals",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "totalClearance",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "interceptionWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "totalTackle",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "penaltyConceded",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "touches",
+    "stat_value": 89
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "rating",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.1654
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 906275,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.00699353
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "totalPass",
+    "stat_value": 65
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "accuratePass",
+    "stat_value": 59
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "totalLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "aerialLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "aerialWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "duelLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "duelWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "bigChanceCreated",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "shotOffTarget",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "totalClearance",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "touches",
+    "stat_value": 71
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "rating",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0605
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 126816,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.344855
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "totalPass",
+    "stat_value": 67
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "accuratePass",
+    "stat_value": 56
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "totalLongBalls",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "totalCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "accurateCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "aerialWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "duelLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "duelWon",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "totalClearance",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "totalTackle",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "fouls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "minutesPlayed",
+    "stat_value": 89
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "touches",
+    "stat_value": 83
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "rating",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 16
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 826188,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0513988
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "totalPass",
+    "stat_value": 30
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "accuratePass",
+    "stat_value": 20
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "totalLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "totalCross",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "accurateCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "duelLost",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "duelWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "challengeLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "onTargetScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "goals",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "touches",
+    "stat_value": 52
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "rating",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 19
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.2479
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 759520,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.104819
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "totalPass",
+    "stat_value": 64
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "accuratePass",
+    "stat_value": 51
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "totalLongBalls",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "totalCross",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "aerialWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "duelLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "duelWon",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "challengeLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "interceptionWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "totalTackle",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "touches",
+    "stat_value": 78
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "rating",
+    "stat_value": 7.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 19
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0311
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "keyPass",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 363856,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0602861
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "totalPass",
+    "stat_value": 59
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "accuratePass",
+    "stat_value": 52
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "totalLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "goalAssist",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "totalCross",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "accurateCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "duelLost",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "duelWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "bigChanceCreated",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "shotOffTarget",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "totalClearance",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "totalTackle",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "minutesPlayed",
+    "stat_value": 89
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "touches",
+    "stat_value": 75
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "rating",
+    "stat_value": 7.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0205
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 135700,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.259926
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "totalPass",
+    "stat_value": 49
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "accuratePass",
+    "stat_value": 41
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "aerialWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "duelLost",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "duelWon",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "totalTackle",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "fouls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "minutesPlayed",
+    "stat_value": 89
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "touches",
+    "stat_value": 60
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "rating",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 37151,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0425463
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "totalPass",
+    "stat_value": 32
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "accuratePass",
+    "stat_value": 28
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "totalLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "totalCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "duelWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "wonContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "shotOffTarget",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "onTargetScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "totalTackle",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "minutesPlayed",
+    "stat_value": 68
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "touches",
+    "stat_value": 41
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "rating",
+    "stat_value": 7.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0994
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 284361,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0103953
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "totalPass",
+    "stat_value": 27
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "accuratePass",
+    "stat_value": 22
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "accurateCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "aerialWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "duelLost",
+    "stat_value": 7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "duelWon",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "totalContest",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "wonContest",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "fouls",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "touches",
+    "stat_value": 40
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "rating",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 10
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0887
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 791702,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0518108
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "totalPass",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "accuratePass",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "aerialLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "aerialWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "duelLost",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "duelWon",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "challengeLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "totalTackle",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "minutesPlayed",
+    "stat_value": 56
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "touches",
+    "stat_value": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "rating",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 812533,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0136088
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "totalPass",
+    "stat_value": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "accuratePass",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "totalCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "accurateCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "duelLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "duelWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "wonContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "bigChanceCreated",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "minutesPlayed",
+    "stat_value": 34
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "touches",
+    "stat_value": 15
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "rating",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 249929,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.234622
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "totalPass",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "accuratePass",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "duelLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "bigChanceMissed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "minutesPlayed",
+    "stat_value": 22
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "touches",
+    "stat_value": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "rating",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.4152
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 929199,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 5.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "totalPass",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "accuratePass",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "totalLongBalls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "totalClearance",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "minutesPlayed",
+    "stat_value": 10
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "touches",
+    "stat_value": 7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "rating",
+    "stat_value": 6.6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 138605,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "totalPass",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "accuratePass",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "totalCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "duelWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "minutesPlayed",
+    "stat_value": 10
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "touches",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "rating",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 984184,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "totalPass",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "accuratePass",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "aerialWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "duelWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "bigChanceMissed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "totalOffside",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "minutesPlayed",
+    "stat_value": 10
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "touches",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "rating",
+    "stat_value": 6.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 21927,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0314658
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "totalPass",
+    "stat_value": 29
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "accuratePass",
+    "stat_value": 21
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "totalLongBalls",
+    "stat_value": 16
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "aerialWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "duelLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "duelWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "totalClearance",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "goodHighClaim",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "savedShotsFromInsideTheBox",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "saves",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "punches",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "touches",
+    "stat_value": 44
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "rating",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 10
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 913762,
+    "stat_key": "goalsPrevented",
+    "stat_value": -1.0641
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "totalPass",
+    "stat_value": 32
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "accuratePass",
+    "stat_value": 30
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "totalLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "duelLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "duelWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "totalClearance",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "interceptionWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "totalTackle",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "touches",
+    "stat_value": 47
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "rating",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0275
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 267619,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0149127
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "totalPass",
+    "stat_value": 46
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "accuratePass",
+    "stat_value": 41
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "totalLongBalls",
+    "stat_value": 7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "aerialLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "aerialWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "duelLost",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "duelWon",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "shotOffTarget",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "totalClearance",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "minutesPlayed",
+    "stat_value": 89
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "touches",
+    "stat_value": 60
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "rating",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0218
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 965828,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "totalPass",
+    "stat_value": 51
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "accuratePass",
+    "stat_value": 45
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "totalLongBalls",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "aerialWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "duelLost",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "duelWon",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "totalClearance",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "interceptionWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "totalTackle",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "fouls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "touches",
+    "stat_value": 66
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "rating",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 227864,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "totalPass",
+    "stat_value": 37
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "accuratePass",
+    "stat_value": 28
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "totalLongBalls",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "totalCross",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "duelLost",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "duelWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "challengeLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "totalContest",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "wonContest",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "totalClearance",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "outfielderBlock",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "interceptionWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "minutesPlayed",
+    "stat_value": 65
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "touches",
+    "stat_value": 70
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "rating",
+    "stat_value": 6.4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 19
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0266
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 944973,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.00541139
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "totalPass",
+    "stat_value": 48
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "accuratePass",
+    "stat_value": 46
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "totalLongBalls",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "duelLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "duelWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "challengeLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "interceptionWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "touches",
+    "stat_value": 54
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "rating",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 852404,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0246524
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "totalPass",
+    "stat_value": 54
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "accuratePass",
+    "stat_value": 49
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "totalLongBalls",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "duelLost",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "duelWon",
+    "stat_value": 5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "challengeLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "totalContest",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "wonContest",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "totalClearance",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "interceptionWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "totalTackle",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "touches",
+    "stat_value": 67
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "rating",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 937324,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.00573735
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "totalPass",
+    "stat_value": 17
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "accuratePass",
+    "stat_value": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "duelLost",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "duelWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "totalContest",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "bigChanceMissed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "shotOffTarget",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "onTargetScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "totalClearance",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "totalTackle",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "minutesPlayed",
+    "stat_value": 53
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "touches",
+    "stat_value": 30
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "rating",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.5656
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "keyPass",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 976381,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0299093
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "totalPass",
+    "stat_value": 41
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "accuratePass",
+    "stat_value": 31
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "totalLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "goalAssist",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "aerialLost",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "aerialWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "duelLost",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "duelWon",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "bigChanceCreated",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "totalClearance",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "touches",
+    "stat_value": 48
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "rating",
+    "stat_value": 7.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "keyPass",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 7.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 7
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 158615,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.602115
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "totalPass",
+    "stat_value": 27
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "accuratePass",
+    "stat_value": 23
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "totalLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "aerialLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "duelLost",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "duelWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "dispossessed",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "totalContest",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "bigChanceCreated",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "bigChanceMissed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "shotOffTarget",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "totalClearance",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "totalTackle",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "fouls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "touches",
+    "stat_value": 41
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "rating",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.3973
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 960080,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.117232
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "totalPass",
+    "stat_value": 17
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "accuratePass",
+    "stat_value": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "aerialLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "duelLost",
+    "stat_value": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "duelWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "totalContest",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "bigChanceCreated",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "onTargetScoringAttempt",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "blockedScoringAttempt",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "wasFouled",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "fouls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "minutesPlayed",
+    "stat_value": 90
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "touches",
+    "stat_value": 34
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "rating",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.0918
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "keyPass",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 877013,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.225512
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "totalPass",
+    "stat_value": 17
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "accuratePass",
+    "stat_value": 15
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "totalLongBalls",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "accurateLongBalls",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "totalCross",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "accurateCross",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "aerialLost",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "duelLost",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "duelWon",
+    "stat_value": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "dispossessed",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "onTargetScoringAttempt",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "goals",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "totalTackle",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "wasFouled",
+    "stat_value": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "minutesPlayed",
+    "stat_value": 37
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "touches",
+    "stat_value": 29
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "rating",
+    "stat_value": 8.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "expectedGoals",
+    "stat_value": 0.9638
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "keyPass",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 8.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 8.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 35428,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0498656
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "totalPass",
+    "stat_value": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "accuratePass",
+    "stat_value": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "totalCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "accurateCross",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "interceptionWon",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "minutesPlayed",
+    "stat_value": 25
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "touches",
+    "stat_value": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "rating",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "possessionLostCtrl",
+    "stat_value": 1
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "ratingVersions.original",
+    "stat_value": 6.5
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "ratingVersions.alternative",
+    "stat_value": 6.3
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 136322,
+    "stat_key": "expectedAssists",
+    "stat_value": 0.0365102
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 339231,
+    "stat_key": "goalAssist",
+    "stat_value": 0
+  },
+  {
+    "match_cust_id": 12501541,
+    "player_cust_id": 339231,
+    "stat_key": "minutesPlayed",
+    "stat_value": 1
+  }
+]

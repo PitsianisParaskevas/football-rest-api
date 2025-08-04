@@ -18,7 +18,7 @@ export async function transformHeatMap({
       result.push({
         match_cust_id,
         player_cust_id: player.id,
-        details_json: data ?? {},
+        details_json: data.heatmap ?? {},
       });
     } catch (err: any) {
       if (err?.response?.status === 404) {

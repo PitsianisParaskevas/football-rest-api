@@ -1,0 +1,2482 @@
+[
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "ballPossession",
+    "phase": "ALL",
+    "value": 56,
+    "display": "56%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "ballPossession",
+    "phase": "ALL",
+    "value": 44,
+    "display": "44%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "expectedGoals",
+    "phase": "ALL",
+    "value": 1.13,
+    "display": "1.13",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "expectedGoals",
+    "phase": "ALL",
+    "value": 2.09,
+    "display": "2.09",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceCreated",
+    "phase": "ALL",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceCreated",
+    "phase": "ALL",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "ALL",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "ALL",
+    "value": 12,
+    "display": "12",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalkeeperSaves",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalkeeperSaves",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "cornerKicks",
+    "phase": "ALL",
+    "value": 5,
+    "display": "5",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "cornerKicks",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "fouls",
+    "phase": "ALL",
+    "value": 14,
+    "display": "14",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "fouls",
+    "phase": "ALL",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "passes",
+    "phase": "ALL",
+    "value": 530,
+    "display": "530",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "passes",
+    "phase": "ALL",
+    "value": 425,
+    "display": "425",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalTackle",
+    "phase": "ALL",
+    "value": 15,
+    "display": "15",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalTackle",
+    "phase": "ALL",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "freeKicks",
+    "phase": "ALL",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "freeKicks",
+    "phase": "ALL",
+    "value": 13,
+    "display": "13",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "yellowCards",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "yellowCards",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "ALL",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "ALL",
+    "value": 12,
+    "display": "12",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "shotsOnGoal",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "shotsOnGoal",
+    "phase": "ALL",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "hitWoodwork",
+    "phase": "ALL",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "hitWoodwork",
+    "phase": "ALL",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "shotsOffGoal",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "shotsOffGoal",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "blockedScoringAttempt",
+    "phase": "ALL",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "blockedScoringAttempt",
+    "phase": "ALL",
+    "value": 5,
+    "display": "5",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsInsideBox",
+    "phase": "ALL",
+    "value": 8,
+    "display": "8",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsInsideBox",
+    "phase": "ALL",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOutsideBox",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOutsideBox",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceScored",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceScored",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceMissed",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceMissed",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateThroughBall",
+    "phase": "ALL",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateThroughBall",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "touchesInOppBox",
+    "phase": "ALL",
+    "value": 33,
+    "display": "33",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "touchesInOppBox",
+    "phase": "ALL",
+    "value": 17,
+    "display": "17",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "fouledFinalThird",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "fouledFinalThird",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "offsides",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "offsides",
+    "phase": "ALL",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accuratePasses",
+    "phase": "ALL",
+    "value": 454,
+    "display": "454",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accuratePasses",
+    "phase": "ALL",
+    "value": 361,
+    "display": "361",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "throwIns",
+    "phase": "ALL",
+    "value": 19,
+    "display": "19",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "throwIns",
+    "phase": "ALL",
+    "value": 12,
+    "display": "12",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "finalThirdEntries",
+    "phase": "ALL",
+    "value": 54,
+    "display": "54",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "finalThirdEntries",
+    "phase": "ALL",
+    "value": 33,
+    "display": "33",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "finalThirdPhaseStatistic",
+    "phase": "ALL",
+    "value": 95,
+    "display": "95/140 (68%)",
+    "total": 140
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "finalThirdPhaseStatistic",
+    "phase": "ALL",
+    "value": 51,
+    "display": "51/67 (76%)",
+    "total": 67
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateLongBalls",
+    "phase": "ALL",
+    "value": 15,
+    "display": "15/35 (43%)",
+    "total": 35
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateLongBalls",
+    "phase": "ALL",
+    "value": 34,
+    "display": "34/58 (59%)",
+    "total": 58
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateCross",
+    "phase": "ALL",
+    "value": 7,
+    "display": "7/24 (29%)",
+    "total": 24
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateCross",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3/11 (27%)",
+    "total": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "duelWonPercent",
+    "phase": "ALL",
+    "value": 55,
+    "display": "55%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "duelWonPercent",
+    "phase": "ALL",
+    "value": 45,
+    "display": "45%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "dispossessed",
+    "phase": "ALL",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "dispossessed",
+    "phase": "ALL",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "groundDuelsPercentage",
+    "phase": "ALL",
+    "value": 28,
+    "display": "28/55 (51%)",
+    "total": 55
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "groundDuelsPercentage",
+    "phase": "ALL",
+    "value": 27,
+    "display": "27/55 (49%)",
+    "total": 55
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "aerialDuelsPercentage",
+    "phase": "ALL",
+    "value": 14,
+    "display": "14/21 (67%)",
+    "total": 21
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "aerialDuelsPercentage",
+    "phase": "ALL",
+    "value": 7,
+    "display": "7/21 (33%)",
+    "total": 21
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "dribblesPercentage",
+    "phase": "ALL",
+    "value": 4,
+    "display": "4/8 (50%)",
+    "total": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "dribblesPercentage",
+    "phase": "ALL",
+    "value": 4,
+    "display": "4/13 (31%)",
+    "total": 13
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "wonTacklePercent",
+    "phase": "ALL",
+    "value": 6,
+    "display": "40%",
+    "total": 15
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "wonTacklePercent",
+    "phase": "ALL",
+    "value": 5,
+    "display": "50%",
+    "total": 10
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalTackle",
+    "phase": "ALL",
+    "value": 15,
+    "display": "15",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalTackle",
+    "phase": "ALL",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "interceptionWon",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "interceptionWon",
+    "phase": "ALL",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "ballRecovery",
+    "phase": "ALL",
+    "value": 51,
+    "display": "51",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "ballRecovery",
+    "phase": "ALL",
+    "value": 57,
+    "display": "57",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalClearance",
+    "phase": "ALL",
+    "value": 8,
+    "display": "8",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalClearance",
+    "phase": "ALL",
+    "value": 26,
+    "display": "26",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalkeeperSaves",
+    "phase": "ALL",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalkeeperSaves",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalsPrevented",
+    "phase": "ALL",
+    "value": 0.0344,
+    "display": "0.03",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalsPrevented",
+    "phase": "ALL",
+    "value": -1.0641,
+    "display": "-1.06",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "diveSaves",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "diveSaves",
+    "phase": "ALL",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "highClaims",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "highClaims",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "punches",
+    "phase": "ALL",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "punches",
+    "phase": "ALL",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalKicks",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalKicks",
+    "phase": "ALL",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "ballPossession",
+    "phase": "1ST",
+    "value": 62,
+    "display": "62%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "ballPossession",
+    "phase": "1ST",
+    "value": 38,
+    "display": "38%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "expectedGoals",
+    "phase": "1ST",
+    "value": 0.41,
+    "display": "0.41",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "expectedGoals",
+    "phase": "1ST",
+    "value": 0.61,
+    "display": "0.61",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceCreated",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceCreated",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "1ST",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalkeeperSaves",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalkeeperSaves",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "cornerKicks",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "cornerKicks",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "passes",
+    "phase": "1ST",
+    "value": 331,
+    "display": "331",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "passes",
+    "phase": "1ST",
+    "value": 203,
+    "display": "203",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalTackle",
+    "phase": "1ST",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalTackle",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "freeKicks",
+    "phase": "1ST",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "freeKicks",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "yellowCards",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "yellowCards",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "1ST",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "shotsOnGoal",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "shotsOnGoal",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "hitWoodwork",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "hitWoodwork",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "shotsOffGoal",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "shotsOffGoal",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "blockedScoringAttempt",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "blockedScoringAttempt",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsInsideBox",
+    "phase": "1ST",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsInsideBox",
+    "phase": "1ST",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOutsideBox",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOutsideBox",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceScored",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceScored",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceMissed",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceMissed",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateThroughBall",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateThroughBall",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "fouledFinalThird",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "fouledFinalThird",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "offsides",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "offsides",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accuratePasses",
+    "phase": "1ST",
+    "value": 292,
+    "display": "292",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accuratePasses",
+    "phase": "1ST",
+    "value": 170,
+    "display": "170",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "throwIns",
+    "phase": "1ST",
+    "value": 10,
+    "display": "10",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "throwIns",
+    "phase": "1ST",
+    "value": 8,
+    "display": "8",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "finalThirdEntries",
+    "phase": "1ST",
+    "value": 37,
+    "display": "37",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "finalThirdEntries",
+    "phase": "1ST",
+    "value": 12,
+    "display": "12",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateLongBalls",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6/14 (43%)",
+    "total": 14
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateLongBalls",
+    "phase": "1ST",
+    "value": 15,
+    "display": "15/27 (56%)",
+    "total": 27
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateCross",
+    "phase": "1ST",
+    "value": 3,
+    "display": "3/12 (25%)",
+    "total": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateCross",
+    "phase": "1ST",
+    "value": 0,
+    "display": "0/3 (0%)",
+    "total": 3
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "duelWonPercent",
+    "phase": "1ST",
+    "value": 51,
+    "display": "51%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "duelWonPercent",
+    "phase": "1ST",
+    "value": 49,
+    "display": "49%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "dispossessed",
+    "phase": "1ST",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "dispossessed",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "groundDuelsPercentage",
+    "phase": "1ST",
+    "value": 14,
+    "display": "14/30 (47%)",
+    "total": 30
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "groundDuelsPercentage",
+    "phase": "1ST",
+    "value": 16,
+    "display": "16/30 (53%)",
+    "total": 30
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "aerialDuelsPercentage",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6/9 (67%)",
+    "total": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "aerialDuelsPercentage",
+    "phase": "1ST",
+    "value": 3,
+    "display": "3/9 (33%)",
+    "total": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "dribblesPercentage",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2/4 (50%)",
+    "total": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "dribblesPercentage",
+    "phase": "1ST",
+    "value": 4,
+    "display": "4/11 (36%)",
+    "total": 11
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "wonTacklePercent",
+    "phase": "1ST",
+    "value": 3,
+    "display": "33%",
+    "total": 9
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "wonTacklePercent",
+    "phase": "1ST",
+    "value": 3,
+    "display": "50%",
+    "total": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalTackle",
+    "phase": "1ST",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalTackle",
+    "phase": "1ST",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "interceptionWon",
+    "phase": "1ST",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "interceptionWon",
+    "phase": "1ST",
+    "value": 7,
+    "display": "7",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "ballRecovery",
+    "phase": "1ST",
+    "value": 24,
+    "display": "24",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "ballRecovery",
+    "phase": "1ST",
+    "value": 25,
+    "display": "25",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalClearance",
+    "phase": "1ST",
+    "value": 5,
+    "display": "5",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalClearance",
+    "phase": "1ST",
+    "value": 18,
+    "display": "18",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalkeeperSaves",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalkeeperSaves",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalKicks",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalKicks",
+    "phase": "1ST",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "ballPossession",
+    "phase": "2ND",
+    "value": 48,
+    "display": "48%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "ballPossession",
+    "phase": "2ND",
+    "value": 52,
+    "display": "52%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "expectedGoals",
+    "phase": "2ND",
+    "value": 0.72,
+    "display": "0.72",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "expectedGoals",
+    "phase": "2ND",
+    "value": 1.49,
+    "display": "1.49",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceCreated",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceCreated",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "2ND",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalkeeperSaves",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalkeeperSaves",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "cornerKicks",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "cornerKicks",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "passes",
+    "phase": "2ND",
+    "value": 199,
+    "display": "199",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "passes",
+    "phase": "2ND",
+    "value": 222,
+    "display": "222",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalTackle",
+    "phase": "2ND",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalTackle",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "freeKicks",
+    "phase": "2ND",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "freeKicks",
+    "phase": "2ND",
+    "value": 7,
+    "display": "7",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "yellowCards",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "yellowCards",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOnGoal",
+    "phase": "2ND",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "shotsOnGoal",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "shotsOnGoal",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "hitWoodwork",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "hitWoodwork",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "shotsOffGoal",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "shotsOffGoal",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "blockedScoringAttempt",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "blockedScoringAttempt",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsInsideBox",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsInsideBox",
+    "phase": "2ND",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalShotsOutsideBox",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalShotsOutsideBox",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceScored",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceScored",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "bigChanceMissed",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "bigChanceMissed",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateThroughBall",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateThroughBall",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "fouledFinalThird",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "fouledFinalThird",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "offsides",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "offsides",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accuratePasses",
+    "phase": "2ND",
+    "value": 162,
+    "display": "162",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accuratePasses",
+    "phase": "2ND",
+    "value": 191,
+    "display": "191",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "throwIns",
+    "phase": "2ND",
+    "value": 9,
+    "display": "9",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "throwIns",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "finalThirdEntries",
+    "phase": "2ND",
+    "value": 17,
+    "display": "17",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "finalThirdEntries",
+    "phase": "2ND",
+    "value": 21,
+    "display": "21",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateLongBalls",
+    "phase": "2ND",
+    "value": 9,
+    "display": "9/21 (43%)",
+    "total": 21
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateLongBalls",
+    "phase": "2ND",
+    "value": 19,
+    "display": "19/31 (61%)",
+    "total": 31
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "accurateCross",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4/12 (33%)",
+    "total": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "accurateCross",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3/8 (38%)",
+    "total": 8
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "duelWonPercent",
+    "phase": "2ND",
+    "value": 59,
+    "display": "59%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "duelWonPercent",
+    "phase": "2ND",
+    "value": 41,
+    "display": "41%",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "dispossessed",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "dispossessed",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "groundDuelsPercentage",
+    "phase": "2ND",
+    "value": 14,
+    "display": "14/25 (56%)",
+    "total": 25
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "groundDuelsPercentage",
+    "phase": "2ND",
+    "value": 11,
+    "display": "11/25 (44%)",
+    "total": 25
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "aerialDuelsPercentage",
+    "phase": "2ND",
+    "value": 8,
+    "display": "8/12 (67%)",
+    "total": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "aerialDuelsPercentage",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4/12 (33%)",
+    "total": 12
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "dribblesPercentage",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2/4 (50%)",
+    "total": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "dribblesPercentage",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0/2 (0%)",
+    "total": 2
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "wonTacklePercent",
+    "phase": "2ND",
+    "value": 3,
+    "display": "50%",
+    "total": 6
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "wonTacklePercent",
+    "phase": "2ND",
+    "value": 2,
+    "display": "50%",
+    "total": 4
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalTackle",
+    "phase": "2ND",
+    "value": 6,
+    "display": "6",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalTackle",
+    "phase": "2ND",
+    "value": 4,
+    "display": "4",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "interceptionWon",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "interceptionWon",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "ballRecovery",
+    "phase": "2ND",
+    "value": 27,
+    "display": "27",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "ballRecovery",
+    "phase": "2ND",
+    "value": 32,
+    "display": "32",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "totalClearance",
+    "phase": "2ND",
+    "value": 3,
+    "display": "3",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "totalClearance",
+    "phase": "2ND",
+    "value": 8,
+    "display": "8",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalkeeperSaves",
+    "phase": "2ND",
+    "value": 1,
+    "display": "1",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalkeeperSaves",
+    "phase": "2ND",
+    "value": 0,
+    "display": "0",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2697,
+    "team_side": "home",
+    "stat_key": "goalKicks",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  },
+  {
+    "match_cust_id": 12501541,
+    "team_cust_id": 2699,
+    "team_side": "away",
+    "stat_key": "goalKicks",
+    "phase": "2ND",
+    "value": 2,
+    "display": "2",
+    "total": null
+  }
+]
