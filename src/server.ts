@@ -12,6 +12,7 @@ import playerTeamHistoryRoutes from "./routes/playerTeamHistory";
 import playerMarketValueRoutes from "./routes/playerMarketValue";
 import metadataStatisticsRoutes from "@/routes/metadataStatistics";
 import matchResultRoutes from "@/routes/matchResult";
+import matchResultScenarioRoutes from "@/routes/matchResultScenarios";
 
 import { errorHandler } from "./middlewares/errorHandler";
 
@@ -35,7 +36,7 @@ app.use("/player-team-history", playerTeamHistoryRoutes);
 app.use("/player-market-values", playerMarketValueRoutes);
 app.use("/metadata-statistics", metadataStatisticsRoutes);
 app.use("/match-results", matchResultRoutes);
-
+app.use("/match-result-scenarios", matchResultScenarioRoutes);
 
 // Health check
 app.get("/health", (_req, res) => {
