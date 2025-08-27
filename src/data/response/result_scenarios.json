@@ -1,92 +1,56 @@
 [
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 1
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 3
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 6
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 11
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2699,
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
     "team_side": "away",
-    "scenario_id": 11
+    "scenario_id": 2
   },
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 12
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
+    "team_side": "away",
+    "scenario_id": 4
   },
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2699,
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
+    "team_side": "away",
+    "scenario_id": 7
+  },
+  {
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
     "team_side": "away",
     "scenario_id": 13
   },
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 14
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 16
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2699,
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
     "team_side": "away",
-    "scenario_id": 16
+    "scenario_id": 15
   },
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 19
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2699,
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
     "team_side": "away",
-    "scenario_id": 19
+    "scenario_id": 18
   },
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 20
-  },
-  {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2699,
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
     "team_side": "away",
-    "scenario_id": 20
+    "scenario_id": 23
   },
   {
-    "match_cust_id": 12501541,
-    "team_cust_id": 2697,
-    "team_side": "home",
-    "scenario_id": 28
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
+    "team_side": "away",
+    "scenario_id": 27
+  },
+  {
+    "match_cust_id": 12436880,
+    "team_cust_id": 17,
+    "team_side": "away",
+    "scenario_id": 29
   }
 ]

@@ -1,359 +1,319 @@
 [
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 16206,
+    "match_cust_id": 12436880,
+    "player_cust_id": 920546,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
     "rating": 6.9
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 906275,
+    "match_cust_id": 12436880,
+    "player_cust_id": 996958,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
-    "rating": 7.1
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 126816,
-    "starter": true,
-    "substitute": false,
-    "minutes_played": 90,
-    "rating": 7.1
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 826188,
-    "starter": true,
-    "substitute": true,
-    "minutes_played": 89,
-    "rating": 6.7
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 759520,
-    "starter": true,
-    "substitute": false,
-    "minutes_played": 90,
-    "rating": 7.1
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 363856,
-    "starter": true,
-    "substitute": false,
-    "minutes_played": 90,
-    "rating": 7.2
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 135700,
-    "starter": true,
-    "substitute": true,
-    "minutes_played": 89,
-    "rating": 7.3
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 37151,
-    "starter": true,
-    "substitute": true,
-    "minutes_played": 89,
-    "rating": 6.7
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 284361,
-    "starter": true,
-    "substitute": true,
-    "minutes_played": 68,
-    "rating": 7.2
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 791702,
-    "starter": true,
-    "substitute": false,
-    "minutes_played": 90,
-    "rating": 6.8
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 812533,
-    "starter": true,
-    "substitute": true,
-    "minutes_played": 56,
-    "rating": 6.7
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 249929,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 34,
-    "rating": 6.9
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 929199,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 22,
-    "rating": 6
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 138605,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 10,
-    "rating": 6.6
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 984184,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 10,
-    "rating": 6.7
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 21927,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 10,
     "rating": 6.1
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 845291,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 301162,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 91046,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 787505,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 19352,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 996820,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 1215062,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": null,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 913762,
+    "match_cust_id": 12436880,
+    "player_cust_id": 923894,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
-    "rating": 6.9
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 267619,
-    "starter": true,
-    "substitute": false,
-    "minutes_played": 90,
-    "rating": 6.7
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 965828,
-    "starter": true,
-    "substitute": true,
-    "minutes_played": 89,
     "rating": 6.5
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 227864,
+    "match_cust_id": 12436880,
+    "player_cust_id": 996911,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
     "rating": 6.9
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 944973,
+    "match_cust_id": 12436880,
+    "player_cust_id": 794939,
     "starter": true,
     "substitute": true,
-    "minutes_played": 65,
-    "rating": 6.4
+    "minutes_played": 80,
+    "rating": 7
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 852404,
+    "match_cust_id": 12436880,
+    "player_cust_id": 987650,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 6.9
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 1069488,
+    "starter": true,
+    "substitute": true,
+    "minutes_played": 66,
+    "rating": 7.3
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 982780,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
     "rating": 6.8
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 937324,
+    "match_cust_id": 12436880,
+    "player_cust_id": 974505,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
-    "rating": 7.1
+    "rating": 7.2
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 976381,
+    "match_cust_id": 12436880,
+    "player_cust_id": 769333,
     "starter": true,
     "substitute": true,
-    "minutes_played": 53,
+    "minutes_played": 58,
+    "rating": 6.9
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 1085381,
+    "starter": true,
+    "substitute": true,
+    "minutes_played": 66,
     "rating": 6.5
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 158615,
+    "match_cust_id": 12436880,
+    "player_cust_id": 879349,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": 32,
+    "rating": 6.8
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 861970,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": 24,
+    "rating": 6.6
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 1414933,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": 24,
+    "rating": 6.3
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 1087359,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": 10,
+    "rating": 6.4
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 962053,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": null,
+    "rating": null
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 352668,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": null,
+    "rating": null
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 904827,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": null,
+    "rating": null
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 958966,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": null,
+    "rating": null
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 966547,
+    "starter": false,
+    "substitute": true,
+    "minutes_played": null,
+    "rating": null
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 254491,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
     "rating": 7.3
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 960080,
+    "match_cust_id": 12436880,
+    "player_cust_id": 383560,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
-    "rating": 6.5
+    "rating": 7.2
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 877013,
+    "match_cust_id": 12436880,
+    "player_cust_id": 318941,
     "starter": true,
     "substitute": false,
     "minutes_played": 90,
-    "rating": 6.9
+    "rating": 7.2
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 35428,
+    "match_cust_id": 12436880,
+    "player_cust_id": 964994,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 7.6
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 1136731,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 6.6
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 136710,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 7.5
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 934386,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 7.9
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 331209,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 7.5
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 70996,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 7.4
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 1046795,
+    "starter": true,
+    "substitute": true,
+    "minutes_played": 45,
+    "rating": 7.4
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 839956,
+    "starter": true,
+    "substitute": false,
+    "minutes_played": 90,
+    "rating": 7.4
+  },
+  {
+    "match_cust_id": 12436880,
+    "player_cust_id": 859765,
     "starter": false,
     "substitute": true,
-    "minutes_played": 37,
-    "rating": 8.5
+    "minutes_played": 45,
+    "rating": 7
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 136322,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 25,
-    "rating": 6.5
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 339231,
-    "starter": false,
-    "substitute": true,
-    "minutes_played": 1,
-    "rating": null
-  },
-  {
-    "match_cust_id": 12501541,
-    "player_cust_id": 984095,
+    "match_cust_id": 12436880,
+    "player_cust_id": 125274,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 308182,
+    "match_cust_id": 12436880,
+    "player_cust_id": 149663,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 1160559,
+    "match_cust_id": 12436880,
+    "player_cust_id": 44614,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 910121,
+    "match_cust_id": 12436880,
+    "player_cust_id": 152077,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 1389689,
+    "match_cust_id": 12436880,
+    "player_cust_id": 1003334,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 798002,
+    "match_cust_id": 12436880,
+    "player_cust_id": 945122,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 1069244,
+    "match_cust_id": 12436880,
+    "player_cust_id": 189061,
     "starter": false,
     "substitute": true,
     "minutes_played": null,
     "rating": null
   },
   {
-    "match_cust_id": 12501541,
-    "player_cust_id": 1004505,
+    "match_cust_id": 12436880,
+    "player_cust_id": 1142703,
     "starter": false,
     "substitute": true,
     "minutes_played": null,

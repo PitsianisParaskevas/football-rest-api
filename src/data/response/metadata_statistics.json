@@ -30,6 +30,18 @@
     "description": null
   },
   {
+    "key": "duelWon",
+    "name": "player_stat_duelWon",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "wasFouled",
+    "name": "player_stat_wasFouled",
+    "group": "general",
+    "description": null
+  },
+  {
     "key": "goodHighClaim",
     "name": "player_stat_goodHighClaim",
     "group": "general",
@@ -44,6 +56,18 @@
   {
     "key": "saves",
     "name": "player_stat_saves",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalKeeperSweeper",
+    "name": "player_stat_totalKeeperSweeper",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "accurateKeeperSweeper",
+    "name": "player_stat_accurateKeeperSweeper",
     "group": "general",
     "description": null
   },
@@ -90,26 +114,20 @@
     "description": null
   },
   {
+    "key": "totalCross",
+    "name": "player_stat_totalCross",
+    "group": "general",
+    "description": null
+  },
+  {
     "key": "aerialLost",
     "name": "player_stat_aerialLost",
     "group": "general",
     "description": null
   },
   {
-    "key": "aerialWon",
-    "name": "player_stat_aerialWon",
-    "group": "general",
-    "description": null
-  },
-  {
     "key": "duelLost",
     "name": "player_stat_duelLost",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "duelWon",
-    "name": "player_stat_duelWon",
     "group": "general",
     "description": null
   },
@@ -126,20 +144,50 @@
     "description": null
   },
   {
-    "key": "onTargetScoringAttempt",
-    "name": "player_stat_onTargetScoringAttempt",
+    "key": "totalContest",
+    "name": "player_stat_totalContest",
     "group": "general",
     "description": null
   },
   {
-    "key": "goals",
-    "name": "player_stat_goals",
+    "key": "wonContest",
+    "name": "player_stat_wonContest",
     "group": "general",
     "description": null
   },
   {
     "key": "totalClearance",
     "name": "player_stat_totalClearance",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "totalTackle",
+    "name": "player_stat_totalTackle",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "errorLeadToAShot",
+    "name": "player_stat_errorLeadToAShot",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "fouls",
+    "name": "player_stat_fouls",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "expectedAssists",
+    "name": "player_stat_expectedAssists",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "shotOffTarget",
+    "name": "player_stat_shotOffTarget",
     "group": "general",
     "description": null
   },
@@ -156,56 +204,14 @@
     "description": null
   },
   {
-    "key": "totalTackle",
-    "name": "player_stat_totalTackle",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "penaltyConceded",
-    "name": "player_stat_penaltyConceded",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "fouls",
-    "name": "player_stat_fouls",
-    "group": "general",
-    "description": null
-  },
-  {
     "key": "expectedGoals",
     "name": "player_stat_expectedGoals",
     "group": "general",
     "description": null
   },
   {
-    "key": "expectedAssists",
-    "name": "player_stat_expectedAssists",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "bigChanceCreated",
-    "name": "player_stat_bigChanceCreated",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "shotOffTarget",
-    "name": "player_stat_shotOffTarget",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "keyPass",
-    "name": "player_stat_keyPass",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "totalCross",
-    "name": "player_stat_totalCross",
+    "key": "lastManTackle",
+    "name": "player_stat_lastManTackle",
     "group": "general",
     "description": null
   },
@@ -216,26 +222,32 @@
     "description": null
   },
   {
-    "key": "wasFouled",
-    "name": "player_stat_wasFouled",
-    "group": "general",
-    "description": null
-  },
-  {
-    "key": "totalContest",
-    "name": "player_stat_totalContest",
-    "group": "general",
-    "description": null
-  },
-  {
     "key": "blockedScoringAttempt",
     "name": "player_stat_blockedScoringAttempt",
     "group": "general",
     "description": null
   },
   {
-    "key": "wonContest",
-    "name": "player_stat_wonContest",
+    "key": "keyPass",
+    "name": "player_stat_keyPass",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "aerialWon",
+    "name": "player_stat_aerialWon",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "bigChanceCreated",
+    "name": "player_stat_bigChanceCreated",
+    "group": "general",
+    "description": null
+  },
+  {
+    "key": "onTargetScoringAttempt",
+    "name": "player_stat_onTargetScoringAttempt",
     "group": "general",
     "description": null
   },
@@ -252,8 +264,8 @@
     "description": null
   },
   {
-    "key": "punches",
-    "name": "player_stat_punches",
+    "key": "goals",
+    "name": "player_stat_goals",
     "group": "general",
     "description": null
   },
@@ -486,6 +498,12 @@
     "description": null
   },
   {
+    "key": "errorsLeadToShot",
+    "name": "Errors lead to a shot",
+    "group": "Defending",
+    "description": null
+  },
+  {
     "key": "goalsPrevented",
     "name": "Goals prevented",
     "group": "Goalkeeping",
@@ -504,12 +522,6 @@
     "description": null
   },
   {
-    "key": "punches",
-    "name": "Punches",
-    "group": "Goalkeeping",
-    "description": null
-  },
-  {
     "key": "goalKicks",
     "name": "Goal kicks",
     "group": "Goalkeeping",
@@ -522,8 +534,14 @@
     "description": null
   },
   {
-    "key": "substitution",
-    "name": "Substitution",
+    "key": "injuryTime",
+    "name": "InjuryTime",
+    "group": "incident",
+    "description": null
+  },
+  {
+    "key": "card",
+    "name": "Card",
     "group": "incident",
     "description": null
   },
@@ -534,20 +552,8 @@
     "description": null
   },
   {
-    "key": "injuryTime",
-    "name": "InjuryTime",
-    "group": "incident",
-    "description": null
-  },
-  {
-    "key": "varDecision",
-    "name": "VarDecision",
-    "group": "incident",
-    "description": null
-  },
-  {
-    "key": "card",
-    "name": "Card",
+    "key": "substitution",
+    "name": "Substitution",
     "group": "incident",
     "description": null
   }

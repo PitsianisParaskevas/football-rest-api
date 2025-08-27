@@ -1,13 +1,13 @@
 [
   {
-    "match_cust_id": 12501541,
-    "home_score_ft": 2,
+    "match_cust_id": 12436880,
+    "home_score_ft": 0,
     "away_score_ft": 2,
-    "home_score_ht": 1,
-    "away_score_ht": 0,
-    "home_formation": "3-5-2",
-    "away_formation": "4-2-3-1",
-    "home_result": "draw",
-    "away_result": "draw"
+    "home_score_ht": 0,
+    "away_score_ht": 1,
+    "home_formation": "4-2-3-1",
+    "away_formation": "3-2-4-1",
+    "home_result": "loss",
+    "away_result": "win"
   }
 ]
