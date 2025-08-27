@@ -1,3 +1,4 @@
+// src/controllers/matchResultScenarios.ts
 import type { RequestHandler } from "express";
 import { pool } from "../db/client";
 import { BadRequestError } from "@/errors/BadRequestError";
@@ -75,9 +76,9 @@ async function findExistingKeys(items: MatchResultScenarioCreate[]): Promise<Set
   if (!items.length) return new Set();
   const params: any[] = [];
   const tuples = items.map((it, i) => {
-    const base = i * 3;
+    const b = i * 3;
     params.push(it.match_cust_id, it.scenario_id, it.team_side);
-    return `($${base + 1}, $${base + 2}, $${base + 3})`;
+    return `($${b+1}, $${b+2}, $${b+3})`;
   }).join(", ");
 
   const { rows } = await pool.query<{ match_cust_id: string; scenario_id: string; team_side: string }>(
@@ -89,7 +90,7 @@ async function findExistingKeys(items: MatchResultScenarioCreate[]): Promise<Set
   return new Set(rows.map(r => `${r.match_cust_id}:${r.scenario_id}:${r.team_side}`));
 }
 
-// -------- Controllers (typed RequestHandler) --------
+// -------- Controllers --------
 export const listAll: RequestHandler = async (_req, res, next) => {
   try {
     const { rows } = await pool.query<MatchResultScenarioRow>(
@@ -131,9 +132,9 @@ export const getById: RequestHandler = async (req, res, next) => {
 export const createMany: RequestHandler = async (req, res, next) => {
   try {
     const payload = normalizeCreate(req.body);
+
     await assertFKs(payload);
 
-    // report which rows already exist (composite unique)
     const existingSet = await findExistingKeys(payload);
     const toInsert = payload.filter(p => !existingSet.has(keyOf(p)));
 
@@ -167,11 +168,7 @@ export const createMany: RequestHandler = async (req, res, next) => {
   } catch (e) { next(e); }
 };
 
-/**
- * Update by id — change only scenario_id.
- * Body: { "scenario_id": number }
- * Ensures FK exists and UNIQUE(match_cust_id, scenario_id, team_side) not violated.
- */
+/** Update by id — change only scenario_id (your stated need). */
 export const updateById: RequestHandler = async (req, res, next) => {
   try {
     const id = Number(req.params.id);
