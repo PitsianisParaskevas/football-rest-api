@@ -19,6 +19,18 @@ const clearAllTables = async () => {
     "teams",
     "tournaments",
     "scenarios",
+    "players",
+    "player_team_history",
+    "player_market_value",
+    "metadata_statistics",
+    "match_result",
+    "match_result_scenarios",
+    "match_stats",
+    "match_incidents",
+    "match_player_info",
+    "match_player_stats",
+    "match_player_shot",
+    "match_player_heatmap",
   ]; // your actual tables, in correct FK order
 
   console.log(`🧹 Starting to clear tables in database: ${dbName}`);
