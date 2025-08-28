@@ -1,22 +1,19 @@
-// src/routes/matchStats.ts
 import { Router } from "express";
 import {
   getAllMatchStats,
-  getByIDMatchStats,
+  getMatchStatsById,
   createMatchStats,
-  editeMatchStats,
+  updateMatchStats,
   deleteMatchStats,
-} from "../controllers/matchStats";
+} from "@/controllers/matchStats";
+import { asyncHandler } from "@/utils/asyncHandler";
 
 const router = Router();
 
-router.get("/", getAllMatchStats);
-router.get("/:match_cust_id/:team_cust_id/:stat_key/:phase", getByIDMatchStats);
-router.post("/", createMatchStats);
-router.put("/:match_cust_id/:team_cust_id/:stat_key/:phase", editeMatchStats);
-router.delete(
-  "/:match_cust_id/:team_cust_id/:stat_key/:phase",
-  deleteMatchStats
-);
+router.get("/", asyncHandler(getAllMatchStats));
+router.get("/:id", asyncHandler(getMatchStatsById));
+router.post("/", asyncHandler(createMatchStats));
+router.put("/:id", asyncHandler(updateMatchStats));
+router.delete("/:id", asyncHandler(deleteMatchStats));
 
 export default router;
