@@ -17,6 +17,7 @@ import matchStatsRoutes from "@/routes/matchStats";
 import matchIncidetnsRoutes from "@/routes/matchIncidetns";
 import matchPlayerInfoRoutes from "@/routes/matchPlayerInfo";
 import matchPlayerStatsRoutes from "@/routes/matchPlayerStats";
+import matchPlayerShotRoutes from "@/routes/MatchPlayerShot";
 
 import { errorHandler } from "./middlewares/errorHandler";
 
@@ -45,6 +46,7 @@ app.use("/match-stats", matchStatsRoutes);
 app.use("/match-incidents", matchIncidetnsRoutes);
 app.use("/match-player-info", matchPlayerInfoRoutes);
 app.use("/match-player-stats", matchPlayerStatsRoutes);
+app.use("/match-player-shot", matchPlayerShotRoutes);
 
 // Health check
 app.get("/health", (_req, res) => {
