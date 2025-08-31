@@ -1,10 +1,12 @@
 import { useState } from "react";
 import GetGeneralData from "./pages/GetGeneralData";
 import GetMatchDayData from "./pages/GetMatchDayData";
+import ImportRound from "./pages/ImportRound";
+
 import "./App.css";
 
 function App() {
-  const [activeSection, setActiveSection] = useState("matchday");
+  const [activeSection, setActiveSection] = useState("general");
 
   const renderSection = () => {
     switch (activeSection) {
@@ -12,6 +14,8 @@ function App() {
         return <GetGeneralData />;
       case "matchday":
         return <GetMatchDayData />;
+      case "round":
+        return <ImportRound />;
       default:
         return null;
     }
@@ -28,17 +32,19 @@ function App() {
         >
           Get General Data
         </button>
-        <button
-          onClick={() => setActiveSection("import")}
-          className={activeSection === "import" ? "active-button" : ""}
-        >
-          Import General Data
-        </button>
+
         <button
           onClick={() => setActiveSection("matchday")}
           className={activeSection === "matchday" ? "active-button" : ""}
         >
           Get Match Day Data
+        </button>
+
+        <button
+          onClick={() => setActiveSection("round")}
+          className={activeSection === "round" ? "active-button" : ""}
+        >
+          Import Round{" "}
         </button>
       </div>
 

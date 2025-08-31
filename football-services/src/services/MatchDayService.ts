@@ -1,5 +1,4 @@
-// https://www.sofascore.com/football/match/bournemouth-leicester-city/Gskb#id:12436536
-
+// src/services/MatchDayService.ts
 import type { MatchDayData } from "../types/MatchDayData";
 import type { MatchResultRow } from "../types/MatchTables";
 
@@ -15,27 +14,68 @@ import { transformMatchResultScenarios } from "../functions/transformMatchResult
 import { transformShotMap } from "../functions/transformShotMap";
 import { transformHeatMap } from "../functions/transformHeatMap";
 
+type CtorArg = number | string | { id: number } | { url: string };
+
 export class MatchDayService {
-  private inputUrl: string;
   private matchId: number;
   private baseUrl: string;
 
-  constructor(inputUrl: string) {
-    this.inputUrl = inputUrl;
-
-    const { id } = extractSofaIdsMatchDay(inputUrl);
-    if (!id) {
-      throw new Error("❌ Invalid Sofascore Match URL: could not extract ID.");
-    }
-
+  // Overloads (προαιρετικά, βοηθούν το TS)
+  constructor(id: number);
+  constructor(url: string);
+  constructor(opts: { id: number } | { url: string });
+  constructor(arg: CtorArg) {
+    const id = MatchDayService.resolveId(arg);
     this.matchId = id;
     this.baseUrl = `https://www.sofascore.com/api/v1/event/${id}`;
   }
 
+  
+  static async getById(eventId: number): Promise<MatchDayData> {
+    return new MatchDayService(eventId).getMatchDayData();
+  }
+
+  /** Δέχεται: number, numeric-string, URL με #id:, {id}, {url} */
+  private static resolveId(arg: CtorArg): number {
+    // 1) number
+    if (typeof arg === "number") {
+      if (Number.isFinite(arg) && arg > 0) return arg;
+      throw new Error("❌ Invalid event id (number).");
+    }
+
+    // 2) string (numeric ή URL)
+    if (typeof arg === "string") {
+      const asNum = Number(arg);
+      if (Number.isFinite(asNum) && asNum > 0) return asNum; // numeric string
+      const { id } = extractSofaIdsMatchDay(arg);
+      if (!id)
+        throw new Error(
+          "❌ Invalid Sofascore Match URL: could not extract ID."
+        );
+      return id;
+    }
+
+    // 3) object { id } ή { url }
+    if ("id" in arg) {
+      const n = Number(arg.id);
+      if (Number.isFinite(n) && n > 0) return n;
+      throw new Error("❌ Invalid event id in { id }.");
+    }
+    if ("url" in arg) {
+      const { id } = extractSofaIdsMatchDay(arg.url);
+      if (!id)
+        throw new Error(
+          "❌ Invalid Sofascore Match URL: could not extract ID."
+        );
+      return id;
+    }
+
+    throw new Error("❌ Invalid MatchDayService argument.");
+  }
+
   private async fetchGeneral() {
-    const url = `${this.baseUrl}`;
-    const data = await fetchJson(url);
-    return data.event; // <-- this is where homeTeam/awayTeam info is
+    const data = await fetchJson(this.baseUrl);
+    return data.event; // homeTeam/awayTeam info
   }
 
   private getFormation(lineups: any): {
@@ -43,7 +83,6 @@ export class MatchDayService {
     away: string | null;
   } {
     const isConfirmed = lineups?.confirmed;
-
     return {
       home: isConfirmed ? lineups?.home?.formation ?? null : null,
       away: isConfirmed ? lineups?.away?.formation ?? null : null,
@@ -59,11 +98,9 @@ export class MatchDayService {
     const ht = incidents.find(
       (i) => i.incidentType === "period" && i.text === "HT"
     );
-
     const ft = incidents.find(
       (i) => i.incidentType === "period" && i.text === "FT"
     );
-
     return {
       home_score_ht: ht?.homeScore ?? null,
       away_score_ht: ht?.awayScore ?? null,
@@ -85,7 +122,6 @@ export class MatchDayService {
   ): MatchResultRow[] {
     const { home: homeFormation, away: awayFormation } =
       this.getFormation(lineups);
-
     const { home_score_ht, away_score_ht, home_score_ft, away_score_ft } =
       this.getMatchScoresFromPeriodIncidents(rawIncidents);
 
@@ -108,8 +144,7 @@ export class MatchDayService {
   }
 
   private async fetchPlayerHeatmap(playerId: number): Promise<any> {
-    const url = `${this.baseUrl}/player/${playerId}/heatmap`;
-    return await fetchJson(url);
+    return await fetchJson(`${this.baseUrl}/player/${playerId}/heatmap`);
   }
 
   async getMatchDayData(): Promise<MatchDayData> {
@@ -158,23 +193,19 @@ export class MatchDayService {
       match_id: this.matchId,
       home_team_id: homeTeamId,
       away_team_id: awayTeamId,
-      incidents: match_incident?.match_incident ?? [], // fallback to empty array
+      incidents: match_incident?.match_incident ?? [],
     });
-
-    // console.log("match_result_scenarios", match_result_scenarios);
 
     const match_player_shot = transformShotMap({
       match_cust_id: this.matchId,
-      shots: shotmap?.shotmap ?? [], // if the API response looks like { shotmap: [...] }
+      shots: shotmap?.shotmap ?? [],
     });
 
     const playerList = lineupPlayers.filter((p) => p?.id || p?.player?.id);
 
     const match_player_heatmap = await transformHeatMap({
       match_cust_id: this.matchId,
-      player_list: playerList.map((p) => ({
-        id: p.id ?? p.player?.id,
-      })),
+      player_list: playerList.map((p) => ({ id: p.id ?? p.player?.id })),
       fetchPlayerHeatmap: this.fetchPlayerHeatmap.bind(this),
     });
 
@@ -184,7 +215,6 @@ export class MatchDayService {
       ...match_incident.metadata_statistics,
     ];
 
-    // Return empty data for now — replace this later with real fetch/transform logic
     return {
       players,
       metadata_statistics: metadata,
