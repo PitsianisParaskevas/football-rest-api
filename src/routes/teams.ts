@@ -7,13 +7,14 @@ import {
   getATeam,
 } from "../controllers/teams";
 import { asyncHandler } from "@/utils/asyncHandler";
+import { requireApiKey } from "@/middleware/auth";
 
 const router = Router();
 
 router.get("/", asyncHandler(getAllTeams));
-router.post("/", asyncHandler(createTeam));
-router.put("/:id", updateTeam);
-router.delete("/:id", deleteTeam);
 router.get("/:slug/:cust_id", getATeam);
+router.post("/", requireApiKey, asyncHandler(createTeam));
+router.put("/:id", requireApiKey, updateTeam);
+router.delete("/:id", requireApiKey, deleteTeam);
 
 export default router;

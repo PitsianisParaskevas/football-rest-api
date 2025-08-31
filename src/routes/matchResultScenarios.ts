@@ -7,23 +7,18 @@ import {
   updateById,
   deleteById,
 } from "@/controllers/matchResultScenarios";
+import { requireApiKey } from "@/middleware/auth";
 
 const router = Router();
 
 // Collections
 router.get("/", listAll);
-router.get("/by-match/:match_cust_id", listByMatch);
 
-// Single by id
 router.get("/:id", getById);
+router.post("/", requireApiKey, createMany);
+router.put("/:id", requireApiKey, updateById);
+router.delete("/:id", requireApiKey, deleteById);
 
-// Create (single or bulk)
-router.post("/", createMany);
-
-// Update by id (change scenario_id)
-router.put("/:id", updateById);
-
-// Delete by id
-router.delete("/:id", deleteById);
+router.get("/by-match/:match_cust_id", listByMatch);
 
 export default router;

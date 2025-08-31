@@ -7,13 +7,14 @@ import {
   deleteMatchStats,
 } from "@/controllers/matchStats";
 import { asyncHandler } from "@/utils/asyncHandler";
+import { requireApiKey } from "@/middleware/auth";
 
 const router = Router();
 
 router.get("/", asyncHandler(getAllMatchStats));
 router.get("/:id", asyncHandler(getMatchStatsById));
-router.post("/", asyncHandler(createMatchStats));
-router.put("/:id", asyncHandler(updateMatchStats));
-router.delete("/:id", asyncHandler(deleteMatchStats));
+router.post("/", requireApiKey, asyncHandler(createMatchStats));
+router.put("/:id", requireApiKey, asyncHandler(updateMatchStats));
+router.delete("/:id", requireApiKey, asyncHandler(deleteMatchStats));
 
 export default router;

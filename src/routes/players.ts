@@ -9,15 +9,16 @@ import {
   getPlayersByTeam,
 } from "../controllers/players";
 import { asyncHandler } from "@/utils/asyncHandler";
+import { requireApiKey } from "@/middleware/auth";
 
 const router = Router();
 
 // Basic CRUD
 router.get("/", asyncHandler(getAllPlayers));
 router.post("/", asyncHandler(createPlayer));
-router.put("/:id", asyncHandler(updatePlayer));
-router.delete("/:id", asyncHandler(deletePlayer));
-router.get("/:id", asyncHandler(getPlayerById));
+router.put("/:id",requireApiKey, asyncHandler(updatePlayer));
+router.delete("/:id",requireApiKey, asyncHandler(deletePlayer));
+router.get("/:id",requireApiKey, asyncHandler(getPlayerById));
 
 // Custom endpoints
 router.get("/:slug/:cust_id", asyncHandler(getAPlayer)); // Get player by slug + cust_id
