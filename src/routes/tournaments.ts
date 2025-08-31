@@ -11,7 +11,7 @@ import { requireApiKey } from "@/middleware/auth";
 
 const router = Router();
 
-router.get("/", requireApiKey, asyncHandler(getAllTournaments));
+router.get("/", asyncHandler(getAllTournaments));
 router.post("/", requireApiKey, asyncHandler(createTournament));
 router.put("/:id", requireApiKey, asyncHandler(updateTournament));
 router.delete("/:id", requireApiKey, asyncHandler(deleteTournament));

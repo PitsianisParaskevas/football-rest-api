@@ -1,14 +1,20 @@
 // src/services/apiMatchDay.ts
 const BASE = "/api"; // via Vite proxy
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 function join(path: string) {
   return path.startsWith("/") ? `${BASE}${path}` : `${BASE}/${path}`;
 }
 
 async function postJSON<T = unknown>(path: string, body: any) {
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+  };
+  if (API_KEY) headers["x-api-key"] = API_KEY;
+
   const res = await fetch(join(path), {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers,
     body: JSON.stringify(body),
   });
   if (!res.ok) {
