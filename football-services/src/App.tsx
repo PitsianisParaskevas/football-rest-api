@@ -1,6 +1,5 @@
 import { useState } from "react";
 import GetGeneralData from "./pages/GetGeneralData";
-import ImportGeneralData from "./pages/ImportGeneralData";
 import GetMatchDayData from "./pages/GetMatchDayData";
 import "./App.css";
 
@@ -11,8 +10,6 @@ function App() {
     switch (activeSection) {
       case "general":
         return <GetGeneralData />;
-      case "import":
-        return <ImportGeneralData />;
       case "matchday":
         return <GetMatchDayData />;
       default:

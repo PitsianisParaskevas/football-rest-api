@@ -5,8 +5,8 @@ import { getMatchDayData } from "../functions";
 import "../App.css";
 import type { MatchDayData } from "../types/MatchDayData";
 
-// NEW: call your backend endpoints
-import { api } from "../services/api";
+// your existing API module
+import { matchDayApi } from "../services/apiMatchDay";
 
 const sections = [
   { key: "players", title: "👤 Players" },
@@ -23,13 +23,16 @@ const sections = [
 
 type SectionKey = (typeof sections)[number]["key"];
 
+// tell TS that api has a function for every section key
+const sectionApi = matchDayApi as Record<SectionKey, (rows: any[]) => Promise<any>>;
+
 const GetMatchDayData = () => {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<MatchDayData | null>(null);
 
-  // NEW: insert UI state
+  // insert UI state
   const [inserting, setInserting] = useState<string | null>(null);
   const [insertMsg, setInsertMsg] = useState<string | null>(null);
 
@@ -49,18 +52,18 @@ const GetMatchDayData = () => {
     } catch (err) {
       console.error("Unexpected error:", err);
       setError("❌ Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
-  // NEW: one-click insert for all sections that have rows
+  // one-click insert for all sections
   async function handleInsertAll() {
     if (!result) return;
     try {
       setInserting("All");
       setInsertMsg(null);
-      await api.insertAll(result as any);
+      await matchDayApi.insertAll(result as any);
       setInsertMsg("✅ All sections inserted.");
     } catch (e: any) {
       setInsertMsg(`❌ Insert all failed: ${e?.message ?? e}`);
@@ -69,7 +72,7 @@ const GetMatchDayData = () => {
     }
   }
 
-  // (optional) per-section insert if you want granular control
+  // per-section insert (typed, no ts-ignore)
   async function handleInsertOne(key: SectionKey, title: string) {
     if (!result) return;
     const rows = (result as any)[key];
@@ -78,9 +81,7 @@ const GetMatchDayData = () => {
     try {
       setInserting(title);
       setInsertMsg(null);
-      // api keys match section keys 1:1
-      // @ts-ignore – indexed access by key name
-      await api[key](rows);
+      await sectionApi[key](rows);
       setInsertMsg(`✅ ${title} inserted.`);
     } catch (e: any) {
       setInsertMsg(`❌ ${title} failed: ${e?.message ?? e}`);
@@ -104,7 +105,7 @@ const GetMatchDayData = () => {
 
       {error && <p style={{ color: "red", marginTop: "1rem" }}>{error}</p>}
 
-      {/* NEW: Insert controls – only show after data is loaded */}
+      {/* Insert controls – only after data */}
       {result && (
         <div
           style={{
@@ -122,7 +123,7 @@ const GetMatchDayData = () => {
               {inserting === "All" ? "Inserting…" : "Insert Data"}
             </button>
 
-            {/* OPTIONAL granular buttons */}
+            {/* granular buttons */}
             {sections.map(({ key, title }) => {
               const rows = (result as any)[key];
               const count = Array.isArray(rows) ? rows.length : 0;

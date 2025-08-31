@@ -8,12 +8,6 @@ const ImportGeneralData = () => {
   return (
     <div>
       <h2>📥 Import General Data</h2>
-      <LabeledInput
-        title="Enter URL to Import Data"
-        placeholder="https://..."
-        value={url}
-        onChange={setUrl}
-      />
     </div>
   );
 };

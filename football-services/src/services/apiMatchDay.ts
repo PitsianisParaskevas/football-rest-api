@@ -1,11 +1,11 @@
-const BASE = "/api"; // <-- relative path (proxy target)
+// src/services/apiMatchDay.ts
+const BASE = "/api"; // via Vite proxy
 
 function join(path: string) {
-  // ensures exactly one slash between BASE and path
   return path.startsWith("/") ? `${BASE}${path}` : `${BASE}/${path}`;
 }
 
-async function postJSON(path: string, body: any) {
+async function postJSON<T = unknown>(path: string, body: any) {
   const res = await fetch(join(path), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -15,16 +15,34 @@ async function postJSON(path: string, body: any) {
     const text = await res.text().catch(() => "");
     throw new Error(`${path} -> ${res.status} ${text}`);
   }
-  return res.json();
+  return res.json() as Promise<T>;
 }
 
-async function postInChunks(path: string, rows: any[], chunkSize = 800) {
+async function postInChunks<T = unknown>(
+  path: string,
+  rows: any[],
+  chunkSize = 800,
+  retries = 2
+) {
   for (let i = 0; i < rows.length; i += chunkSize) {
-    await postJSON(path, rows.slice(i, i + chunkSize));
+    const chunk = rows.slice(i, i + chunkSize);
+    let lastErr: unknown;
+    for (let attempt = 0; attempt <= retries; attempt++) {
+      try {
+        await postJSON<T>(path, chunk);
+        lastErr = undefined;
+        break;
+      } catch (e) {
+        lastErr = e;
+        if (attempt === retries) throw e;
+        await new Promise((r) => setTimeout(r, 300 * (attempt + 1)));
+      }
+    }
+    if (lastErr) throw lastErr;
   }
 }
 
-export const api = {
+export const matchDayApi = {
   players: (rows: any[]) => postInChunks("/players", rows),
   metadata_statistics: (rows: any[]) =>
     postInChunks("/metadata-statistics", rows),
@@ -59,8 +77,8 @@ export const api = {
     for (const key of order) {
       const rows = (data as any)[key];
       if (Array.isArray(rows) && rows.length) {
-        // @ts-ignore – keys map 1:1 to functions above
-        await api[key](rows);
+        // @ts-ignore keys map 1:1
+        await matchDayApi[key](rows);
       }
     }
   },
