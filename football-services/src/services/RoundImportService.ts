@@ -1,8 +1,6 @@
 // src/services/RoundImportService.ts
-import axios from "axios";
 import { MatchDayService } from "./MatchDayService";
 import { matchDayApi } from "./apiMatchDay";
-import { extractSofaIdsGeneralData } from "../utils/helpers";
 
 export type MatchRow = {
   tournament_id: number | string;
@@ -20,101 +18,36 @@ export type ImportResult = {
   error?: string;
 };
 
-// Discriminated shapes
-type WithUrl = {
-  tournamentUrl: string;
-  tournamentId?: never;
-  seasonId?: never;
-};
-type WithIds = {
-  tournamentUrl?: never;
-  tournamentId: number;
-  seasonId: number;
-};
-type Ctor = WithUrl | WithIds;
-
-// Type guard: ensures tournamentUrl is a string
-function isWithUrl(opts: Ctor): opts is WithUrl {
-  return typeof (opts as any).tournamentUrl === "string";
-}
-
+/**
+ * Importer that works from a list of Sofascore event ids (cust_id) or rows.
+ * No constructor args needed.
+ *
+ * NOTE: Ensure your apiMatchDay attaches x-api-key for POSTs.
+ */
 export class RoundImportService {
-  private tournamentId: number;
-  private seasonId: number;
+  // Make constructor optional for backward compatibility (even if someone passes args)
+  constructor(_opts?: unknown) {}
 
-  constructor(opts: Ctor) {
-    if (isWithUrl(opts)) {
-      const { tournamentId, seasonId } = extractSofaIdsGeneralData(
-        opts.tournamentUrl
-      );
-      if (!tournamentId || !seasonId) {
-        throw new Error("❌ Invalid tournament URL (missing ids).");
-      }
-      this.tournamentId = tournamentId;
-      this.seasonId = seasonId;
-    } else {
-      this.tournamentId = Number(opts.tournamentId);
-      this.seasonId = Number(opts.seasonId);
-      if (!this.tournamentId || !this.seasonId) {
-        throw new Error("❌ Provide tournamentId and seasonId.");
-      }
-    }
-  }
-
-  /** Fetch Sofascore event ids for a given round */
-  async fetchRoundEventIds(round: number): Promise<number[]> {
-    if (!round || round < 1)
-      throw new Error("Round must be a positive number.");
-    const base = `https://www.sofascore.com/api/v1/unique-tournament/${this.tournamentId}/season/${this.seasonId}`;
-    const url = `${base}/events/round/${round}`;
-    const res = await axios.get(url);
-    const events: any[] = res.data?.events ?? [];
-    return events.map((e) => Number(e.id)).filter((n) => Number.isFinite(n));
-  }
-
-  /** Import everything for a Sofascore round: fetch ids -> fetch matchday -> insertAll */
-  async importRound(round: number, concurrency = 2): Promise<ImportResult[]> {
-    const ids = await this.fetchRoundEventIds(round);
-    return this.importByMatchIds(ids, concurrency);
-  }
-
-  /** Import using DB rows that already contain the event id as `cust_id` */
-  async importFromRows(
-    rows: MatchRow[],
-    concurrency = 2
-  ): Promise<ImportResult[]> {
-    const ids = rows
-      .map((r) => Number(r.cust_id))
-      .filter((n) => Number.isFinite(n) && n > 0);
-    return this.importByMatchIds(ids, concurrency);
-  }
-
-  /**
-   * Core worker: for each Sofascore event id:
-   *  - build MatchDayData via MatchDayService
-   *  - POST all sections to your backend via matchDayApi.insertAll
-   */
+  /** Import using Sofascore event ids (cust_id) */
   async importByMatchIds(
     ids: number[],
     concurrency = 2
   ): Promise<ImportResult[]> {
-    if (!ids.length) return [];
+    const clean = ids.filter((n) => Number.isFinite(n) && n > 0);
+    if (!clean.length) return [];
 
-    const results: ImportResult[] = new Array(ids.length);
+    const results: ImportResult[] = new Array(clean.length);
     let index = 0;
-
-    // helper: create a fake URL that MatchDayService can parse (#id:123)
-    const idToFakeUrl = (id: number) =>
-      `https://www.sofascore.com/football/match/_/_#id:${id}`;
 
     const worker = async () => {
       while (true) {
         const i = index++;
-        if (i >= ids.length) break;
-        const id = ids[i];
+        if (i >= clean.length) break;
+        const id = clean[i];
 
         try {
-          const svc = new MatchDayService(idToFakeUrl(id));
+          // MatchDayService accepts numeric event id
+          const svc = new MatchDayService(id);
           const data = await svc.getMatchDayData();
           await matchDayApi.insertAll(data as any);
           results[i] = { id, ok: true };
@@ -125,10 +58,24 @@ export class RoundImportService {
     };
 
     const workers = Array.from(
-      { length: Math.min(Math.max(concurrency, 1), ids.length) },
+      { length: Math.min(Math.max(concurrency, 1), clean.length) },
       worker
     );
     await Promise.all(workers);
     return results;
   }
+
+  /** Import using DB rows that contain `cust_id` */
+  async importFromRows(
+    rows: MatchRow[],
+    concurrency = 2
+  ): Promise<ImportResult[]> {
+    const ids = rows
+      .map((r) => Number(r.cust_id))
+      .filter((n) => Number.isFinite(n) && n > 0);
+    return this.importByMatchIds(ids, concurrency);
+  }
 }
+
+// Default export so `import RoundImportService from ...` works
+export default RoundImportService;
