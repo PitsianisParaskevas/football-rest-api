@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import path from "path";
 
 // Route modules
 import tournamentRoutes from "./routes/tournaments";
@@ -19,6 +20,7 @@ import matchPlayerInfoRoutes from "@/routes/matchPlayerInfo";
 import matchPlayerStatsRoutes from "@/routes/matchPlayerStats";
 import matchPlayerShotRoutes from "@/routes/MatchPlayerShot";
 import matchPlayerHeatmapRoutes from "@/routes/MatchPlayerHeatmap";
+import assetRoutes from "@/routes/assets";
 
 import { errorHandler } from "./middlewares/errorHandler";
 
@@ -49,6 +51,12 @@ app.use("/match-player-info", matchPlayerInfoRoutes);
 app.use("/match-player-stats", matchPlayerStatsRoutes);
 app.use("/match-player-shot", matchPlayerShotRoutes);
 app.use("/match-player-heatmap", matchPlayerHeatmapRoutes);
+app.use("/assets", assetRoutes);
+
+app.use(
+  "/static",
+  express.static(path.resolve(process.cwd(), "public")) // so files show at /static/images/...
+);
 
 // Health check
 app.get("/health", (_req, res) => {

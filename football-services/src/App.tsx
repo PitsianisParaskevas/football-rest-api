@@ -4,6 +4,7 @@ import GetMatchDayData from "./pages/GetMatchDayData";
 import ImportRound from "./pages/ImportRound";
 
 import "./App.css";
+import ImportImages from "./pages/DownloadImages";
 
 function App() {
   const [activeSection, setActiveSection] = useState("general");
@@ -16,6 +17,8 @@ function App() {
         return <GetMatchDayData />;
       case "round":
         return <ImportRound />;
+      case "image":
+        return <ImportImages />;
       default:
         return null;
     }
@@ -45,6 +48,13 @@ function App() {
           className={activeSection === "round" ? "active-button" : ""}
         >
           Import Round{" "}
+        </button>
+
+        <button
+          onClick={() => setActiveSection("image")}
+          className={activeSection === "iamge" ? "active-button" : ""}
+        >
+          Get Image
         </button>
       </div>
 
