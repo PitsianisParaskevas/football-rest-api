@@ -20,6 +20,7 @@ import matchPlayerInfoRoutes from "@/routes/matchPlayerInfo";
 import matchPlayerStatsRoutes from "@/routes/matchPlayerStats";
 import matchPlayerShotRoutes from "@/routes/MatchPlayerShot";
 import matchPlayerHeatmapRoutes from "@/routes/MatchPlayerHeatmap";
+import standingsRoutes from "@/routes/standings";
 import assetRoutes from "@/routes/assets";
 
 import { errorHandler } from "./middlewares/errorHandler";
@@ -52,6 +53,7 @@ app.use("/match-player-stats", matchPlayerStatsRoutes);
 app.use("/match-player-shot", matchPlayerShotRoutes);
 app.use("/match-player-heatmap", matchPlayerHeatmapRoutes);
 app.use("/assets", assetRoutes);
+app.use("/standings", standingsRoutes);
 
 app.use(
   "/static",
