@@ -5,9 +5,10 @@ import ImportRound from "./pages/ImportRound";
 
 import "./App.css";
 import ImportImages from "./pages/DownloadImages";
+import TestSofa from "./pages/TestSofa";
 
 function App() {
-  const [activeSection, setActiveSection] = useState("general");
+  const [activeSection, setActiveSection] = useState("testsofa");
 
   const renderSection = () => {
     switch (activeSection) {
@@ -19,6 +20,8 @@ function App() {
         return <ImportRound />;
       case "image":
         return <ImportImages />;
+      case "testsofa":
+        return <TestSofa />;
       default:
         return null;
     }
@@ -29,6 +32,13 @@ function App() {
       <h1>Football Data Tool</h1>
 
       <div className="section-switcher">
+        <button
+          onClick={() => setActiveSection("testsofa")}
+          className={activeSection === "testsofa" ? "active-button" : ""}
+        >
+          Test Sofa
+        </button>
+
         <button
           onClick={() => setActiveSection("general")}
           className={activeSection === "general" ? "active-button" : ""}
@@ -52,7 +62,7 @@ function App() {
 
         <button
           onClick={() => setActiveSection("image")}
-          className={activeSection === "iamge" ? "active-button" : ""}
+          className={activeSection === "image" ? "active-button" : ""}
         >
           Get Image
         </button>

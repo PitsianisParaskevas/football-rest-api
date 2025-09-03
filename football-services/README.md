@@ -1,69 +1,17 @@
-# React + TypeScript + Vite
+npm run dev:server # starts proxy at http://localhost:3000
+npm run dev # starts Vite at http://localhost:5173 (proxied to backend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⚽ Football Services (Frontend Import Tool)
 
-Currently, two official plugins are available:
+This project is the **frontend utility** for importing football data from [Sofascore](https://www.sofascore.com) into your own database (via the `football-rest-api` backend).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It contains:
 
-## Expanding the ESLint configuration
+- React (Vite) frontend with input forms and pages (e.g. `GetGeneralData`, `ImportRound`).
+- A small Express **proxy server** to fetch Sofascore data safely (no CORS, no 403).
+- Service layer (`GeneralDataService`, `MatchDayService`) to fetch/transform Sofascore data.
+- API clients (`apiGeneralData.ts`, `apiMatchDay.ts`) to insert data into your DB backend.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+https://www.sofascore.com/api/v1/event/12436580/lineups

@@ -20,42 +20,35 @@ export class MatchDayService {
   private matchId: number;
   private baseUrl: string;
 
-  // Overloads (προαιρετικά, βοηθούν το TS)
   constructor(id: number);
   constructor(url: string);
   constructor(opts: { id: number } | { url: string });
   constructor(arg: CtorArg) {
     const id = MatchDayService.resolveId(arg);
     this.matchId = id;
-    this.baseUrl = `https://www.sofascore.com/api/v1/event/${id}`;
+    // IMPORTANT: route via your proxy (vite -> :4000 server -> Sofascore)
+    this.baseUrl = `/api/sofa/event/${id}`;
   }
 
-  
   static async getById(eventId: number): Promise<MatchDayData> {
     return new MatchDayService(eventId).getMatchDayData();
   }
 
-  /** Δέχεται: number, numeric-string, URL με #id:, {id}, {url} */
+  /** Accepts: number, numeric string, Sofascore URL with #id:, {id}, {url} */
   private static resolveId(arg: CtorArg): number {
-    // 1) number
     if (typeof arg === "number") {
       if (Number.isFinite(arg) && arg > 0) return arg;
       throw new Error("❌ Invalid event id (number).");
     }
 
-    // 2) string (numeric ή URL)
     if (typeof arg === "string") {
       const asNum = Number(arg);
-      if (Number.isFinite(asNum) && asNum > 0) return asNum; // numeric string
+      if (Number.isFinite(asNum) && asNum > 0) return asNum;
       const { id } = extractSofaIdsMatchDay(arg);
-      if (!id)
-        throw new Error(
-          "❌ Invalid Sofascore Match URL: could not extract ID."
-        );
+      if (!id) throw new Error("❌ Invalid Sofascore Match URL: could not extract ID.");
       return id;
     }
 
-    // 3) object { id } ή { url }
     if ("id" in arg) {
       const n = Number(arg.id);
       if (Number.isFinite(n) && n > 0) return n;
@@ -63,10 +56,7 @@ export class MatchDayService {
     }
     if ("url" in arg) {
       const { id } = extractSofaIdsMatchDay(arg.url);
-      if (!id)
-        throw new Error(
-          "❌ Invalid Sofascore Match URL: could not extract ID."
-        );
+      if (!id) throw new Error("❌ Invalid Sofascore Match URL: could not extract ID.");
       return id;
     }
 
@@ -78,10 +68,7 @@ export class MatchDayService {
     return data.event; // homeTeam/awayTeam info
   }
 
-  private getFormation(lineups: any): {
-    home: string | null;
-    away: string | null;
-  } {
+  private getFormation(lineups: any): { home: string | null; away: string | null } {
     const isConfirmed = lineups?.confirmed;
     return {
       home: isConfirmed ? lineups?.home?.formation ?? null : null,
@@ -95,12 +82,8 @@ export class MatchDayService {
     home_score_ft: number;
     away_score_ft: number;
   } {
-    const ht = incidents.find(
-      (i) => i.incidentType === "period" && i.text === "HT"
-    );
-    const ft = incidents.find(
-      (i) => i.incidentType === "period" && i.text === "FT"
-    );
+    const ht = incidents.find((i) => i.incidentType === "period" && i.text === "HT");
+    const ft = incidents.find((i) => i.incidentType === "period" && i.text === "FT");
     return {
       home_score_ht: ht?.homeScore ?? null,
       away_score_ht: ht?.awayScore ?? null,
@@ -120,8 +103,7 @@ export class MatchDayService {
     lineups: any,
     rawIncidents: any[]
   ): MatchResultRow[] {
-    const { home: homeFormation, away: awayFormation } =
-      this.getFormation(lineups);
+    const { home: homeFormation, away: awayFormation } = this.getFormation(lineups);
     const { home_score_ht, away_score_ht, home_score_ft, away_score_ft } =
       this.getMatchScoresFromPeriodIncidents(rawIncidents);
 
@@ -172,11 +154,7 @@ export class MatchDayService {
       awayTeamId,
       rawIncidents
     );
-    const match_result = this.buildMatchResult(
-      this.matchId,
-      lineups,
-      rawIncidents
-    );
+    const match_result = this.buildMatchResult(this.matchId, lineups, rawIncidents);
 
     const lineupPlayers = [
       ...(lineups?.home?.players ?? []),
@@ -229,3 +207,5 @@ export class MatchDayService {
     };
   }
 }
+
+export default MatchDayService;
