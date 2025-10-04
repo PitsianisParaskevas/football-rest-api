@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import path from "path";
+import cors from "cors";
 
 // Route modules
 import tournamentRoutes from "./routes/tournaments";
@@ -22,7 +23,6 @@ import matchPlayerShotRoutes from "@/routes/MatchPlayerShot";
 import matchPlayerHeatmapRoutes from "@/routes/MatchPlayerHeatmap";
 import standingsRoutes from "@/routes/standings";
 import assetRoutes from "@/routes/assets";
-
 import { errorHandler } from "./middlewares/errorHandler";
 
 // Load environment variables from .env
@@ -30,6 +30,16 @@ dotenv.config();
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
+const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN;
+
+/** ----- Middleware (order matters) ----- */
+app.use(
+  cors({
+    origin: FRONTEND_ORIGIN,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization", "x-api-key"],
+  })
+);
 
 // Middleware to parse JSON
 app.use(express.json());
@@ -65,6 +75,12 @@ app.get("/health", (_req, res) => {
   res.json({ status: "OK" });
 });
 
+/** ----- 404 (optional) ----- */
+app.use((_req, res) => {
+  res.status(404).json({ error: "Not found" });
+});
+
+/** ----- Error handler LAST ----- */
 app.use(errorHandler);
 
 // Start the server
