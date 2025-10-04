@@ -309,17 +309,9 @@ export const getAPlayer = async (
   res.json(rows[0]);
 };
 
-// GET /players/:team/:cust_id  (team = team_cust_id)
-export const getPlayersByTeam = async (
-  req: Request,
-  res: Response
-): Promise<void> => {
-  const teamCustId = Number(req.params.team);
-  const cid = Number(req.params.cust_id);
-
-  if (isNaN(teamCustId) || isNaN(cid)) {
-    throw new BadRequestError("Invalid team or cust_id");
-  }
+export const getPlayersByTeam = async (req: Request, res: Response) => {
+  const teamCustId = Number(req.params.team_cust_id);
+  if (isNaN(teamCustId)) throw new BadRequestError("Invalid team_cust_id");
 
   const { rows } = await pool.query(
     `
@@ -329,10 +321,9 @@ export const getPlayersByTeam = async (
       shirt_number, updated_at
     FROM players
     WHERE current_team_cust_id = $1
-      AND cust_id = $2
     ORDER BY name
     `,
-    [teamCustId, cid]
+    [teamCustId]
   );
 
   res.json(rows);
