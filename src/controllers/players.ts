@@ -156,7 +156,7 @@ export const createPlayer = async (
           p?.country_code ?? null,
           p?.country_name ?? null,
           p?.birthdate ?? null,
-          p?.current_team_cust_id ?? null,
+          numOrNull(p?.current_team_cust_id ?? p?.team_cust_id),
           p?.shirt_number ?? null,
           p?.updated_at ?? null,
         ]
@@ -202,9 +202,12 @@ export const updatePlayer = async (
     country_name = null,
     birthdate = null,
     current_team_cust_id = null,
+    team_cust_id = null, // δέξου κι αυτό
     shirt_number = null,
     updated_at = null,
   } = req.body ?? {};
+
+  const currentTeamCustId = numOrNull(current_team_cust_id ?? team_cust_id);
 
   const isValid =
     Number.isInteger(cust_id) && typeof name === "string" && name.length > 0;
@@ -242,7 +245,7 @@ export const updatePlayer = async (
       country_code,
       country_name,
       birthdate,
-      current_team_cust_id,
+      currentTeamCustId,
       shirt_number,
       updated_at,
       parsedId,

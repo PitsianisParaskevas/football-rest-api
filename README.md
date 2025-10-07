@@ -27,3 +27,7 @@ this is the folder to fetch API
 
 npm run seed-db -- SportAnalytics_test
 npm run clear-db -- SportAnalytics_test
+
+# create new Database
+
+npm run createNewDB -- your_database_name
