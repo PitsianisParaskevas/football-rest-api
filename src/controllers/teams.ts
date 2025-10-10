@@ -374,6 +374,7 @@ SELECT
   t1.name AS team_name,
   p.opponent_id,
   t2.name AS opponent_name,
+  t2.slug AS opponent_slug,
   p.gf, p.ga,
   p.gf_ht, p.ga_ht,
   p.result,
