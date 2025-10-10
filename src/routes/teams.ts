@@ -5,6 +5,8 @@ import {
   updateTeam,
   deleteTeam,
   getATeam,
+  getTeamStats,
+  listTeamMatches,
 } from "../controllers/teams";
 import { asyncHandler } from "@/utils/asyncHandler";
 import { requireApiKey } from "@/middleware/auth";
@@ -12,6 +14,12 @@ import { requireApiKey } from "@/middleware/auth";
 const router = Router();
 
 router.get("/", asyncHandler(getAllTeams));
+
+router.get("/:id/stats", asyncHandler(getTeamStats));
+
+router.get("/:team_id/matches", listTeamMatches);
+
+
 router.get("/:slug/:cust_id", getATeam);
 router.post("/", requireApiKey, asyncHandler(createTeam));
 router.put("/:id", requireApiKey, updateTeam);
