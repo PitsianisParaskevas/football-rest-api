@@ -189,43 +189,39 @@ export const getATeam = async (req: Request, res: Response): Promise<void> => {
   res.json(rows[0]);
 };
 
+// controllers/teams/getTeamStats (safe, χωρίς phase)
 export const getTeamStats = async (
   req: Request,
   res: Response
 ): Promise<void> => {
   try {
-    const teamId = Number(req.params.id);
-    if (Number.isNaN(teamId)) {
+    const teamId = Number(req.params.teamId ?? req.params.id);
+    if (!Number.isFinite(teamId)) {
       res.status(400).json({ message: "Invalid teamId" });
       return;
     }
 
-    const phase = String(req.query.phase || "ALL");
     const tournamentId = req.query.tournamentId
       ? Number(req.query.tournamentId)
       : null;
-    const pivot = String(req.query.pivot || "false") === "true";
-
-    // ΠΑΝΤΑ δίνουμε 3ο param (ακόμα και null) για να ταιριάζει το $3
-    const params: any[] = [teamId, phase, tournamentId];
+    const params: any[] = [teamId, tournamentId];
 
     const sql = `
       WITH base AS (
         SELECT
           ms.team_cust_id,
-          ms.team_side,
+          ms.team_side,                                -- 'home' | 'away'
           ms.stat_key,
-          COUNT(DISTINCT ms.match_cust_id) AS games_played,
-          SUM(ms.value) AS total_value
+          COUNT(DISTINCT ms.match_cust_id)::int AS games_played,
+          SUM(ms.value)::float8 AS total_value
         FROM public.match_stats ms
         WHERE ms.team_cust_id = $1
-          AND ms.phase = $2
           AND (
-            $3::bigint IS NULL
+            $2::bigint IS NULL
             OR ms.match_cust_id IN (
               SELECT m.cust_id
               FROM public.matches m
-              WHERE m.tournament_id = $3
+              WHERE m.tournament_id = $2
             )
           )
         GROUP BY ms.team_cust_id, ms.team_side, ms.stat_key
@@ -237,42 +233,52 @@ export const getTeamStats = async (
           team_cust_id,
           'total' AS team_side,
           stat_key,
-          SUM(games_played) AS games_played,
-          SUM(total_value) AS total_value
+          SUM(games_played)::int   AS games_played,
+          SUM(total_value)::float8 AS total_value
         FROM base
         GROUP BY team_cust_id, stat_key
       )
       SELECT
         stat_key,
-        team_side,
+        team_side,                                     -- 'home' | 'away' | 'total'
         total_value,
         games_played,
-        ROUND((total_value / NULLIF(games_played, 0))::numeric, 2) AS per_game
+        ROUND((total_value / NULLIF(games_played, 0))::numeric, 2)::float8 AS per_game
       FROM unioned
-      ORDER BY stat_key, team_side;
+      ORDER BY
+        stat_key,
+        CASE
+          WHEN team_side = 'total' THEN 1
+          WHEN team_side = 'home'  THEN 2
+          WHEN team_side = 'away'  THEN 3
+          ELSE 4
+        END;
     `;
 
     const { rows } = await pool.query(sql, params);
 
-    if (!pivot) {
-      res.json({ teamId, phase, stats: rows });
-      return;
-    }
+    const standings: { ALL: any[]; HOME: any[]; AWAY: any[] } = {
+      ALL: [],
+      HOME: [],
+      AWAY: [],
+    };
 
-    // pivot: μία γραμμή ανά stat_key
-    const byKey: Record<string, any> = {};
     for (const r of rows) {
-      const key = r.stat_key;
-      if (!byKey[key]) byKey[key] = { stat_key: key };
-      byKey[key][`${r.team_side}_total`] =
-        r.total_value !== null ? Number(r.total_value) : null;
-      byKey[key][`${r.team_side}_games`] =
-        r.games_played !== null ? Number(r.games_played) : null;
-      byKey[key][`${r.team_side}_per_game`] =
-        r.per_game !== null ? Number(r.per_game) : null;
+      const bucket =
+        r.team_side === "total"
+          ? "ALL"
+          : r.team_side === "home"
+          ? "HOME"
+          : "AWAY";
+      standings[bucket].push({
+        stat_key: r.stat_key,
+        total_value: r.total_value !== null ? Number(r.total_value) : null,
+        games_played: r.games_played !== null ? Number(r.games_played) : null,
+        per_game: r.per_game !== null ? Number(r.per_game) : null,
+      });
     }
 
-    res.json({ teamId, phase, stats: Object.values(byKey) });
+    res.json({ teamId, standings });
   } catch (err) {
     console.error("❌ Error fetching team stats:", err);
     res.status(500).json({ message: "Server Error" });
@@ -424,4 +430,234 @@ export async function listTeamMatches(
   } catch (err) {
     next(err);
   }
+}
+
+const METRICS = [
+  "rating_avg", "goals", "assists", "xg", "xa",
+  "xg_diff", "xa_diff", "key_passes", "prog_passes",
+  "dribbles_succ", "pressures_won", "interceptions", "tackles",
+  "pass_accuracy", "minutes", "appearances", "motm",
+  "cards_yellow", "cards_red"
+];
+
+export async function getTeamPlayerStats(req: Request, res: Response) {
+  const teamId = Number(req.params.id); // cust_id
+  if (!Number.isFinite(teamId)) {
+    res.status(400).json({ message: "Invalid team id" });
+    return;
+  }
+
+  const sql = `
+    WITH matches_scope AS (
+      SELECT m.match_id, m.tournament_id, m.home_team_id, m.away_team_id
+      FROM matches m
+      WHERE ($1 = m.home_team_id OR $1 = m.away_team_id)
+    ),
+    base AS (
+      SELECT
+        mps.match_id,
+        mps.player_id,
+        mps.rating,
+        mps.goals, mps.assists, mps.xg, mps.xa,
+        mps.key_passes, mps.progressive_passes, mps.dribbles_succ,
+        mps.pressures_won, mps.interceptions, mps.tackles,
+        mps.passes_completed, mps.passes_attempted,
+        mps.yellow_cards, mps.red_cards,
+        mpi.minutes_played,
+        CASE
+          WHEN mps.rating IS NOT NULL
+           AND mps.rating = MAX(mps.rating) OVER (PARTITION BY mps.match_id)
+          THEN 1 ELSE 0
+        END AS motm_flag
+      FROM match_player_stats mps
+      JOIN match_player_info mpi
+        ON mpi.match_id = mps.match_id AND mpi.player_id = mps.player_id
+      WHERE mps.match_id IN (SELECT match_id FROM matches_scope)
+    ),
+    agg AS (
+      SELECT
+        b.player_id,
+        AVG(b.rating)::float8 AS rating_avg,
+        SUM(b.goals)::int AS goals,
+        SUM(b.assists)::int AS assists,
+        SUM(b.xg)::float8 AS xg,
+        SUM(b.xa)::float8 AS xa,
+        SUM(b.xg)::float8 - SUM(b.goals)::float8 AS xg_diff,
+        SUM(b.xa)::float8 - SUM(b.assists)::float8 AS xa_diff,
+        SUM(b.key_passes)::int AS key_passes,
+        SUM(b.progressive_passes)::int AS prog_passes,
+        SUM(b.dribbles_succ)::int AS dribbles_succ,
+        SUM(b.pressures_won)::int AS pressures_won,
+        SUM(b.interceptions)::int AS interceptions,
+        SUM(b.tackles)::int AS tackles,
+        CASE WHEN SUM(b.passes_attempted)=0 THEN NULL
+             ELSE 100.0*SUM(b.passes_completed)/SUM(b.passes_attempted)
+        END::float8 AS pass_accuracy,
+        SUM(b.minutes_played)::int AS minutes,
+        COUNT(DISTINCT b.match_id)::int AS appearances,
+        SUM(b.motm_flag)::int AS motm,
+        SUM(b.yellow_cards)::int AS cards_yellow,
+        SUM(b.red_cards)::int AS cards_red
+      FROM base b
+      GROUP BY b.player_id
+    ),
+    ranked AS (
+      SELECT
+        'rating_avg' AS metric, player_id, rating_avg AS value FROM (
+          SELECT player_id, rating_avg,
+                 ROW_NUMBER() OVER (ORDER BY rating_avg DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+          FROM agg
+        ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'goals', player_id, goals::float8 FROM (
+        SELECT player_id, goals,
+               ROW_NUMBER() OVER (ORDER BY goals DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'assists', player_id, assists::float8 FROM (
+        SELECT player_id, assists,
+               ROW_NUMBER() OVER (ORDER BY assists DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'xg', player_id, xg FROM (
+        SELECT player_id, xg,
+               ROW_NUMBER() OVER (ORDER BY xg DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'xa', player_id, xa FROM (
+        SELECT player_id, xa,
+               ROW_NUMBER() OVER (ORDER BY xa DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'xg_diff', player_id, xg_diff FROM (
+        SELECT player_id, xg_diff,
+               ROW_NUMBER() OVER (ORDER BY xg_diff DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'xa_diff', player_id, xa_diff FROM (
+        SELECT player_id, xa_diff,
+               ROW_NUMBER() OVER (ORDER BY xa_diff DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'key_passes', player_id, key_passes::float8 FROM (
+        SELECT player_id, key_passes,
+               ROW_NUMBER() OVER (ORDER BY key_passes DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'prog_passes', player_id, prog_passes::float8 FROM (
+        SELECT player_id, prog_passes,
+               ROW_NUMBER() OVER (ORDER BY prog_passes DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'dribbles_succ', player_id, dribbles_succ::float8 FROM (
+        SELECT player_id, dribbles_succ,
+               ROW_NUMBER() OVER (ORDER BY dribbles_succ DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'pressures_won', player_id, pressures_won::float8 FROM (
+        SELECT player_id, pressures_won,
+               ROW_NUMBER() OVER (ORDER BY pressures_won DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'interceptions', player_id, interceptions::float8 FROM (
+        SELECT player_id, interceptions,
+               ROW_NUMBER() OVER (ORDER BY interceptions DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'tackles', player_id, tackles::float8 FROM (
+        SELECT player_id, tackles,
+               ROW_NUMBER() OVER (ORDER BY tackles DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'pass_accuracy', player_id, pass_accuracy FROM (
+        SELECT player_id, pass_accuracy, passes_attempted,
+               ROW_NUMBER() OVER (ORDER BY pass_accuracy DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+        WHERE passes_attempted >= 200
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'minutes', player_id, minutes::float8 FROM (
+        SELECT player_id, minutes,
+               ROW_NUMBER() OVER (ORDER BY minutes DESC NULLS LAST, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'appearances', player_id, appearances::float8 FROM (
+        SELECT player_id, appearances,
+               ROW_NUMBER() OVER (ORDER BY appearances DESC NULLS LAST, minutes DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'motm', player_id, motm::float8 FROM (
+        SELECT player_id, motm,
+               ROW_NUMBER() OVER (ORDER BY motm DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'cards_yellow', player_id, cards_yellow::float8 FROM (
+        SELECT player_id, cards_yellow,
+               ROW_NUMBER() OVER (ORDER BY cards_yellow DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+      UNION ALL
+      SELECT 'cards_red', player_id, cards_red::float8 FROM (
+        SELECT player_id, cards_red,
+               ROW_NUMBER() OVER (ORDER BY cards_red DESC NULLS LAST, minutes DESC, appearances DESC, player_id ASC) rn
+        FROM agg
+      ) s WHERE rn = 1
+    ),
+    enriched AS (
+      SELECT
+        r.metric, r.value,
+        p.player_id, p.cust_id, p.name, p.slug, p.short_name,
+        p.position, p.height, p.country_code, p.country_name,
+        p.birthdate, p.current_team_cust_id, p.shirt_number, p.updated_at
+      FROM ranked r
+      JOIN players p ON p.player_id = r.player_id
+    )
+    SELECT * FROM enriched;
+  `;
+
+  const { rows } = await pool.query(sql, [teamId]);
+
+  // ✅ Always include all metrics
+  const out: any = { teamId };
+  for (const key of METRICS) out[key] = { value: null, player: null };
+
+  for (const r of rows) {
+    out[r.metric] = {
+      value: r.value !== null ? Number(r.value) : null,
+      player: {
+        player_id: String(r.player_id),
+        cust_id: String(r.cust_id),
+        name: r.name,
+        slug: r.slug,
+        short_name: r.short_name,
+        position: r.position,
+        height: r.height !== null ? Number(r.height) : null,
+        country_code: r.country_code,
+        country_name: r.country_name,
+        birthdate: r.birthdate,
+        current_team_cust_id: r.current_team_cust_id
+          ? String(r.current_team_cust_id)
+          : null,
+        shirt_number: r.shirt_number !== null ? Number(r.shirt_number) : null,
+        updated_at: r.updated_at,
+      },
+    };
+  }
+
+  res.json(out);
 }

@@ -1,0 +1,39 @@
+{
+  "teamId": 44,
+  "rating_avg": {
+    "value": 8.0,
+    "player": {
+      "player_id": "13",
+      "cust_id": "895324",
+      "name": "Alexis Mac Allister",
+      "slug": "alexis-mac-allister",
+      "short_name": "A. Mac Allister",
+      "position": "M",
+      "height": 176,
+      "country_code": "AR",
+      "country_name": "Argentina",
+      "birthdate": "1998-12-23T22:00:00.000Z",
+      "current_team_cust_id": "44",
+      "shirt_number": 10,
+      "updated_at": null
+    }
+  },
+  "goals": "SUM(goals)",
+  "assists": "SUM(assists)",
+  "xg": "SUM(xg)",
+  "xa": "SUM(xa)",
+  "xg_diff": "SUM(xg) - SUM(goals)",
+  "xa_diff": "SUM(xa) - SUM(assists)",
+  "key_passes": "SUM(key_passes)",
+  "prog_passes": "SUM(progressive_passes)",
+  "dribbles_succ": "SUM(dribbles_succ)",
+  "pressures_won": "SUM(pressures_won)",
+  "interceptions": "SUM(interceptions)",
+  "tackles": "SUM(tackles)",
+  "pass_accuracy": "100.0*SUM(passes_completed)/NULLIF(SUM(passes_attempted),0)",
+  "minutes": "SUM(minutes)",
+  "appearances": "COUNT(DISTINCT match_id)",
+  "motm": "SUM(CASE WHEN motm THEN 1 ELSE 0 END)",
+  "cards_yellow": "SUM(yellow_cards)",
+  "cards_red": "SUM(red_cards)"
+}
