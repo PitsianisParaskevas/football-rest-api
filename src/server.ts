@@ -23,6 +23,7 @@ import matchPlayerShotRoutes from "@/routes/MatchPlayerShot";
 import matchPlayerHeatmapRoutes from "@/routes/MatchPlayerHeatmap";
 import standingsRoutes from "@/routes/standings";
 import assetRoutes from "@/routes/assets";
+import testRoutes from "@/routes/testRouter";
 import { errorHandler } from "./middlewares/errorHandler";
 
 // Load environment variables from .env
@@ -64,6 +65,8 @@ app.use("/match-player-shot", matchPlayerShotRoutes);
 app.use("/match-player-heatmap", matchPlayerHeatmapRoutes);
 app.use("/assets", assetRoutes);
 app.use("/standings", standingsRoutes);
+
+app.use("/testRoutes", testRoutes);
 
 app.use(
   "/static",
