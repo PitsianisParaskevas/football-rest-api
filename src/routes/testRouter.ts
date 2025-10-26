@@ -2,6 +2,9 @@ import { Router } from "express";
 import { asyncHandler } from "@/utils/asyncHandler";
 import { getPlayersByCurrentTeam } from "@/functions/getPlayersByCurrentTeam";
 import { getPlayerStatsGrouped } from "@/functions/getPlayerStatsGrouped";
+import findTeamByCustId from "@/functions/helper/findTeamByID";
+import findMatchById from "@/functions/helper/findMatchByID";
+import findPlayerById from "@/functions/helper/findPlayerByID";
 
 const router = Router();
 
@@ -33,6 +36,38 @@ router.get(
     // const stats = await getPlayerStatsGrouped(playerCustId, { includeKeys: ['totalPass','accuratePass'] });
     const stats = await getPlayerStatsGrouped(playerCustId);
     res.json({ playerCustId, stats });
+  })
+);
+
+router.get(
+  "/findTeamById/:custId",
+  asyncHandler(async (req, res) => {
+    const custId = req.params.custId;
+
+    // Αν θες να υποστηρίζει και αριθμούς
+    const parsedId = Number(custId);
+    const idToUse = Number.isFinite(parsedId) ? parsedId : custId;
+
+    const team = await findTeamByCustId(idToUse);
+    res.json(team);
+  })
+);
+
+router.get(
+  "/findMatchById/:custId",
+  asyncHandler(async (req, res) => {
+    const custId = req.params.custId;
+    const data = await findMatchById(custId);
+    res.json(data);
+  })
+);
+
+router.get(
+  "/findPlayerById/:custId",
+  asyncHandler(async (req, res) => {
+    const custId = req.params.custId;
+    const data = await findPlayerById(custId);
+    res.json(data);
   })
 );
 

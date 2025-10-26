@@ -10,7 +10,15 @@ export const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
     return;
   }
 
-  // Handle custom errors (e.g. BadRequestError)
+  // Handle custom errors with statusCode (BadRequestError, NotFoundError, etc.)
+  if (err.statusCode && typeof err.statusCode === "number") {
+    res.status(err.statusCode).json({
+      message: err.message,
+    });
+    return;
+  }
+
+  // Handle errors with status (just in case)
   if (err.status && typeof err.status === "number") {
     res.status(err.status).json({
       message: err.message,
