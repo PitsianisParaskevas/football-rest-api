@@ -1,5 +1,6 @@
 import type { NextFunction, Request, Response } from "express";
 import { pool } from "../db/client.ts";
+import { findStatNames } from "@/functions/helper/findStatName.ts";
 
 export const getAllTeams = async (
   _req: Request,
@@ -190,6 +191,16 @@ export const getATeam = async (req: Request, res: Response): Promise<void> => {
 };
 
 // controllers/teams/getTeamStats (safe, χωρίς phase)
+
+type RowOut = {
+  stat_key: string;
+  group: string | null;
+  view_name: string | null;
+  total_value: number | null;
+  games_played: number | null;
+  per_game: number | null;
+};
+
 export const getTeamStats = async (
   req: Request,
   res: Response
@@ -257,25 +268,57 @@ export const getTeamStats = async (
 
     const { rows } = await pool.query(sql, params);
 
-    const standings: { ALL: any[]; HOME: any[]; AWAY: any[] } = {
-      ALL: [],
-      HOME: [],
-      AWAY: [],
-    };
+    // Αν δεν υπάρχει δεδομένο, γύρνα κενή δομή
+    if (!rows.length) {
+      res.json({
+        teamId,
+        standings: { ALL: {}, HOME: {}, AWAY: {} },
+      });
+      return;
+    }
+
+    // Παίρνουμε metadata για όλα τα keys μία φορά
+    const statKeys = Array.from(new Set(rows.map(r => r.stat_key)));
+    const metaMap = await findStatNames(statKeys); // { key -> { group, view_name } }
+
+    // Ομαδοποιημένα ΜΕΣΑ στο standings
+    const standings: {
+      ALL: Record<string, RowOut[]>;
+      HOME: Record<string, RowOut[]>;
+      AWAY: Record<string, RowOut[]>;
+    } = { ALL: {}, HOME: {}, AWAY: {} };
 
     for (const r of rows) {
       const bucket =
-        r.team_side === "total"
-          ? "ALL"
-          : r.team_side === "home"
-          ? "HOME"
-          : "AWAY";
-      standings[bucket].push({
+        r.team_side === "total" ? "ALL" :
+        r.team_side === "home"  ? "HOME" : "AWAY";
+
+      const meta = metaMap[r.stat_key] ?? null;
+
+      const item: RowOut = {
         stat_key: r.stat_key,
+        group: meta?.group ?? null,
+        view_name: meta?.view_name ?? null,
         total_value: r.total_value !== null ? Number(r.total_value) : null,
         games_played: r.games_played !== null ? Number(r.games_played) : null,
         per_game: r.per_game !== null ? Number(r.per_game) : null,
-      });
+      };
+
+      const groupKey =
+        (item.group && item.group.trim()) ? item.group.trim() : "Ungrouped";
+
+      if (!standings[bucket][groupKey]) standings[bucket][groupKey] = [];
+      standings[bucket][groupKey].push(item);
+    }
+
+    // Ταξινόμηση μέσα σε κάθε group κατά view_name (fallback stat_key)
+    const sortFn = (a: RowOut, b: RowOut) =>
+      (a.view_name ?? a.stat_key).localeCompare(b.view_name ?? b.stat_key);
+
+    for (const bucket of ["ALL", "HOME", "AWAY"] as const) {
+      for (const g of Object.keys(standings[bucket])) {
+        standings[bucket][g].sort(sortFn);
+      }
     }
 
     res.json({ teamId, standings });
@@ -284,7 +327,6 @@ export const getTeamStats = async (
     res.status(500).json({ message: "Server Error" });
   }
 };
-
 const TEAM_PERSPECTIVE_SQL = `
 -- $1 = team_id
 -- $2 = tournament_id (nullable)
@@ -433,11 +475,25 @@ export async function listTeamMatches(
 }
 
 const METRICS = [
-  "rating_avg", "goals", "assists", "xg", "xa",
-  "xg_diff", "xa_diff", "key_passes", "prog_passes",
-  "dribbles_succ", "pressures_won", "interceptions", "tackles",
-  "pass_accuracy", "minutes", "appearances", "motm",
-  "cards_yellow", "cards_red"
+  "rating_avg",
+  "goals",
+  "assists",
+  "xg",
+  "xa",
+  "xg_diff",
+  "xa_diff",
+  "key_passes",
+  "prog_passes",
+  "dribbles_succ",
+  "pressures_won",
+  "interceptions",
+  "tackles",
+  "pass_accuracy",
+  "minutes",
+  "appearances",
+  "motm",
+  "cards_yellow",
+  "cards_red",
 ];
 
 export async function getTeamPlayerStats(req: Request, res: Response) {
